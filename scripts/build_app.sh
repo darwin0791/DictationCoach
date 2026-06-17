@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT_DIR"
+
+swift build -c release
+
+BUILD_DIR="$ROOT_DIR/.build/arm64-apple-macosx/release"
+APP_DIR="$ROOT_DIR/build/DictationCoach.app"
+EXECUTABLE="$BUILD_DIR/DictationCoach"
+RESOURCE_BUNDLE="$BUILD_DIR/AIEnglishDictationCoach_DictationCoachApp.bundle"
+
+rm -rf "$APP_DIR"
+mkdir -p "$APP_DIR/Contents/MacOS"
+
+cp "$EXECUTABLE" "$APP_DIR/Contents/MacOS/DictationCoach"
+cp -R "$RESOURCE_BUNDLE" "$APP_DIR/"
+
+cat > "$APP_DIR/Contents/Info.plist" <<'PLIST'
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>zh_CN</string>
+  <key>CFBundleDisplayName</key>
+  <string>英语听写错题教练</string>
+  <key>CFBundleExecutable</key>
+  <string>DictationCoach</string>
+  <key>CFBundleIdentifier</key>
+  <string>local.ai-english.dictation-coach</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleName</key>
+  <string>DictationCoach</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>0.1.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>13.0</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+</dict>
+</plist>
+PLIST
+
+echo "Built $APP_DIR"
