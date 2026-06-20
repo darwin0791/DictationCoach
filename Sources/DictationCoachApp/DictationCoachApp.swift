@@ -18,12 +18,12 @@ struct DictationCoachApp: App {
     }
 
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("DictationCoach") {
             ContentView()
                 .environmentObject(store)
                 .environmentObject(speech)
                 .environment(\.font, AppFont.font(size: 16))
-                .frame(minWidth: 980, minHeight: 680)
+                .frame(minWidth: 1225, minHeight: 680)
                 .preferredColorScheme(.light)
         }
         .windowStyle(.titleBar)

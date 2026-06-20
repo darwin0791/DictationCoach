@@ -1,0 +1,5738 @@
+{
+  "a few": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "一些"
+    }
+  ],
+  "a.m.": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "午前；上午"
+    }
+  ],
+  "above": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "在……上面"
+    }
+  ],
+  "afraid": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "害怕"
+    }
+  ],
+  "after": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "在（时间）后"
+    }
+  ],
+  "all": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "全，完全"
+    }
+  ],
+  "also": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "还；也"
+    }
+  ],
+  "always": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "总是，一直"
+    }
+  ],
+  "amazing": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "令人惊奇的"
+    }
+  ],
+  "american": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "美国的"
+    }
+  ],
+  "and": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "和；与"
+    }
+  ],
+  "angry": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "生气的"
+    }
+  ],
+  "animal": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "兽；动物"
+    }
+  ],
+  "ant": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "蚂蚁"
+    }
+  ],
+  "any": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "任何的；任一的"
+    }
+  ],
+  "anything": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "任何事物"
+    }
+  ],
+  "apple": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "苹果"
+    }
+  ],
+  "april": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "四月"
+    }
+  ],
+  "arm": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "胳膊"
+    }
+  ],
+  "art room": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "美术教师"
+    }
+  ],
+  "ask": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "问"
+    }
+  ],
+  "attention": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "注意"
+    }
+  ],
+  "august": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "八月"
+    }
+  ],
+  "aunt": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "姑母；姨母"
+    }
+  ],
+  "autumn": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "秋天"
+    }
+  ],
+  "baby": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "brother婴儿小弟弟"
+    }
+  ],
+  "bad": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "邪恶的;坏的"
+    }
+  ],
+  "bag": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "包"
+    }
+  ],
+  "ball": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "球"
+    }
+  ],
+  "bamboo": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "竹子"
+    }
+  ],
+  "banana": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "香蕉"
+    }
+  ],
+  "bathroom": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "浴室;洗手间"
+    }
+  ],
+  "be careful": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "小心"
+    }
+  ],
+  "bear": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "熊"
+    }
+  ],
+  "beautiful": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "美丽的"
+    }
+  ],
+  "because": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "因为"
+    }
+  ],
+  "bed": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "床"
+    }
+  ],
+  "bedroom": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "卧室"
+    }
+  ],
+  "beef": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "牛肉"
+    }
+  ],
+  "behind": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "在…的后面"
+    }
+  ],
+  "beside": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "在…旁边"
+    }
+  ],
+  "best": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "最好地"
+    }
+  ],
+  "between": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "在…之间；"
+    }
+  ],
+  "big": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "大的"
+    }
+  ],
+  "bike": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "自行车"
+    }
+  ],
+  "bird": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "鸟"
+    }
+  ],
+  "black": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "黑色；黑色的"
+    }
+  ],
+  "blackboard": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "黑板"
+    }
+  ],
+  "blue": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "蓝色；蓝色的"
+    }
+  ],
+  "boat": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "小船"
+    }
+  ],
+  "boating": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "划船"
+    }
+  ],
+  "body": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "身体"
+    }
+  ],
+  "book": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "书"
+    }
+  ],
+  "bookstore": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "书店"
+    }
+  ],
+  "bottle": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "瓶子"
+    }
+  ],
+  "bowl": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "碗"
+    }
+  ],
+  "box": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "盒；箱"
+    }
+  ],
+  "boy": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "男孩"
+    }
+  ],
+  "bread": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "面包"
+    }
+  ],
+  "breakfast": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "早餐；早饭"
+    }
+  ],
+  "breath": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "呼吸"
+    }
+  ],
+  "bridge": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "桥"
+    }
+  ],
+  "brother": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "兄；弟"
+    },
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "兄；弟"
+    }
+  ],
+  "brown": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "棕色；棕色的"
+    }
+  ],
+  "building": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "建筑物"
+    }
+  ],
+  "bunny": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "（用作儿语）兔子"
+    }
+  ],
+  "bus": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "公共汽车"
+    }
+  ],
+  "businessman": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "商人；企业家"
+    }
+  ],
+  "busy": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "忙的"
+    }
+  ],
+  "but": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "但是"
+    }
+  ],
+  "buy": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "买"
+    }
+  ],
+  "by": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "在……之前"
+    },
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（表示方式）乘"
+    }
+  ],
+  "cake": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "蛋糕"
+    }
+  ],
+  "canada": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "加拿大"
+    }
+  ],
+  "canadian": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "加拿大的"
+    }
+  ],
+  "candy": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "糖果"
+    }
+  ],
+  "cap": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "帽子"
+    }
+  ],
+  "car": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "小汽车"
+    }
+  ],
+  "carrot": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "胡萝卜"
+    }
+  ],
+  "cartoon": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "漫画"
+    }
+  ],
+  "cat": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "猫"
+    }
+  ],
+  "cave": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "山洞；洞穴"
+    }
+  ],
+  "chair": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "椅子"
+    }
+  ],
+  "chase": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "追赶"
+    }
+  ],
+  "cheap": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "花钱少的；便宜的"
+    }
+  ],
+  "chicken": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "鸡肉"
+    }
+  ],
+  "children": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "（child的复数）儿童"
+    }
+  ],
+  "china": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "中国"
+    }
+  ],
+  "chinese book": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "语文书"
+    }
+  ],
+  "chocolate": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "巧克力"
+    }
+  ],
+  "chopsticks": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "筷子"
+    }
+  ],
+  "christmas": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "圣诞节"
+    }
+  ],
+  "cinema": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "电影院"
+    }
+  ],
+  "class": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "班；班级"
+    }
+  ],
+  "classroom": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "教室"
+    }
+  ],
+  "clean": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "打扫"
+    }
+  ],
+  "clean my room": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "打扫我的房间"
+    }
+  ],
+  "clever": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "聪明的"
+    }
+  ],
+  "climbing": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（climb的-ing形式）（正在）攀登；攀爬"
+    }
+  ],
+  "clock": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "钟，时钟"
+    }
+  ],
+  "clothes": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "衣服；服装"
+    }
+  ],
+  "cloudy": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "阴天的；多云的"
+    }
+  ],
+  "club": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "俱乐部"
+    }
+  ],
+  "coach": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "教练"
+    }
+  ],
+  "coat": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "外衣；大衣"
+    }
+  ],
+  "cold": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "寒冷的；冷的"
+    }
+  ],
+  "come on": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "快；加油"
+    }
+  ],
+  "comic": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "滑稽的"
+    }
+  ],
+  "comic book": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "（儿童的）连环画册"
+    }
+  ],
+  "computer": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "计算机"
+    }
+  ],
+  "computer room": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "计算机房"
+    }
+  ],
+  "contest": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "比赛；竞赛"
+    }
+  ],
+  "cook": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "厨师"
+    },
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "烹调"
+    }
+  ],
+  "cooking": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "烹饪；烹调"
+    }
+  ],
+  "cool": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "凉的；凉爽的"
+    }
+  ],
+  "count": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "数数"
+    }
+  ],
+  "count to ten": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "数到十"
+    }
+  ],
+  "country": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "国家"
+    }
+  ],
+  "cousin": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "同辈表亲（或堂亲）"
+    }
+  ],
+  "cow": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "母牛；奶牛"
+    }
+  ],
+  "crayon": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "蜡笔"
+    }
+  ],
+  "crossing": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "十字路口"
+    }
+  ],
+  "cute": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "可爱的"
+    }
+  ],
+  "dad": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（口语）爸爸"
+    }
+  ],
+  "dance": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "跳舞"
+    }
+  ],
+  "dancing": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "跳舞；舞蹈"
+    }
+  ],
+  "day": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "一天；一日"
+    }
+  ],
+  "december": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "十二月"
+    }
+  ],
+  "deep": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "深的"
+    }
+  ],
+  "degree": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "度；度数"
+    }
+  ],
+  "delicious": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "美味的"
+    }
+  ],
+  "desk": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "书桌"
+    }
+  ],
+  "diary": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "日记"
+    }
+  ],
+  "dictionary": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "词典"
+    }
+  ],
+  "dinner": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "（中午或晚上吃的）正餐"
+    },
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（中午或晚上吃的）正餐"
+    }
+  ],
+  "dirty": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "肮脏的"
+    }
+  ],
+  "do": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "做； 干"
+    }
+  ],
+  "do homework": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "做作业"
+    }
+  ],
+  "do kung fu": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "练武术"
+    }
+  ],
+  "do morning exercises": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "早锻炼"
+    }
+  ],
+  "doctor": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "医生"
+    }
+  ],
+  "dog": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "狗"
+    }
+  ],
+  "doing morning": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "exercises（正在）早锻炼"
+    }
+  ],
+  "dollar": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "美元"
+    }
+  ],
+  "door": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "门"
+    }
+  ],
+  "down": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "减少；降低"
+    }
+  ],
+  "draw": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "画"
+    }
+  ],
+  "dress": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "连衣裙"
+    }
+  ],
+  "drink": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "喝； 饮"
+    }
+  ],
+  "drinking": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（drink的-ing形式）（正在）喝（水）"
+    }
+  ],
+  "driver": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "司机"
+    }
+  ],
+  "duck": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "鸭子"
+    }
+  ],
+  "each": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "每一；各个"
+    }
+  ],
+  "each other": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "相互"
+    }
+  ],
+  "ear": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "耳朵"
+    }
+  ],
+  "early": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "早到的"
+    }
+  ],
+  "easter": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "复活节"
+    }
+  ],
+  "eat": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "吃"
+    }
+  ],
+  "eat breakfast": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "吃早饭"
+    }
+  ],
+  "eat dinner": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "吃晚饭"
+    }
+  ],
+  "eating": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（eat的-ing形式）（正在）吃"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "lunch（正在）吃午饭"
+    }
+  ],
+  "egg": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "蛋"
+    }
+  ],
+  "eight": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "八"
+    }
+  ],
+  "eighteen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十八"
+    }
+  ],
+  "eighty": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "八十"
+    }
+  ],
+  "elephant": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "大象"
+    }
+  ],
+  "eleven": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十一"
+    }
+  ],
+  "else": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "另外；其他"
+    }
+  ],
+  "english": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "book英语书"
+    }
+  ],
+  "english class": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "英语课"
+    }
+  ],
+  "eraser": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "橡皮"
+    }
+  ],
+  "evening": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "晚上；傍晚"
+    }
+  ],
+  "every": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "每个；每一个"
+    }
+  ],
+  "everywhere": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "到处，处处"
+    }
+  ],
+  "excited": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "兴奋的；激动的"
+    }
+  ],
+  "exercise": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "活动；运动"
+    }
+  ],
+  "exhibition": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "展览"
+    }
+  ],
+  "expensive": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "昂贵的；"
+    }
+  ],
+  "eye": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "眼睛"
+    }
+  ],
+  "face": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "脸"
+    }
+  ],
+  "factory": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "工厂"
+    }
+  ],
+  "fall": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "落下；【美】秋天"
+    }
+  ],
+  "family": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "家；家庭"
+    }
+  ],
+  "fan": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "风扇"
+    }
+  ],
+  "far": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "较远的"
+    }
+  ],
+  "farm": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "农场"
+    }
+  ],
+  "farmer": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "农民"
+    }
+  ],
+  "fast": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "快的"
+    }
+  ],
+  "fat": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "胖的；肥的"
+    }
+  ],
+  "father": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "父亲；爸爸"
+    }
+  ],
+  "favourite": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "最喜爱的"
+    }
+  ],
+  "feature": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "特点"
+    }
+  ],
+  "february": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "二月"
+    }
+  ],
+  "feel": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "觉得;感到"
+    }
+  ],
+  "ferry": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "轮渡"
+    }
+  ],
+  "few": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "一些"
+    }
+  ],
+  "fifteen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十五"
+    }
+  ],
+  "fifth": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（5th）第五的"
+    }
+  ],
+  "film": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "电影"
+    }
+  ],
+  "find": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "找到"
+    }
+  ],
+  "finish": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "完成；做完"
+    }
+  ],
+  "first": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（1st）第一的"
+    }
+  ],
+  "first floor": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "一楼"
+    }
+  ],
+  "fish": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "鱼"
+    }
+  ],
+  "fisherman": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "渔民"
+    }
+  ],
+  "five": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "五"
+    }
+  ],
+  "floor": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "地板"
+    }
+  ],
+  "flower": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "花；花朵"
+    }
+  ],
+  "fly": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "放（风筝等）"
+    }
+  ],
+  "follow": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "跟着"
+    }
+  ],
+  "food": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "食物"
+    }
+  ],
+  "fool": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "蠢人；傻瓜"
+    }
+  ],
+  "foot": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "脚"
+    }
+  ],
+  "football": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "player足球运动员"
+    }
+  ],
+  "for": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "表示接受某事物的人"
+    }
+  ],
+  "forest": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "森林"
+    }
+  ],
+  "fork": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "餐叉"
+    }
+  ],
+  "forty": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "四十"
+    }
+  ],
+  "four": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "四"
+    }
+  ],
+  "fourteen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十四"
+    }
+  ],
+  "fourth": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（4th）第四的"
+    }
+  ],
+  "fresh": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "新鲜的"
+    }
+  ],
+  "fridge": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "冰箱"
+    }
+  ],
+  "friend": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "朋友"
+    }
+  ],
+  "friendly": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "友好的"
+    }
+  ],
+  "fruit": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "水果"
+    }
+  ],
+  "funny": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "滑稽的；好笑的"
+    },
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "滑稽可笑的."
+    }
+  ],
+  "fur": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "浓密的软毛"
+    }
+  ],
+  "game": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "游戏"
+    }
+  ],
+  "garden": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "花园；菜园"
+    }
+  ],
+  "gave": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "（give的过去式）提供；交给"
+    }
+  ],
+  "germany": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "德国"
+    }
+  ],
+  "get": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "到达"
+    }
+  ],
+  "get together": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "聚会"
+    }
+  ],
+  "get up": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "起床"
+    }
+  ],
+  "giraffe": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "长颈鹿"
+    }
+  ],
+  "girl": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "女孩"
+    }
+  ],
+  "glasses": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "眼镜"
+    }
+  ],
+  "glove": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "（分手指的）手套"
+    }
+  ],
+  "go boating": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "去划船"
+    }
+  ],
+  "go for a walk": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "散步"
+    }
+  ],
+  "go home": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "回家"
+    }
+  ],
+  "go on a picnic": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "去野餐"
+    }
+  ],
+  "go shopping": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "去买东西；购物"
+    }
+  ],
+  "go swimming": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "去游泳"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "去游泳"
+    }
+  ],
+  "go to bed": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "上床睡觉"
+    }
+  ],
+  "go to school": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "去上学"
+    }
+  ],
+  "goal": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "射门"
+    }
+  ],
+  "goat": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "山羊"
+    }
+  ],
+  "good": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "job做得好"
+    }
+  ],
+  "gps": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "全球（卫星）定位系统"
+    }
+  ],
+  "grandfather": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（外）祖父"
+    }
+  ],
+  "grandma": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（口语）（外）祖母"
+    }
+  ],
+  "grandmother": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（外）祖母"
+    }
+  ],
+  "grandpa": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（口语）（外）祖父"
+    }
+  ],
+  "grape": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "葡萄"
+    }
+  ],
+  "grass": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "草坪"
+    }
+  ],
+  "great wall": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "长城"
+    }
+  ],
+  "green": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "绿色；绿色的"
+    }
+  ],
+  "green beans": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "豆角；四季豆"
+    }
+  ],
+  "gym": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "体育馆"
+    }
+  ],
+  "hair": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "头发"
+    }
+  ],
+  "half": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "一半"
+    }
+  ],
+  "hamburger": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "汉堡包"
+    }
+  ],
+  "hand": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "手"
+    }
+  ],
+  "happy": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "高兴的"
+    }
+  ],
+  "hard-working": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "努力工作的,勤奋的"
+    }
+  ],
+  "hat": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "（常指带橼的）帽子"
+    },
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（常指带檐的）帽子"
+    }
+  ],
+  "have": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "… class上……课"
+    }
+  ],
+  "have a look": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "看一看"
+    }
+  ],
+  "having": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "… class（正在）上课"
+    }
+  ],
+  "he": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "他"
+    }
+  ],
+  "head": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "头"
+    }
+  ],
+  "head teacher": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "校长"
+    }
+  ],
+  "healthy": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "健康的;有益健康的"
+    }
+  ],
+  "hear": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "听见"
+    }
+  ],
+  "helmet": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "头盔"
+    }
+  ],
+  "help": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "帮助"
+    },
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "yourself为（自己）取用"
+    }
+  ],
+  "helpful": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "有帮助的"
+    }
+  ],
+  "hen": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "母鸡"
+    }
+  ],
+  "her": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "她的"
+    }
+  ],
+  "hers": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "她的"
+    }
+  ],
+  "hiking": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "远足"
+    }
+  ],
+  "hill": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "小山"
+    }
+  ],
+  "him": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "他"
+    }
+  ],
+  "his": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "他的"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "他的"
+    }
+  ],
+  "hobby": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "业余爱好"
+    }
+  ],
+  "holiday": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "假日；节日"
+    }
+  ],
+  "homework": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "作业"
+    }
+  ],
+  "horse": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "马"
+    }
+  ],
+  "hospital": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "医院"
+    }
+  ],
+  "hot": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "热的；烫的"
+    },
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "辣的；辛辣的"
+    }
+  ],
+  "house": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "房屋；房子；住宅"
+    },
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "房子；住宅"
+    }
+  ],
+  "how about": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "怎么样？"
+    }
+  ],
+  "how much": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "多少钱"
+    }
+  ],
+  "hurry up": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "快点"
+    }
+  ],
+  "hurt": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "受伤"
+    }
+  ],
+  "ice cream": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "冰淇淋"
+    }
+  ],
+  "idea": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "想法；主意"
+    }
+  ],
+  "if": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "如果"
+    }
+  ],
+  "ill": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "有病;不舒服"
+    }
+  ],
+  "in": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "在……里"
+    }
+  ],
+  "in front of": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "在……前面"
+    }
+  ],
+  "interesting": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "有趣的"
+    }
+  ],
+  "island": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "岛"
+    }
+  ],
+  "italian": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "意大利的"
+    }
+  ],
+  "its": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "它的；他的（指事物、动物或幼儿）"
+    }
+  ],
+  "jacket": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "夹克衫"
+    }
+  ],
+  "january": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "一月"
+    }
+  ],
+  "job": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "工作"
+    }
+  ],
+  "join": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "加入"
+    }
+  ],
+  "juice": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "果汁"
+    }
+  ],
+  "july": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "七月"
+    }
+  ],
+  "jumping": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（jump的-ing形式）（正在）跳"
+    }
+  ],
+  "june": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "六月"
+    }
+  ],
+  "just": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "正好；恰好"
+    }
+  ],
+  "just a minute": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "稍等一会儿"
+    }
+  ],
+  "keep": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "保持某种状态"
+    }
+  ],
+  "keep to the": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "right靠右"
+    }
+  ],
+  "keep your desk clean": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "保持你的课桌整洁"
+    }
+  ],
+  "key": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "钥匙"
+    }
+  ],
+  "kid": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "小孩"
+    }
+  ],
+  "kind": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "和蔼的"
+    }
+  ],
+  "kitchen": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "厨房"
+    }
+  ],
+  "kite": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "风筝"
+    }
+  ],
+  "kitten": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "小猫"
+    }
+  ],
+  "knife": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "刀"
+    }
+  ],
+  "know": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "知道. 了解"
+    }
+  ],
+  "kung fu": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "功夫 武术"
+    }
+  ],
+  "lake": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "湖泊"
+    }
+  ],
+  "last": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "上一个的；刚过去的"
+    }
+  ],
+  "late": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "晚；迟"
+    }
+  ],
+  "leaf": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "叶子"
+    }
+  ],
+  "learn": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "学；学习；学会"
+    }
+  ],
+  "left": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "左"
+    }
+  ],
+  "leg": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "腿"
+    }
+  ],
+  "lesson": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "课"
+    }
+  ],
+  "letter": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "信"
+    }
+  ],
+  "library": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "图书馆"
+    }
+  ],
+  "light": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "电灯"
+    }
+  ],
+  "like": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "像……那样"
+    }
+  ],
+  "listening to": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "music（正在）听音乐"
+    }
+  ],
+  "little": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "小的"
+    }
+  ],
+  "live": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "居住"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "居住"
+    }
+  ],
+  "living room": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "客厅，起居室"
+    }
+  ],
+  "london": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "伦敦"
+    }
+  ],
+  "long": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "长的"
+    }
+  ],
+  "look for": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "寻找"
+    }
+  ],
+  "lost": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "丢失（lose的过去式形式）"
+    }
+  ],
+  "lots": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "of大量，许多"
+    }
+  ],
+  "love": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "爱你的"
+    }
+  ],
+  "lovely": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "可爱的；美丽的"
+    }
+  ],
+  "lunch": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "午餐；午饭"
+    }
+  ],
+  "make a snowman": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "堆雪人"
+    }
+  ],
+  "man": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "男人"
+    }
+  ],
+  "map": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "地图"
+    }
+  ],
+  "march": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "三月"
+    }
+  ],
+  "maths": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "book数学书"
+    }
+  ],
+  "may": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "五月"
+    }
+  ],
+  "meet": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "集会；开会"
+    }
+  ],
+  "mice": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "老 鼠"
+    }
+  ],
+  "mid-autumn festival": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "中秋节"
+    }
+  ],
+  "milk": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "牛奶"
+    }
+  ],
+  "mine": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "我的"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "我的"
+    }
+  ],
+  "monday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期一"
+    }
+  ],
+  "monkey": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "猴子"
+    }
+  ],
+  "moon": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "月亮"
+    }
+  ],
+  "mooncake": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "月饼"
+    }
+  ],
+  "more": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "更多的"
+    },
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "更多的"
+    }
+  ],
+  "moscow": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "莫斯科"
+    }
+  ],
+  "mother": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "母亲；妈妈"
+    }
+  ],
+  "mountain": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "高山；山脉"
+    }
+  ],
+  "mouse": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "老鼠"
+    }
+  ],
+  "mouth": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "嘴"
+    }
+  ],
+  "move": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "搬家"
+    }
+  ],
+  "mrs": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "夫人"
+    }
+  ],
+  "mud": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "泥"
+    }
+  ],
+  "mum": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "妈妈（美式英语：mom）"
+    }
+  ],
+  "museum": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "博物馆"
+    }
+  ],
+  "music class": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "音乐课"
+    }
+  ],
+  "music room": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "音乐教室"
+    }
+  ],
+  "must": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "必须"
+    }
+  ],
+  "national": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "国家的"
+    }
+  ],
+  "national day": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "国庆日"
+    }
+  ],
+  "nature": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "自然界；大自然"
+    }
+  ],
+  "near": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "距离近"
+    }
+  ],
+  "need": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "需要"
+    }
+  ],
+  "new": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "新的"
+    }
+  ],
+  "new york": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "纽约"
+    }
+  ],
+  "next": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "下一个的；紧接着的"
+    }
+  ],
+  "next to": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "紧邻；在……近旁"
+    }
+  ],
+  "next week": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "下周"
+    }
+  ],
+  "nice": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "好的"
+    }
+  ],
+  "nine": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "九"
+    }
+  ],
+  "nineteen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十九"
+    }
+  ],
+  "no": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "不"
+    }
+  ],
+  "noise": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "声音；（尤指）噪音"
+    }
+  ],
+  "noodles": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "面条"
+    }
+  ],
+  "nose": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "鼻子"
+    }
+  ],
+  "notebook": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "笔记本"
+    }
+  ],
+  "november": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "十一月"
+    }
+  ],
+  "now": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "现在；目前"
+    }
+  ],
+  "nurse": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "护士"
+    }
+  ],
+  "october": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "十月"
+    }
+  ],
+  "of course": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "当然"
+    }
+  ],
+  "often": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "常常； 时常"
+    }
+  ],
+  "ok": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "好；行"
+    }
+  ],
+  "old": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "年老的"
+    }
+  ],
+  "on": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "在……上"
+    }
+  ],
+  "on foot": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "步行"
+    }
+  ],
+  "one": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "一"
+    }
+  ],
+  "onion": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "洋葱；葱头"
+    }
+  ],
+  "open": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "开着的"
+    }
+  ],
+  "or": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "或者"
+    }
+  ],
+  "orange": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "橙色；橙色的"
+    },
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "橙子"
+    }
+  ],
+  "other": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "其他的"
+    }
+  ],
+  "our": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "我们的"
+    }
+  ],
+  "ours": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "我们的"
+    }
+  ],
+  "outside": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "在户外"
+    }
+  ],
+  "over": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "结束"
+    }
+  ],
+  "p.m.": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "午后；下午"
+    }
+  ],
+  "pack": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "收拾（行李）"
+    }
+  ],
+  "paint": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "用颜料绘画"
+    }
+  ],
+  "panda": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "大熊猫"
+    }
+  ],
+  "pants": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "裤子"
+    }
+  ],
+  "parents": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "父母"
+    }
+  ],
+  "park": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "公园"
+    }
+  ],
+  "party": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "聚会；派对"
+    }
+  ],
+  "pass": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "给，递"
+    }
+  ],
+  "pay attention to": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "注意"
+    }
+  ],
+  "pe class": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "体育课"
+    }
+  ],
+  "pear": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "梨"
+    }
+  ],
+  "pen": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "钢笔"
+    }
+  ],
+  "pen pal": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "笔友"
+    }
+  ],
+  "pencil": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "铅笔"
+    }
+  ],
+  "pencil box": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "铅笔盒"
+    }
+  ],
+  "people": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "人们"
+    }
+  ],
+  "phone": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "电话"
+    }
+  ],
+  "photo": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "照片；相片"
+    }
+  ],
+  "pick": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "摘；采集"
+    }
+  ],
+  "pick apples": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "摘苹果"
+    }
+  ],
+  "picnic": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "野餐"
+    }
+  ],
+  "picture": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "图画"
+    }
+  ],
+  "pig": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "猪"
+    }
+  ],
+  "pilot": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "飞行员"
+    }
+  ],
+  "pink": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "粉色；粉色的"
+    }
+  ],
+  "pizza": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "比萨饼"
+    }
+  ],
+  "plane": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "飞机"
+    }
+  ],
+  "plant": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "植物"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "种植"
+    }
+  ],
+  "plate": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "盘子"
+    }
+  ],
+  "play": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "踢、玩、参加"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "戏剧；剧本"
+    }
+  ],
+  "play basketball": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "打篮球"
+    }
+  ],
+  "play football": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "踢足球"
+    }
+  ],
+  "play ping-pong": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "打乒乓球"
+    }
+  ],
+  "play sports": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "进行体育运动"
+    }
+  ],
+  "play the": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "pipa弹琵琶"
+    }
+  ],
+  "playground": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "操场"
+    }
+  ],
+  "playing": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（play的-ing形式）（正在）玩耍"
+    }
+  ],
+  "poem": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "诗"
+    }
+  ],
+  "police officer": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "警察"
+    }
+  ],
+  "polite": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "有礼貌的"
+    }
+  ],
+  "post office": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "邮局"
+    }
+  ],
+  "postcard": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "明信片"
+    }
+  ],
+  "postman": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "邮递员"
+    }
+  ],
+  "potato": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "马铃薯；土豆"
+    }
+  ],
+  "pretty": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "美观的；精致的"
+    }
+  ],
+  "price": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "价格"
+    }
+  ],
+  "problem": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "问题"
+    }
+  ],
+  "pull": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "拉;拽"
+    }
+  ],
+  "pupil": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "小学生"
+    }
+  ],
+  "puppy": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "小狗"
+    }
+  ],
+  "puzzle": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "谜"
+    }
+  ],
+  "quickly": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "快速地"
+    }
+  ],
+  "quiet": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "安静的"
+    }
+  ],
+  "rabbit": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "兔子，野兔"
+    }
+  ],
+  "rainy": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "阴雨的；多雨的"
+    }
+  ],
+  "read": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "看，读"
+    }
+  ],
+  "reading a": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "book（正在）看书"
+    }
+  ],
+  "ready": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "准备好"
+    }
+  ],
+  "really": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "真的"
+    }
+  ],
+  "red": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "红色；红色的"
+    }
+  ],
+  "reporter": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "记者"
+    }
+  ],
+  "restaurant": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "餐馆"
+    }
+  ],
+  "rice": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "米饭"
+    }
+  ],
+  "right": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "正确的，对的"
+    },
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "右"
+    }
+  ],
+  "river": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "河流"
+    }
+  ],
+  "robot": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "机器人"
+    }
+  ],
+  "roll": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "滚动"
+    }
+  ],
+  "rsvp": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "（尤用于请柬）请赐复"
+    }
+  ],
+  "ruler": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "尺子"
+    }
+  ],
+  "sad": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "难过的"
+    }
+  ],
+  "salad": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "蔬菜沙拉；混合沙拉"
+    }
+  ],
+  "sale": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "特价销售；大减价"
+    }
+  ],
+  "sandwich": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "三明治"
+    }
+  ],
+  "saturday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期六"
+    }
+  ],
+  "say": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "说；讲"
+    }
+  ],
+  "scarf": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "围巾；披巾"
+    }
+  ],
+  "school": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "学校"
+    }
+  ],
+  "schoolbag": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "书包"
+    }
+  ],
+  "science": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "科学"
+    }
+  ],
+  "scientist": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "科学家"
+    }
+  ],
+  "sea": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "大海"
+    }
+  ],
+  "season": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "季节"
+    }
+  ],
+  "second": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（2nd）第二的"
+    }
+  ],
+  "second floor": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "二楼"
+    }
+  ],
+  "secretary": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "秘书"
+    }
+  ],
+  "see a doctor": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "看病"
+    }
+  ],
+  "see a film": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "看电影"
+    }
+  ],
+  "send": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "发送；邮寄"
+    }
+  ],
+  "september": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "九月"
+    }
+  ],
+  "seven": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "七"
+    }
+  ],
+  "seventeen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十七"
+    }
+  ],
+  "shall": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "表示征求意见"
+    }
+  ],
+  "share": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "分享"
+    }
+  ],
+  "she": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "她"
+    }
+  ],
+  "sheep": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "羊；绵羊"
+    }
+  ],
+  "ship": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（大）船"
+    }
+  ],
+  "shirt": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（尤指男士）衬衫"
+    }
+  ],
+  "shoe": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "鞋"
+    }
+  ],
+  "shop": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "去买东西；购物"
+    }
+  ],
+  "short": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "矮的；短的"
+    }
+  ],
+  "shorts": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "短裤"
+    }
+  ],
+  "should": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "应该"
+    }
+  ],
+  "show": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "引导；指引"
+    }
+  ],
+  "shy": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "害羞的"
+    }
+  ],
+  "sing": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "唱；歌唱"
+    }
+  ],
+  "sing english": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "songs"
+    }
+  ],
+  "singapore": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "新加坡城"
+    }
+  ],
+  "sister": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "姐；妹"
+    }
+  ],
+  "sit": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "坐"
+    }
+  ],
+  "six": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "六"
+    }
+  ],
+  "sixteen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十六"
+    }
+  ],
+  "size": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "尺码；号"
+    }
+  ],
+  "skirt": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "女裙"
+    }
+  ],
+  "sleeping": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（sleep的-ing形式）（正在）睡觉"
+    }
+  ],
+  "slow": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "慢的"
+    }
+  ],
+  "slow down": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "慢下来"
+    }
+  ],
+  "small": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "小的"
+    }
+  ],
+  "snow": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "雪"
+    }
+  ],
+  "snowman": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "雪人"
+    }
+  ],
+  "snowy": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "下雪（多）的"
+    }
+  ],
+  "so": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "这么；那么"
+    }
+  ],
+  "so much": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "非常地"
+    }
+  ],
+  "sock": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "短袜"
+    }
+  ],
+  "sofa": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "长沙发"
+    }
+  ],
+  "sometimes": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "有时候"
+    }
+  ],
+  "song": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "歌曲"
+    }
+  ],
+  "sound": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "听起来好像"
+    }
+  ],
+  "soup": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "汤"
+    }
+  ],
+  "space": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "太空"
+    }
+  ],
+  "spain": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "西班牙"
+    }
+  ],
+  "spanish": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "西班牙"
+    }
+  ],
+  "speak": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "会说，会讲"
+    }
+  ],
+  "speak english": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "说英语"
+    }
+  ],
+  "special": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "特别的；特殊的"
+    }
+  ],
+  "spoon": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "勺"
+    }
+  ],
+  "sport": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "体育运动"
+    }
+  ],
+  "sports": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "meet运动会"
+    }
+  ],
+  "spring": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "春天"
+    }
+  ],
+  "start": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "开始"
+    }
+  ],
+  "stay": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "保持"
+    }
+  ],
+  "still": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "仍然；依旧；还是"
+    }
+  ],
+  "stop": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "停下"
+    }
+  ],
+  "storybook": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "故事书"
+    }
+  ],
+  "straight": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "笔直地"
+    }
+  ],
+  "strawberry": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "草莓"
+    }
+  ],
+  "street": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "大街；街道"
+    }
+  ],
+  "strict": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "严格的."
+    }
+  ],
+  "strong": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "强壮的"
+    }
+  ],
+  "stuck": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "陷住;无法移动"
+    }
+  ],
+  "student": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "学生"
+    }
+  ],
+  "studies": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "（study的第三代称单数形式）学习"
+    }
+  ],
+  "study": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "书房"
+    }
+  ],
+  "subway": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "地铁"
+    }
+  ],
+  "summer": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "夏天"
+    }
+  ],
+  "sunday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期天."
+    }
+  ],
+  "sunglasses": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "太阳镜"
+    }
+  ],
+  "sunny": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "阳光充足的"
+    }
+  ],
+  "supermarket": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "超市"
+    }
+  ],
+  "sushi": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "寿司"
+    }
+  ],
+  "sweater": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "毛衣"
+    }
+  ],
+  "sweet": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "甜的"
+    }
+  ],
+  "swim": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "游泳"
+    }
+  ],
+  "sydney": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "悉尼"
+    }
+  ],
+  "table": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "桌子"
+    }
+  ],
+  "tail": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "尾巴"
+    }
+  ],
+  "take": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "学习；上（课）"
+    }
+  ],
+  "take a dancing class": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "上舞蹈课"
+    }
+  ],
+  "take a deep breath": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "深深吸一口气"
+    }
+  ],
+  "take a trip": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "去旅行"
+    }
+  ],
+  "take turns": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "按顺序来"
+    }
+  ],
+  "talk quietly": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "小声讲话"
+    }
+  ],
+  "tall": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "高的"
+    }
+  ],
+  "taxi": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "出租汽车"
+    }
+  ],
+  "tea": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "茶水； 茶"
+    }
+  ],
+  "teach": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "教"
+    }
+  ],
+  "teacher": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "教师"
+    }
+  ],
+  "teacher's": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "desk讲台"
+    }
+  ],
+  "tell": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "告诉"
+    }
+  ],
+  "ten": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "十"
+    }
+  ],
+  "thanksgiving": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "感恩节"
+    }
+  ],
+  "their": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "他（她，它）们的"
+    }
+  ],
+  "theirs": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "他们的；她们的；它们的"
+    }
+  ],
+  "them": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "他（她，它）们"
+    }
+  ],
+  "there": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "（表示存在或发生）"
+    }
+  ],
+  "these": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（this的复数形式）这些"
+    }
+  ],
+  "thin": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "瘦的"
+    }
+  ],
+  "thing": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "事情"
+    }
+  ],
+  "third": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（3rd）第三的"
+    }
+  ],
+  "thirsty": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "渴的口渴的"
+    }
+  ],
+  "thirteen": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十三"
+    }
+  ],
+  "thirtieth": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（30th）第三十的"
+    }
+  ],
+  "thirty": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "三十"
+    }
+  ],
+  "those": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（that的复数形式）那些"
+    }
+  ],
+  "three": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "三"
+    }
+  ],
+  "thursday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期四Friday星期五"
+    }
+  ],
+  "tiger": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "老虎"
+    }
+  ],
+  "today": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "今天"
+    }
+  ],
+  "together": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "一起"
+    }
+  ],
+  "tomato": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "西红柿"
+    }
+  ],
+  "tomorrow": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "明天"
+    }
+  ],
+  "tonight": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "在今晚"
+    }
+  ],
+  "too": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "太；过于"
+    }
+  ],
+  "toy": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "玩具"
+    },
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "玩具"
+    }
+  ],
+  "traffic": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "交通"
+    }
+  ],
+  "traffic lights": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "交通信号灯"
+    }
+  ],
+  "train": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "火车"
+    }
+  ],
+  "travel": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "（尤其长途）旅"
+    }
+  ],
+  "tree": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "树；树木"
+    }
+  ],
+  "trip": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "旅行"
+    },
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "旅行"
+    }
+  ],
+  "try": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "试；尝试"
+    }
+  ],
+  "try on": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "试穿"
+    }
+  ],
+  "tuesday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期二"
+    }
+  ],
+  "turn": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "顺序"
+    },
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "转弯"
+    }
+  ],
+  "tv": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "电视"
+    }
+  ],
+  "twelfth": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（12th）第十二的"
+    }
+  ],
+  "twelve": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十二"
+    }
+  ],
+  "twentieth": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（20th）第二十的"
+    }
+  ],
+  "twenty": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "二十"
+    }
+  ],
+  "twenty-first": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（21st）第二十一的"
+    }
+  ],
+  "twenty-third": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（23rd）第二十三的"
+    }
+  ],
+  "two": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "二"
+    }
+  ],
+  "type": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "打字"
+    }
+  ],
+  "uk": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "英国"
+    }
+  ],
+  "umbrella": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "伞；雨伞"
+    }
+  ],
+  "uncle": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "舅父；叔父；伯父；姑父；姨父"
+    }
+  ],
+  "under": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "在……下面"
+    }
+  ],
+  "university": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "大学"
+    }
+  ],
+  "us": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "我们"
+    }
+  ],
+  "usa": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "美国"
+    }
+  ],
+  "use": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "使用"
+    }
+  ],
+  "usually": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "通常地；惯常地"
+    }
+  ],
+  "vacation": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "假期"
+    }
+  ],
+  "vegetable": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "蔬菜"
+    }
+  ],
+  "village": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "乡村；村庄"
+    }
+  ],
+  "visit": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "拜访"
+    }
+  ],
+  "wait": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "等待"
+    }
+  ],
+  "walk": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "行走"
+    }
+  ],
+  "wall": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "墙壁"
+    }
+  ],
+  "want": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "想要"
+    }
+  ],
+  "warm": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "温暖的；暖和的"
+    }
+  ],
+  "wash": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "洗"
+    }
+  ],
+  "watch": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "看"
+    }
+  ],
+  "water": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "水"
+    }
+  ],
+  "water bottle": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "水瓶"
+    }
+  ],
+  "watermelon": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "西瓜"
+    }
+  ],
+  "way": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "方向"
+    }
+  ],
+  "wear": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "戴"
+    },
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "穿"
+    }
+  ],
+  "weather": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "天气"
+    }
+  ],
+  "wednesday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期三"
+    }
+  ],
+  "weekend": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "周末"
+    }
+  ],
+  "well": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "健康;身体好"
+    }
+  ],
+  "when": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "什么时候；何时"
+    }
+  ],
+  "which": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "哪一个"
+    }
+  ],
+  "white": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "白色；白色的"
+    }
+  ],
+  "whose": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "谁的"
+    }
+  ],
+  "why": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "为什么"
+    }
+  ],
+  "win": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "获胜"
+    }
+  ],
+  "window": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "窗户"
+    }
+  ],
+  "windy": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "多风的；风大的"
+    }
+  ],
+  "winter": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "冬天"
+    }
+  ],
+  "woman": [
+    {
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "女人"
+    }
+  ],
+  "wonderful": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "了不起的"
+    }
+  ],
+  "word": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "单词"
+    }
+  ],
+  "word book": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "单词书"
+    }
+  ],
+  "work": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "工作"
+    }
+  ],
+  "worker": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "工人"
+    }
+  ],
+  "world": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "世界"
+    }
+  ],
+  "worried": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "担心的；发愁的"
+    }
+  ],
+  "worry": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "担心;担忧"
+    }
+  ],
+  "wow": [
+    {
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "哇；呀"
+    }
+  ],
+  "wrong": [
+    {
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "有毛病"
+    }
+  ],
+  "year": [
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "年"
+    }
+  ],
+  "yellow": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "黄色；黄色的"
+    }
+  ],
+  "young": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "年轻的"
+    }
+  ],
+  "your": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "你（们）的"
+    }
+  ],
+  "yours": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "你的；你们的"
+    },
+    {
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "你（们）的"
+    }
+  ],
+  "yum": [
+    {
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（表示味道或气味非常好）"
+    }
+  ],
+  "zoo": [
+    {
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "动物园"
+    }
+  ]
+}

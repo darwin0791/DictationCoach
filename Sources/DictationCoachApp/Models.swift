@@ -92,9 +92,41 @@ struct WordEntry: Identifiable, Codable, Equatable {
     }
 }
 
-enum PracticeMode: String, CaseIterable, Identifiable {
+enum PracticeMode: String, CaseIterable, Identifiable, Codable {
     case all = "全部单词"
     case wrongOnly = "错题复听"
 
     var id: String { rawValue }
+}
+
+struct PracticeSessionSnapshot: Codable {
+    var mode: PracticeMode
+    var wordIDs: [UUID]
+    var currentIndex: Int
+    var selectedGrade: String
+    var selectedBook: String
+    var selectedUnit: String
+    var savedAt: Date
+}
+
+struct WordInputWarning: Identifiable {
+    var id: String { word + title }
+    var word: String
+    var title: String
+    var message: String
+}
+
+struct TextbookTag: Codable, Hashable, Identifiable {
+    var grade: String
+    var book: String
+    var unit: String
+    var meaning: String
+
+    var id: String {
+        "\(grade)-\(book)-\(unit)-\(meaning)"
+    }
+
+    var label: String {
+        "\(grade)\(book) \(unit)"
+    }
 }

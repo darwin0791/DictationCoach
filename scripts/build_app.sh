@@ -13,9 +13,11 @@ RESOURCE_BUNDLE="$BUILD_DIR/AIEnglishDictationCoach_DictationCoachApp.bundle"
 
 rm -rf "$APP_DIR"
 mkdir -p "$APP_DIR/Contents/MacOS"
+mkdir -p "$APP_DIR/Contents/Resources"
 
 cp "$EXECUTABLE" "$APP_DIR/Contents/MacOS/DictationCoach"
 cp -R "$RESOURCE_BUNDLE" "$APP_DIR/"
+cp "$ROOT_DIR/Sources/DictationCoachApp/Resources/AppIcon.icns" "$APP_DIR/Contents/Resources/AppIcon.icns"
 
 cat > "$APP_DIR/Contents/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
@@ -25,15 +27,17 @@ cat > "$APP_DIR/Contents/Info.plist" <<'PLIST'
   <key>CFBundleDevelopmentRegion</key>
   <string>zh_CN</string>
   <key>CFBundleDisplayName</key>
-  <string>英语听写错题教练</string>
+  <string>正字</string>
   <key>CFBundleExecutable</key>
   <string>DictationCoach</string>
   <key>CFBundleIdentifier</key>
   <string>local.ai-english.dictation-coach</string>
+  <key>CFBundleIconFile</key>
+  <string>AppIcon</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundleName</key>
-  <string>DictationCoach</string>
+  <string>正字</string>
   <key>CFBundlePackageType</key>
   <string>APPL</string>
   <key>CFBundleShortVersionString</key>

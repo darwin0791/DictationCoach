@@ -10,6 +10,7 @@ final class WordStore: ObservableObject {
 
     private var dictionary: [String: DictionaryEntry] = [:]
     private let sqliteDictionary = SQLiteDictionary()
+    private let textbookIndex = TextbookIndex()
     private let encoder: JSONEncoder
     private let decoder: JSONDecoder
 
@@ -46,7 +47,57 @@ final class WordStore: ObservableObject {
         words.sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
     }
 
-    func addSingleWord() {
+    var textbookGrades: [String] {
+        textbookIndex.grades
+    }
+
+    var textbookBooks: [String] {
+        textbookIndex.books
+    }
+
+    var textbookUnits: [String] {
+        textbookIndex.units
+    }
+
+    func textbookTags(for word: WordEntry) -> [TextbookTag] {
+        textbookIndex.tags(for: word.word)
+    }
+
+    func word(withID id: UUID) -> WordEntry? {
+        words.first { $0.id == id }
+    }
+
+    func savePracticeSession(_ snapshot: PracticeSessionSnapshot) {
+        do {
+            let directory = appSupportDirectory()
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            let data = try encoder.encode(snapshot)
+            try data.write(to: practiceSessionFileURL(), options: [.atomic])
+        } catch {
+            dataMessage = "听写进度保存失败：\(error.localizedDescription)"
+        }
+    }
+
+    func loadPracticeSession() -> PracticeSessionSnapshot? {
+        let url = practiceSessionFileURL()
+        guard FileManager.default.fileExists(atPath: url.path) else { return nil }
+
+        do {
+            let data = try Data(contentsOf: url)
+            return try decoder.decode(PracticeSessionSnapshot.self, from: data)
+        } catch {
+            dataMessage = "听写进度读取失败：\(error.localizedDescription)"
+            return nil
+        }
+    }
+
+    func clearPracticeSession() {
+        let url = practiceSessionFileURL()
+        guard FileManager.default.fileExists(atPath: url.path) else { return }
+        try? FileManager.default.removeItem(at: url)
+    }
+
+    func addSingleWord(force: Bool = false) {
         let word = normalizeWord(singleWordText)
         guard !word.isEmpty else {
             dataMessage = "先输入一个单词。"
@@ -58,10 +109,22 @@ final class WordStore: ObservableObject {
             return
         }
 
+        if !force, let warning = singleWordWarning(for: word) {
+            dataMessage = warning.message
+            return
+        }
+
         words.append(WordEntry(word: word, dictionaryEntry: lookupDictionaryEntry(for: word)))
         saveWords()
         singleWordText = ""
         dataMessage = "已新增 \(word)。"
+    }
+
+    func pendingSingleWordWarning() -> WordInputWarning? {
+        let word = normalizeWord(singleWordText)
+        guard !word.isEmpty else { return nil }
+        guard !words.contains(where: { $0.word == word }) else { return nil }
+        return singleWordWarning(for: word)
     }
 
     func importWords() {
@@ -235,6 +298,31 @@ final class WordStore: ObservableObject {
             .lowercased()
     }
 
+    private func singleWordWarning(for word: String) -> WordInputWarning? {
+        if !isEnglishWordLike(word) {
+            return WordInputWarning(
+                word: word,
+                title: "这看起来不像英文单词",
+                message: "“\(word)” 包含非英文单词常见字符，是否仍然添加？"
+            )
+        }
+
+        if lookupDictionaryEntry(for: word) == nil {
+            return WordInputWarning(
+                word: word,
+                title: "可能拼写有误",
+                message: "本地词典没有查到 “\(word)”。如果这是专有名词或你确认拼写正确，可以继续添加。"
+            )
+        }
+
+        return nil
+    }
+
+    private func isEnglishWordLike(_ word: String) -> Bool {
+        let pattern = #"^[a-z]+(?:[-'][a-z]+)*$"#
+        return word.range(of: pattern, options: .regularExpression) != nil
+    }
+
     private func lookupDictionaryEntry(for word: String) -> DictionaryEntry? {
         if let sqliteEntry = sqliteDictionary.lookup(word) {
             return merge(primary: sqliteEntry, fallback: dictionary[word])
@@ -351,5 +439,9 @@ final class WordStore: ObservableObject {
 
     private func wordsFileURL() -> URL {
         appSupportDirectory().appendingPathComponent("words.json")
+    }
+
+    private func practiceSessionFileURL() -> URL {
+        appSupportDirectory().appendingPathComponent("practice_session.json")
     }
 }
