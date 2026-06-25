@@ -20,7 +20,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "在……上面"
+      "meaning": "在（或向）……上面"
     }
   ],
   "afraid": [
@@ -156,7 +156,7 @@
       "grade": "四年级",
       "book": "下册",
       "unit": "Unit 1",
-      "meaning": "美术教师"
+      "meaning": "美术教室"
     }
   ],
   "ask": [
@@ -199,12 +199,12 @@
       "meaning": "秋天"
     }
   ],
-  "baby": [
+  "baby brother": [
     {
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 6",
-      "meaning": "brother婴儿小弟弟"
+      "meaning": "婴儿小弟弟"
     }
   ],
   "bad": [
@@ -316,7 +316,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "在…的后面"
+      "meaning": "在（或向）……后面"
     }
   ],
   "beside": [
@@ -332,7 +332,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 2",
-      "meaning": "最好地"
+      "meaning": "最；最高程度地"
     }
   ],
   "between": [
@@ -340,7 +340,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "在…之间；"
+      "meaning": "在……中间"
     }
   ],
   "big": [
@@ -808,7 +808,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "钟，时钟"
+      "meaning": "时钟；钟"
     }
   ],
   "clothes": [
@@ -1116,7 +1116,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "做； 干"
+      "meaning": "做；干"
     }
   ],
   "do homework": [
@@ -1140,7 +1140,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 1",
-      "meaning": "早锻炼"
+      "meaning": "做早操"
     }
   ],
   "doctor": [
@@ -1159,12 +1159,12 @@
       "meaning": "狗"
     }
   ],
-  "doing morning": [
+  "doing morning exercises": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "exercises（正在）早锻炼"
+      "meaning": "（正在）做早操"
     }
   ],
   "dollar": [
@@ -1309,12 +1309,14 @@
       "book": "下册",
       "unit": "Unit 5",
       "meaning": "（eat的-ing形式）（正在）吃"
-    },
+    }
+  ],
+  "eating lunch": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "lunch（正在）吃午饭"
+      "meaning": "（正在）吃午饭"
     }
   ],
   "egg": [
@@ -1373,12 +1375,12 @@
       "meaning": "另外；其他"
     }
   ],
-  "english": [
+  "english book": [
     {
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "book英语书"
+      "meaning": "英语书"
     }
   ],
   "english class": [
@@ -1410,7 +1412,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "每个；每一个"
+      "meaning": "每一个；每个"
     }
   ],
   "everywhere": [
@@ -1450,7 +1452,7 @@
       "grade": "四年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "昂贵的；"
+      "meaning": "昂贵的；花钱多的"
     }
   ],
   "eye": [
@@ -1554,7 +1556,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 3",
-      "meaning": "最喜爱的"
+      "meaning": "特别喜爱的"
     }
   ],
   "feature": [
@@ -1594,7 +1596,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 3",
-      "meaning": "一些"
+      "meaning": "不多；很少"
     }
   ],
   "fifteen": [
@@ -1634,7 +1636,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "完成；做完"
+      "meaning": "完成；做好"
     }
   ],
   "first": [
@@ -1733,12 +1735,12 @@
       "meaning": "脚"
     }
   ],
-  "football": [
+  "football player": [
     {
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 6",
-      "meaning": "player足球运动员"
+      "meaning": "足球运动员"
     }
   ],
   "for": [
@@ -1805,6 +1807,14 @@
       "meaning": "新鲜的"
     }
   ],
+  "friday": [
+    {
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期五"
+    }
+  ],
   "fridge": [
     {
       "grade": "四年级",
@@ -1848,7 +1858,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "滑稽可笑的."
+      "meaning": "滑稽的；可笑的"
     }
   ],
   "fur": [
@@ -1856,7 +1866,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 4",
-      "meaning": "浓密的软毛"
+      "meaning": "（某些动物的）浓密的软毛"
     }
   ],
   "game": [
@@ -2033,12 +2043,12 @@
       "meaning": "山羊"
     }
   ],
-  "good": [
+  "good job": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 2",
-      "meaning": "job做得好"
+      "meaning": "做得好"
     }
   ],
   "gps": [
@@ -2191,12 +2201,12 @@
       "meaning": "（常指带檐的）帽子"
     }
   ],
-  "have": [
+  "have ... class": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 1",
-      "meaning": "… class上……课"
+      "meaning": "上……课"
     }
   ],
   "have a look": [
@@ -2207,12 +2217,12 @@
       "meaning": "看一看"
     }
   ],
-  "having": [
+  "having ... class": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "… class（正在）上课"
+      "meaning": "（正在）上……课"
     }
   ],
   "he": [
@@ -2269,12 +2279,14 @@
       "book": "上册",
       "unit": "Unit 1",
       "meaning": "帮助"
-    },
+    }
+  ],
+  "help yourself": [
     {
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "yourself为（自己）取用"
+      "meaning": "为（自己）取用"
     }
   ],
   "helpful": [
@@ -2282,7 +2294,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "有帮助的"
+      "meaning": "有用的；愿意帮忙的"
     }
   ],
   "hen": [
@@ -2452,7 +2464,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 3",
-      "meaning": "冰淇淋"
+      "meaning": "冰激凌"
     }
   ],
   "idea": [
@@ -2615,12 +2627,12 @@
       "meaning": "保持某种状态"
     }
   ],
-  "keep to the": [
+  "keep to the right": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "right靠右"
+      "meaning": "靠右"
     }
   ],
   "keep your desk clean": [
@@ -2652,7 +2664,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "和蔼的"
+      "meaning": "体贴的；慈祥的；宽容的"
     }
   ],
   "kitchen": [
@@ -2799,12 +2811,12 @@
       "meaning": "像……那样"
     }
   ],
-  "listening to": [
+  "listening to music": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "music（正在）听音乐"
+      "meaning": "（正在）听音乐"
     }
   ],
   "little": [
@@ -2869,12 +2881,12 @@
       "meaning": "丢失（lose的过去式形式）"
     }
   ],
-  "lots": [
+  "lots of": [
     {
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "of大量，许多"
+      "meaning": "大量；许多"
     }
   ],
   "love": [
@@ -2882,7 +2894,7 @@
       "grade": "四年级",
       "book": "下册",
       "unit": "Unit 3",
-      "meaning": "爱你的"
+      "meaning": "（写信结尾的热情问候语）爱你的"
     }
   ],
   "lovely": [
@@ -2933,12 +2945,12 @@
       "meaning": "三月"
     }
   ],
-  "maths": [
+  "maths book": [
     {
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "book数学书"
+      "meaning": "数学书"
     }
   ],
   "may": [
@@ -3062,7 +3074,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 6",
-      "meaning": "高山；山脉"
+      "meaning": "高山；山岳"
     }
   ],
   "mouse": [
@@ -3262,7 +3274,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 4",
-      "meaning": "声音；（尤指）噪音"
+      "meaning": "声音；响声；噪音"
     }
   ],
   "noodles": [
@@ -3350,7 +3362,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "年老的"
+      "meaning": "老的；年纪大的"
     }
   ],
   "on": [
@@ -3747,12 +3759,12 @@
       "meaning": "进行体育运动"
     }
   ],
-  "play the": [
+  "play the pipa": [
     {
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 4",
-      "meaning": "pipa弹琵琶"
+      "meaning": "弹琵琶"
     }
   ],
   "playground": [
@@ -3888,7 +3900,7 @@
       "grade": "六年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "快速地"
+      "meaning": "迅速地"
     }
   ],
   "quiet": [
@@ -3904,7 +3916,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 6",
-      "meaning": "兔子，野兔"
+      "meaning": "兔；野兔"
     }
   ],
   "rainy": [
@@ -3923,12 +3935,12 @@
       "meaning": "看，读"
     }
   ],
-  "reading a": [
+  "reading a book": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "book（正在）看书"
+      "meaning": "（正在）看书"
     }
   ],
   "ready": [
@@ -3944,7 +3956,7 @@
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "真的"
+      "meaning": "（表示兴趣或惊讶）真的"
     }
   ],
   "red": [
@@ -3998,7 +4010,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 6",
-      "meaning": "河流"
+      "meaning": "河；江"
     }
   ],
   "robot": [
@@ -4182,7 +4194,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 4",
-      "meaning": "发送；邮寄"
+      "meaning": "邮寄；发送"
     }
   ],
   "september": [
@@ -4302,7 +4314,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 6",
-      "meaning": "引导；指引"
+      "meaning": "展览"
     }
   ],
   "shy": [
@@ -4310,7 +4322,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "害羞的"
+      "meaning": "羞怯的；腼腆的；怕生的"
     }
   ],
   "sing": [
@@ -4318,15 +4330,15 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 4",
-      "meaning": "唱；歌唱"
+      "meaning": "唱；唱歌"
     }
   ],
-  "sing english": [
+  "sing english songs": [
     {
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 4",
-      "meaning": "songs"
+      "meaning": "唱英文歌曲"
     }
   ],
   "singapore": [
@@ -4334,7 +4346,7 @@
       "grade": "四年级",
       "book": "下册",
       "unit": "Unit 3",
-      "meaning": "新加坡城"
+      "meaning": "新加坡（市）"
     }
   ],
   "sister": [
@@ -4550,7 +4562,7 @@
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 4",
-      "meaning": "特别的；特殊的"
+      "meaning": "特殊的；特别的"
     }
   ],
   "spoon": [
@@ -4569,12 +4581,12 @@
       "meaning": "体育运动"
     }
   ],
-  "sports": [
+  "sports meet": [
     {
       "grade": "五年级",
       "book": "下册",
       "unit": "Unit 3",
-      "meaning": "meet运动会"
+      "meaning": "运动会"
     }
   ],
   "spring": [
@@ -4718,7 +4730,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "星期天."
+      "meaning": "星期日"
     }
   ],
   "sunglasses": [
@@ -4870,7 +4882,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 3",
-      "meaning": "茶水； 茶"
+      "meaning": "茶；茶水"
     }
   ],
   "teach": [
@@ -4889,12 +4901,12 @@
       "meaning": "教师"
     }
   ],
-  "teacher's": [
+  "teacher's desk": [
     {
       "grade": "四年级",
       "book": "上册",
       "unit": "Unit 1",
-      "meaning": "desk讲台"
+      "meaning": "讲台"
     }
   ],
   "tell": [
@@ -4926,7 +4938,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 5",
-      "meaning": "他（她，它）们的"
+      "meaning": "他们的；她们的；它们的"
     }
   ],
   "theirs": [
@@ -5038,7 +5050,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "星期四Friday星期五"
+      "meaning": "星期四"
     }
   ],
   "tiger": [
@@ -5140,7 +5152,7 @@
       "grade": "六年级",
       "book": "上册",
       "unit": "Unit 3",
-      "meaning": "（尤其长途）旅"
+      "meaning": "（尤指长途）旅行"
     }
   ],
   "tree": [
@@ -5368,7 +5380,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 6",
-      "meaning": "乡村；村庄"
+      "meaning": "村庄；村镇"
     }
   ],
   "visit": [
@@ -5472,7 +5484,7 @@
       "grade": "六年级",
       "book": "上册",
       "unit": "Unit 2",
-      "meaning": "戴"
+      "meaning": "穿"
     },
     {
       "grade": "六年级",
@@ -5598,7 +5610,7 @@
       "grade": "五年级",
       "book": "上册",
       "unit": "Unit 4",
-      "meaning": "了不起的"
+      "meaning": "极好的；了不起的"
     }
   ],
   "word": [

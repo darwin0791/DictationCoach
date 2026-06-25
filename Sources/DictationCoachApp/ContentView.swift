@@ -5,6 +5,7 @@ import UniformTypeIdentifiers
 enum AppSection: String, CaseIterable, Identifiable {
     case practice = "听写"
     case wordBook = "单词本"
+    case sentences = "常用句"
     case wrongBook = "错题集"
     case settings = "设置"
 
@@ -14,6 +15,7 @@ enum AppSection: String, CaseIterable, Identifiable {
         switch self {
         case .practice: "听写"
         case .wordBook: "单词本"
+        case .sentences: "句子"
         case .wrongBook: "错题集"
         case .settings: "设置"
         }
@@ -23,6 +25,7 @@ enum AppSection: String, CaseIterable, Identifiable {
         switch self {
         case .practice: "headphones"
         case .wordBook: "book.closed"
+        case .sentences: "text.quote"
         case .wrongBook: "pencil.and.outline"
         case .settings: "slider.horizontal.3"
         }
@@ -77,6 +80,8 @@ struct ContentView: View {
             PracticeView()
         case .wordBook:
             WordBookView()
+        case .sentences:
+            CommonSentencesView()
         case .wrongBook:
             WrongBookView()
         case .settings:
@@ -306,6 +311,8 @@ struct PracticeView: View {
     @EnvironmentObject private var speech: SpeechService
 
     @State private var mode: PracticeMode = .all
+    @State private var dictationMethod: DictationMethod = .english
+    @State private var showEnglishHints = false
     @State private var queue: [WordEntry] = []
     @State private var currentIndex = 0
     @State private var hoveredDecision: Bool?
@@ -329,6 +336,35 @@ struct PracticeView: View {
         return source.filter(wordMatchesTextbookFilter)
     }
 
+    private func textbookTag(for word: WordEntry) -> TextbookTag? {
+        let tags = store.textbookTags(for: word)
+        return tags.first { tag in
+            (selectedGrade == "全部年级" || tag.grade == selectedGrade)
+                && (selectedBook == "全部册" || tag.book == selectedBook)
+                && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
+        } ?? tags.first
+    }
+
+    private var currentTextbookTag: TextbookTag? {
+        guard let currentWord else { return nil }
+        return textbookTag(for: currentWord)
+    }
+
+    private var currentTextbookMeaning: String {
+        guard let meaning = currentTextbookTag?.meaning.trimmingCharacters(in: .whitespacesAndNewlines),
+              !meaning.isEmpty else {
+            return "未收录教材释义"
+        }
+        return meaning
+    }
+
+    private var displayedPracticeMeaning: String {
+        guard dictationMethod == .chinese, !showEnglishHints else {
+            return currentTextbookMeaning
+        }
+        return chineseOnlyMeaning(currentTextbookMeaning)
+    }
+
     private var hasActiveFilter: Bool {
         selectedGrade != "全部年级" || selectedBook != "全部册" || selectedUnit != "全部单元"
     }
@@ -339,7 +375,11 @@ struct PracticeView: View {
 
             HStack(alignment: .top, spacing: 18) {
                 PaperCard(title: nil, tint: PaperTheme.sheet) {
-                    SectionTitle(icon: "doc.text", title: "练习纸")
+                    HStack(alignment: .top) {
+                        SectionTitle(icon: "doc.text", title: "练习纸")
+                        Spacer()
+                        dictationMethodControl
+                    }
 
                     VStack(alignment: .center, spacing: 0) {
                         HStack(spacing: 8) {
@@ -387,7 +427,7 @@ struct PracticeView: View {
                                 .help("上一个（←）")
 
                                 Button {
-                                    if let currentWord { speech.speakRepeated(currentWord.word) }
+                                    playCurrentRepeated()
                                 } label: {
                                     Image(systemName: "play.fill")
                                         .padding(.leading, 4)
@@ -450,7 +490,7 @@ struct PracticeView: View {
 
                             Divider()
 
-                            StatLine(label: "全部单词", value: "\(store.words.count)")
+                            StatLine(label: "全部单词", value: "\(store.wordBookCount)")
                             StatLine(label: "当前范围", value: "\(practicePool.count)")
                             StatLine(label: "错题集", value: "\(store.wrongWords.count)")
                             StatLine(label: "待复听", value: "\(store.activeWrongWords.count)")
@@ -460,7 +500,7 @@ struct PracticeView: View {
                                 HStack(spacing: 8) {
                                     StatusTag(text: currentWord.masteryStatus.rawValue, color: currentWord.isInWrongBook ? PaperTheme.redPencil : PaperTheme.blueInk)
 
-                                    if let textbookTag = store.textbookTags(for: currentWord).first {
+                                    if let textbookTag = currentTextbookTag {
                                         Text(textbookTag.label)
                                             .font(AppFont.font(size: 12, weight: .semibold))
                                             .foregroundStyle(PaperTheme.blueInk)
@@ -470,7 +510,7 @@ struct PracticeView: View {
                                             .clipShape(RoundedRectangle(cornerRadius: 6))
                                     }
                                 }
-                                StatLine(label: "释义", value: currentWord.displayMeaning)
+                                StatLine(label: "释义", value: displayedPracticeMeaning)
                                 StatLine(label: "答对", value: "\(currentWord.correctCount)")
                                 StatLine(label: "答错", value: "\(currentWord.wrongCount)")
                             }
@@ -524,12 +564,12 @@ struct PracticeView: View {
                     HStack(spacing: 0) {
                         if hoveredDecision == true {
                             decisionBadge(title: "对", systemImage: "checkmark.circle.fill", color: PaperTheme.greenInk)
-                                .padding(.leading, 18)
+                                .padding(.leading, 56)
                             Spacer(minLength: 0)
                         } else {
                             Spacer(minLength: 0)
                             decisionBadge(title: "错", systemImage: "xmark.circle.fill", color: PaperTheme.redPencil)
-                                .padding(.trailing, 18)
+                                .padding(.trailing, 56)
                         }
                     }
                     .frame(width: geometry.size.width, height: geometry.size.height)
@@ -537,26 +577,36 @@ struct PracticeView: View {
                 }
 
                 if let currentWord {
-                    VStack(spacing: 10) {
-                        Text(currentWord.word)
-                            .font(AppFont.font(size: 56, weight: .bold))
-                            .foregroundStyle(PaperTheme.ink)
-                            .minimumScaleFactor(0.6)
-                            .lineLimit(1)
-
-                        Text(currentWord.displayIPA)
-                            .font(AppFont.font(size: 21, weight: .medium))
-                            .foregroundStyle(PaperTheme.blueInk)
-
-                        Text(currentWord.displayMeaning)
-                            .font(AppFont.font(size: 24, weight: .semibold))
+                    if dictationMethod == .chinese && !showEnglishHints {
+                        Text(displayedPracticeMeaning)
+                            .font(AppFont.font(size: 32, weight: .semibold))
                             .foregroundStyle(PaperTheme.ink)
                             .multilineTextAlignment(.center)
-                            .lineLimit(2)
+                            .lineLimit(3)
                             .minimumScaleFactor(0.72)
-                            .padding(.top, 4)
+                            .padding()
+                    } else {
+                        VStack(spacing: 10) {
+                            Text(currentWord.word)
+                                .font(AppFont.font(size: 56, weight: .bold))
+                                .foregroundStyle(PaperTheme.ink)
+                                .minimumScaleFactor(0.6)
+                                .lineLimit(1)
+
+                            Text(currentWord.displayIPA)
+                                .font(AppFont.font(size: 21, weight: .medium))
+                                .foregroundStyle(PaperTheme.blueInk)
+
+                            Text(displayedPracticeMeaning)
+                                .font(AppFont.font(size: 24, weight: .semibold))
+                                .foregroundStyle(PaperTheme.ink)
+                                .multilineTextAlignment(.center)
+                                .lineLimit(2)
+                                .minimumScaleFactor(0.72)
+                                .padding(.top, 4)
+                        }
+                        .padding()
                     }
-                    .padding()
                 } else {
                     VStack(spacing: 26) {
                         Button {
@@ -568,7 +618,7 @@ struct PracticeView: View {
                         .buttonStyle(PracticePlayButtonStyle())
                         .help("开始听写")
 
-                        Text("点击播放，开始听写")
+                        Text(dictationMethod == .english ? "点击播放，开始英文听写" : "点击播放，开始中文默写")
                             .font(AppFont.font(size: 21, weight: .medium))
                             .foregroundStyle(PaperTheme.mutedInk.opacity(0.65))
                     }
@@ -645,6 +695,51 @@ struct PracticeView: View {
         }
     }
 
+    private var dictationMethodControl: some View {
+        HStack(spacing: 14) {
+            HStack(spacing: 0) {
+                ForEach(DictationMethod.allCases) { method in
+                    Button {
+                        dictationMethod = method
+                        if method == .english {
+                            showEnglishHints = false
+                        }
+                    } label: {
+                        HStack(spacing: 6) {
+                            BundledNavigationIcon(
+                                resourceName: method.iconResource,
+                                fallbackSystemImage: method == .english ? "character.book.closed" : "character.textbox",
+                                colorHex: dictationMethod == method ? "#2C261F" : "#796B5B"
+                            )
+                            .frame(width: 16, height: 16)
+
+                            Text(method.rawValue)
+                                .font(AppFont.font(size: 14, weight: .semibold))
+                        }
+                        .foregroundStyle(dictationMethod == method ? PaperTheme.ink : PaperTheme.mutedInk)
+                        .frame(width: 104, height: 34)
+                        .background(dictationMethod == method ? PaperTheme.note.opacity(0.92) : Color.clear)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .background(PaperTheme.sheet.opacity(0.92))
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(PaperTheme.line.opacity(0.55), lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .disabled(isSessionActive)
+            .opacity(isSessionActive ? 0.62 : 1)
+
+            if dictationMethod == .chinese {
+                Toggle("显示英文提示", isOn: $showEnglishHints)
+                    .toggleStyle(.switch)
+                    .controlSize(.small)
+                    .font(AppFont.font(size: 13, weight: .medium))
+                    .foregroundStyle(PaperTheme.mutedInk)
+                    .fixedSize()
+            }
+        }
+    }
+
     private func startSession() {
         queue = practicePool.shuffled()
         currentIndex = 0
@@ -653,7 +748,7 @@ struct PracticeView: View {
         if let first = queue.first {
             sessionMessage = "本轮 \(queue.count) 个单词。"
             persistPracticeSession()
-            speech.speakRepeated(first.word)
+            playRepeated(first)
         } else {
             sessionMessage = emptyPoolMessage
             store.clearPracticeSession()
@@ -693,7 +788,7 @@ struct PracticeView: View {
         hoveredDecision = nil
         persistPracticeSession()
         if let currentWord {
-            speech.speak(currentWord.word)
+            playOnce(currentWord)
         }
     }
 
@@ -703,7 +798,7 @@ struct PracticeView: View {
         hoveredDecision = nil
         persistPracticeSession()
         if let currentWord {
-            speech.speak(currentWord.word)
+            playOnce(currentWord)
         }
     }
 
@@ -731,7 +826,7 @@ struct PracticeView: View {
             hoveredDecision = nil
             persistPracticeSession()
             if let next = currentWord {
-                speech.speak(next.word)
+                playOnce(next)
             }
         } else {
             sessionMessage += " 本轮结束。"
@@ -754,6 +849,8 @@ struct PracticeView: View {
         }
 
         mode = snapshot.mode
+        dictationMethod = snapshot.dictationMethod ?? .english
+        showEnglishHints = snapshot.showEnglishHints ?? false
         selectedGrade = snapshot.selectedGrade
         selectedBook = snapshot.selectedBook
         selectedUnit = snapshot.selectedUnit
@@ -771,6 +868,8 @@ struct PracticeView: View {
 
         store.savePracticeSession(PracticeSessionSnapshot(
             mode: mode,
+            dictationMethod: dictationMethod,
+            showEnglishHints: showEnglishHints,
             wordIDs: queue.map(\.id),
             currentIndex: currentIndex,
             selectedGrade: selectedGrade,
@@ -778,6 +877,57 @@ struct PracticeView: View {
             selectedUnit: selectedUnit,
             savedAt: Date()
         ))
+    }
+
+    private func playCurrentRepeated() {
+        guard let currentWord else { return }
+        playRepeated(currentWord)
+    }
+
+    private func playRepeated(_ word: WordEntry) {
+        switch dictationMethod {
+        case .english:
+            speech.speakRepeated(word.word)
+        case .chinese:
+            speech.speakChineseRepeated(spokenChineseMeaning(for: word))
+        }
+    }
+
+    private func playOnce(_ word: WordEntry) {
+        switch dictationMethod {
+        case .english:
+            speech.speak(word.word)
+        case .chinese:
+            speech.speakChinese(spokenChineseMeaning(for: word))
+        }
+    }
+
+    private func spokenChineseMeaning(for word: WordEntry) -> String {
+        let meaning = textbookTag(for: word)?.meaning ?? "未收录教材释义"
+        return chineseOnlyMeaning(meaning)
+    }
+
+    private func chineseOnlyMeaning(_ meaning: String) -> String {
+        var result = meaning
+        let patterns = [
+            #"（[^）]*[A-Za-z][^）]*）"#,
+            #"\([^)]*[A-Za-z][^)]*\)"#,
+            #"[A-Za-z]+(?:['’\-][A-Za-z]+)*"#
+        ]
+
+        for pattern in patterns {
+            guard let expression = try? NSRegularExpression(pattern: pattern) else { continue }
+            let range = NSRange(result.startIndex..<result.endIndex, in: result)
+            result = expression.stringByReplacingMatches(in: result, range: range, withTemplate: "")
+        }
+
+        result = result
+            .replacingOccurrences(of: "  ", with: " ")
+            .replacingOccurrences(of: "，，", with: "，")
+            .replacingOccurrences(of: "；；", with: "；")
+            .trimmingCharacters(in: CharacterSet.whitespacesAndNewlines.union(CharacterSet(charactersIn: "，,；;：:/、")))
+
+        return result.isEmpty ? "未收录教材释义" : result
     }
 }
 
@@ -892,9 +1042,9 @@ struct WordBookView: View {
 
     private var wordListCard: some View {
         PaperCard(title: nil, tint: PaperTheme.sheet) {
-            SectionTitle(icon: "book.closed.fill", title: "全部单词（\(store.words.count)）")
+            SectionTitle(icon: "book.closed.fill", title: "全部单词（\(store.wordBookCount)）")
 
-            if store.words.isEmpty {
+            if store.allWordsSorted.isEmpty {
                 EmptyState(text: "还没有单词。")
             } else {
                 VStack(alignment: .leading, spacing: 10) {
@@ -945,7 +1095,7 @@ struct WordBookView: View {
                         }
                     }
 
-                    Text(searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !hasActiveFilter ? "共 \(store.words.count) 个单词" : "找到 \(filteredWords.count) 个")
+                    Text(searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !hasActiveFilter ? "共 \(store.wordBookCount) 个单词" : "找到 \(filteredWords.count) 个")
                         .font(AppFont.font(size: 13))
                         .foregroundStyle(PaperTheme.mutedInk)
 
@@ -996,7 +1146,6 @@ struct WordBookView: View {
             word.displayIPA,
             word.displayMeaning,
             word.commonMeaning ?? "",
-            word.customMeaning ?? "",
             word.meanings?.map { "\($0.partOfSpeech) \($0.chinese)" }.joined(separator: " ") ?? "",
             word.exampleEnglish ?? "",
             word.exampleChinese ?? "",
@@ -1391,7 +1540,6 @@ struct WrongBookView: View {
             word.displayIPA,
             word.displayMeaning,
             word.commonMeaning ?? "",
-            word.customMeaning ?? "",
             word.meanings?.map { "\($0.partOfSpeech) \($0.chinese)" }.joined(separator: " ") ?? "",
             word.exampleEnglish ?? "",
             word.exampleChinese ?? "",
@@ -1425,18 +1573,36 @@ struct SettingsView: View {
                     PaperCard(title: nil, tint: PaperTheme.sheet) {
                         SectionTitle(icon: "speaker.wave.2.fill", title: "语音设置")
 
-                        Text("发音人")
-                            .font(AppFont.font(size: 15, weight: .semibold))
-                            .foregroundStyle(PaperTheme.ink)
-                            .padding(.top, 6)
+                        voiceSectionHeader(title: "发音人（英文）") {
+                            speech.speak("environment")
+                        }
+                        .padding(.top, 6)
 
                         VStack(alignment: .leading, spacing: 12) {
                             ForEach(VoicePreset.allCases) { preset in
                                 VoiceChoiceRow(
-                                    preset: preset,
+                                    title: preset.rawValue,
+                                    voiceName: preset.primaryVoiceName,
                                     isSelected: speech.voicePreset == preset
                                 ) {
                                     speech.voicePreset = preset
+                                }
+                            }
+                        }
+
+                        voiceSectionHeader(title: "发音人（中文）") {
+                            speech.speakChinese("总是，一直")
+                        }
+                        .padding(.top, 6)
+
+                        VStack(alignment: .leading, spacing: 12) {
+                            ForEach(ChineseVoicePreset.allCases) { preset in
+                                VoiceChoiceRow(
+                                    title: preset.rawValue,
+                                    voiceName: speech.chineseVoiceName(for: preset),
+                                    isSelected: speech.chineseVoicePreset == preset
+                                ) {
+                                    speech.chineseVoicePreset = preset
                                 }
                             }
                         }
@@ -1473,28 +1639,6 @@ struct SettingsView: View {
                             }
 
                             Spacer()
-
-                            VStack(spacing: 8) {
-                                Text("预览")
-                                    .font(AppFont.font(size: 14, weight: .semibold))
-                                    .foregroundStyle(PaperTheme.mutedInk)
-                                Button {
-                                    speech.speak("environment")
-                                } label: {
-                                    Image(systemName: "play.fill")
-                                        .font(.system(size: 20, weight: .bold))
-                                        .foregroundStyle(PaperTheme.blueInk)
-                                        .frame(width: 46, height: 46)
-                                        .background(PaperTheme.sheet)
-                                        .overlay(
-                                            Circle()
-                                                .stroke(PaperTheme.line.opacity(0.72), lineWidth: 1.2)
-                                        )
-                                        .clipShape(Circle())
-                                }
-                                .buttonStyle(.plain)
-                                .help("试听 environment")
-                            }
                         }
                     }
                     .frame(width: 410, alignment: .leading)
@@ -1505,6 +1649,28 @@ struct SettingsView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+    }
+
+    private func voiceSectionHeader(title: String, preview: @escaping () -> Void) -> some View {
+        HStack {
+            Text(title)
+                .font(AppFont.font(size: 15, weight: .semibold))
+                .foregroundStyle(PaperTheme.ink)
+
+            Spacer()
+
+            Button(action: preview) {
+                Image(systemName: "play.fill")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(PaperTheme.blueInk)
+                    .frame(width: 28, height: 28)
+                    .background(PaperTheme.sheet)
+                    .overlay(Circle().stroke(PaperTheme.line.opacity(0.72), lineWidth: 1))
+                    .clipShape(Circle())
+            }
+            .buttonStyle(.plain)
+            .help("试听")
+        }
     }
 }
 
@@ -1524,7 +1690,8 @@ struct DecorativeResourceImage: View {
 }
 
 struct VoiceChoiceRow: View {
-    let preset: VoicePreset
+    let title: String
+    let voiceName: String
     let isSelected: Bool
     let action: () -> Void
 
@@ -1535,12 +1702,12 @@ struct VoiceChoiceRow: View {
                     .font(.system(size: 18, weight: .semibold))
                     .foregroundStyle(isSelected ? PaperTheme.redPencil.opacity(0.95) : PaperTheme.mutedInk.opacity(0.48))
 
-                Text(preset.rawValue)
+                Text(title)
                     .font(AppFont.font(size: 16, weight: .semibold))
                     .foregroundStyle(PaperTheme.ink)
                     .frame(width: 88, alignment: .leading)
 
-                Text(preset.primaryVoiceName)
+                Text(voiceName)
                     .font(AppFont.font(size: 13, weight: .medium))
                     .foregroundStyle(PaperTheme.mutedInk.opacity(0.72))
 

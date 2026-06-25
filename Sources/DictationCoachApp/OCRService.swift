@@ -4,6 +4,11 @@ import Vision
 
 enum OCRService {
     static func recognizeWords(from imageURL: URL) async throws -> [String] {
+        let lines = try await recognizeLines(from: imageURL)
+        return extractEnglishWords(from: lines.joined(separator: "\n"))
+    }
+
+    static func recognizeLines(from imageURL: URL) async throws -> [String] {
         guard let image = NSImage(contentsOf: imageURL),
               let cgImage = image.cgImage(forProposedRect: nil, context: nil, hints: nil) else {
             return []
@@ -16,11 +21,12 @@ enum OCRService {
                     return
                 }
 
-                let text = (request.results as? [VNRecognizedTextObservation])?
+                let lines = (request.results as? [VNRecognizedTextObservation])?
                     .compactMap { $0.topCandidates(1).first?.string }
-                    .joined(separator: "\n") ?? ""
+                    .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
+                    .filter { !$0.isEmpty } ?? []
 
-                continuation.resume(returning: extractEnglishWords(from: text))
+                continuation.resume(returning: lines)
             }
 
             request.recognitionLevel = .accurate

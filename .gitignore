@@ -6,3 +6,5 @@ build/
 .secrets/
 .tools/
 tmp/imagegen/
+tmp/pdfs/
+node_modules/

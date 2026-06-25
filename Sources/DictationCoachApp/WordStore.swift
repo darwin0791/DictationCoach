@@ -22,6 +22,7 @@ final class WordStore: ObservableObject {
         decoder.dateDecodingStrategy = .iso8601
         loadIPADictionary()
         loadWords()
+        migrateToVerifiedTextbookBaselineIfNeeded()
         enrichWordsFromDictionary()
     }
 
@@ -44,7 +45,13 @@ final class WordStore: ObservableObject {
     }
 
     var allWordsSorted: [WordEntry] {
-        words.sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
+        words
+            .filter { $0.isArchivedFromWordBook != true }
+            .sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
+    }
+
+    var wordBookCount: Int {
+        allWordsSorted.count
     }
 
     var textbookGrades: [String] {
@@ -179,12 +186,6 @@ final class WordStore: ObservableObject {
         dataMessage = "\(source) 已导入 \(imported) 个单词，跳过 \(skipped) 个重复项。"
     }
 
-    func updateCustomIPA(for entry: WordEntry, customIPA: String) {
-        guard let index = words.firstIndex(where: { $0.id == entry.id }) else { return }
-        words[index].customIPA = customIPA.trimmingCharacters(in: .whitespacesAndNewlines)
-        saveWords()
-    }
-
     func updateWord(for entry: WordEntry, newWord rawWord: String) {
         let newWord = normalizeWord(rawWord)
         guard !newWord.isEmpty else {
@@ -207,8 +208,6 @@ final class WordStore: ObservableObject {
         words[index].meanings = dictionaryEntry?.meanings
         words[index].exampleEnglish = dictionaryEntry?.example?.english
         words[index].exampleChinese = dictionaryEntry?.example?.chinese
-        words[index].customIPA = nil
-        words[index].customMeaning = nil
         saveWords()
         dataMessage = "已修改为 \(newWord)。"
     }
@@ -219,12 +218,6 @@ final class WordStore: ObservableObject {
         words.remove(at: index)
         saveWords()
         dataMessage = "已删除 \(word)。"
-    }
-
-    func updateCustomMeaning(for entry: WordEntry, customMeaning: String) {
-        guard let index = words.firstIndex(where: { $0.id == entry.id }) else { return }
-        words[index].customMeaning = customMeaning.trimmingCharacters(in: .whitespacesAndNewlines)
-        saveWords()
     }
 
     func markCorrect(_ entry: WordEntry) {
@@ -258,12 +251,11 @@ final class WordStore: ObservableObject {
         let word = words[index].word
         let ipaUS = words[index].ipaUS
         let ipaUK = words[index].ipaUK
-        let customIPA = words[index].customIPA
         let commonMeaning = words[index].commonMeaning
         let meanings = words[index].meanings
         let exampleEnglish = words[index].exampleEnglish
         let exampleChinese = words[index].exampleChinese
-        let customMeaning = words[index].customMeaning
+        let isArchivedFromWordBook = words[index].isArchivedFromWordBook
         words[index] = WordEntry(word: word, dictionaryEntry: DictionaryEntry(
             usIPA: ipaUS,
             ukIPA: ipaUK,
@@ -275,8 +267,7 @@ final class WordStore: ObservableObject {
             )
         ))
         words[index].id = entry.id
-        words[index].customIPA = customIPA
-        words[index].customMeaning = customMeaning
+        words[index].isArchivedFromWordBook = isArchivedFromWordBook
         saveWords()
     }
 
@@ -377,6 +368,101 @@ final class WordStore: ObservableObject {
         }
     }
 
+    private func migrateToVerifiedTextbookBaselineIfNeeded() {
+        let migrationVersion = "pep2012-verified-816-v1"
+        let markerURL = textbookMigrationMarkerURL()
+        if (try? String(contentsOf: markerURL, encoding: .utf8)) == migrationVersion {
+            return
+        }
+
+        guard backupWordsBeforeTextbookMigration() else { return }
+
+        var existingByWord = Dictionary(grouping: words) { canonicalWord($0.word) }
+        var migrated: [WordEntry] = []
+
+        for vocabulary in textbookIndex.verifiedVocabulary {
+            let key = canonicalWord(vocabulary.word)
+            let matches = existingByWord.removeValue(forKey: key) ?? []
+            var entry: WordEntry
+
+            if matches.isEmpty {
+                entry = WordEntry(word: vocabulary.word, dictionaryEntry: lookupDictionaryEntry(for: vocabulary.word))
+            } else {
+                entry = mergeLearningHistory(matches, canonicalWord: vocabulary.word)
+                entry.word = vocabulary.word
+            }
+
+            if needsDictionaryRefresh(entry.commonMeaning, missingText: "未收录释义"), !vocabulary.meaning.isEmpty {
+                entry.commonMeaning = vocabulary.meaning
+            }
+            entry.isArchivedFromWordBook = false
+            migrated.append(entry)
+        }
+
+        let preservedWrongWords = existingByWord.values
+            .flatMap { $0 }
+            .filter(\.isInWrongBook)
+            .map { entry -> WordEntry in
+                var archived = entry
+                archived.isArchivedFromWordBook = true
+                return archived
+            }
+
+        words = migrated + preservedWrongWords
+        saveWords()
+
+        do {
+            let directory = appSupportDirectory()
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            try migrationVersion.write(to: markerURL, atomically: true, encoding: .utf8)
+            dataMessage = "已同步 \(migrated.count) 个教材词条，并保留 \(preservedWrongWords.count) 个历史错词。"
+        } catch {
+            dataMessage = "教材词库已同步，但迁移标记保存失败：\(error.localizedDescription)"
+        }
+    }
+
+    private func mergeLearningHistory(_ entries: [WordEntry], canonicalWord: String) -> WordEntry {
+        var merged = entries.max {
+            ($0.lastPracticedAt ?? .distantPast) < ($1.lastPracticedAt ?? .distantPast)
+        } ?? WordEntry(word: canonicalWord)
+
+        merged.correctCount = entries.reduce(0) { $0 + $1.correctCount }
+        merged.wrongCount = entries.reduce(0) { $0 + $1.wrongCount }
+        merged.isInWrongBook = entries.contains(where: \.isInWrongBook)
+        merged.consecutiveCorrectInWrongBook = entries.map(\.consecutiveCorrectInWrongBook).max() ?? 0
+        merged.lastPracticedAt = entries.compactMap(\.lastPracticedAt).max()
+        merged.lastWrongAt = entries.compactMap(\.lastWrongAt).max()
+
+        if merged.isInWrongBook {
+            merged.masteryStatus = merged.consecutiveCorrectInWrongBook >= 3 ? .basic : .reviewing
+        } else {
+            merged.masteryStatus = entries.contains(where: { $0.masteryStatus == .basic }) ? .basic : .new
+        }
+        return merged
+    }
+
+    private func backupWordsBeforeTextbookMigration() -> Bool {
+        let source = wordsFileURL()
+        guard FileManager.default.fileExists(atPath: source.path) else { return true }
+
+        let backup = appSupportDirectory().appendingPathComponent("words_before_pep2012_migration.json")
+        guard !FileManager.default.fileExists(atPath: backup.path) else { return true }
+
+        do {
+            try FileManager.default.copyItem(at: source, to: backup)
+            return true
+        } catch {
+            dataMessage = "原单词数据备份失败，已取消教材词库迁移：\(error.localizedDescription)"
+            return false
+        }
+    }
+
+    private func canonicalWord(_ value: String) -> String {
+        normalizeWord(value)
+            .replacingOccurrences(of: "’", with: "'")
+            .replacingOccurrences(of: "‘", with: "'")
+    }
+
     private func enrichWordsFromDictionary() {
         var changed = false
 
@@ -443,5 +529,9 @@ final class WordStore: ObservableObject {
 
     private func practiceSessionFileURL() -> URL {
         appSupportDirectory().appendingPathComponent("practice_session.json")
+    }
+
+    private func textbookMigrationMarkerURL() -> URL {
+        appSupportDirectory().appendingPathComponent("textbook_baseline_version.txt")
     }
 }

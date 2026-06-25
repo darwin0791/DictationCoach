@@ -24,6 +24,13 @@ final class TextbookIndex {
         sortedValues { $0.unit }
     }
 
+    var verifiedVocabulary: [(word: String, meaning: String)] {
+        tagsByWord.map { word, tags in
+            (word: word, meaning: tags.first?.meaning ?? "")
+        }
+        .sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
+    }
+
     func tags(for word: String) -> [TextbookTag] {
         let normalized = normalize(word)
         if let tags = tagsByWord[normalized] {

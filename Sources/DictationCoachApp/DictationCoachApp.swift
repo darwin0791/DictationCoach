@@ -11,6 +11,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 struct DictationCoachApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var store = WordStore()
+    @StateObject private var sentenceStore = SentenceStore()
     @StateObject private var speech = SpeechService()
 
     init() {
@@ -19,8 +20,9 @@ struct DictationCoachApp: App {
 
     var body: some Scene {
         WindowGroup("DictationCoach") {
-            ContentView()
+            AppRootView()
                 .environmentObject(store)
+                .environmentObject(sentenceStore)
                 .environmentObject(speech)
                 .environment(\.font, AppFont.font(size: 16))
                 .frame(minWidth: 1225, minHeight: 680)
