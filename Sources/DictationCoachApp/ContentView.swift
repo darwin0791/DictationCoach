@@ -320,6 +320,7 @@ struct PracticeView: View {
     @State private var selectedGrade = "全部年级"
     @State private var selectedBook = "全部册"
     @State private var selectedUnit = "全部单元"
+    @State private var selectedRequirement = VocabularyRequirement.allFilterTitle
     @State private var didRestoreSession = false
 
     private var currentWord: WordEntry? {
@@ -342,6 +343,7 @@ struct PracticeView: View {
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
                 && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
+                && VocabularyRequirement.matchesFilter(selectedRequirement, tag: tag)
         } ?? tags.first
     }
 
@@ -366,7 +368,10 @@ struct PracticeView: View {
     }
 
     private var hasActiveFilter: Bool {
-        selectedGrade != "全部年级" || selectedBook != "全部册" || selectedUnit != "全部单元"
+        selectedGrade != "全部年级"
+            || selectedBook != "全部册"
+            || selectedUnit != "全部单元"
+            || selectedRequirement != VocabularyRequirement.allFilterTitle
     }
 
     var body: some View {
@@ -384,6 +389,7 @@ struct PracticeView: View {
                     VStack(alignment: .center, spacing: 0) {
                         HStack(spacing: 8) {
                             PracticeModeDropdown(selection: $mode)
+                            textbookPicker(title: "要求", selection: $selectedRequirement, values: VocabularyRequirement.filterValues)
                             textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades)
                             textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks)
                             textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits)
@@ -393,6 +399,7 @@ struct PracticeView: View {
                                     selectedGrade = "全部年级"
                                     selectedBook = "全部册"
                                     selectedUnit = "全部单元"
+                                    selectedRequirement = VocabularyRequirement.allFilterTitle
                                 } label: {
                                     Text("重置")
                                         .font(AppFont.font(size: 13, weight: .semibold))
@@ -508,6 +515,10 @@ struct PracticeView: View {
                                             .padding(.vertical, 4)
                                             .background(PaperTheme.note.opacity(0.68))
                                             .clipShape(RoundedRectangle(cornerRadius: 6))
+                                    }
+
+                                    if let textbookTag = currentTextbookTag {
+                                        RequirementTag(requirement: textbookTag.effectiveRequirement)
                                     }
                                 }
                                 StatLine(label: "释义", value: displayedPracticeMeaning)
@@ -779,6 +790,7 @@ struct PracticeView: View {
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
                 && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
+                && VocabularyRequirement.matchesFilter(selectedRequirement, tag: tag)
         }
     }
 
@@ -854,6 +866,7 @@ struct PracticeView: View {
         selectedGrade = snapshot.selectedGrade
         selectedBook = snapshot.selectedBook
         selectedUnit = snapshot.selectedUnit
+        selectedRequirement = snapshot.selectedRequirement ?? VocabularyRequirement.allFilterTitle
         queue = restoredQueue
         currentIndex = min(max(snapshot.currentIndex, 0), restoredQueue.count - 1)
         hoveredDecision = nil
@@ -875,6 +888,7 @@ struct PracticeView: View {
             selectedGrade: selectedGrade,
             selectedBook: selectedBook,
             selectedUnit: selectedUnit,
+            selectedRequirement: selectedRequirement,
             savedAt: Date()
         ))
     }
@@ -937,6 +951,7 @@ struct WordBookView: View {
     @State private var selectedGrade = "全部年级"
     @State private var selectedBook = "全部册"
     @State private var selectedUnit = "全部单元"
+    @State private var selectedRequirement = VocabularyRequirement.allFilterTitle
     @State private var wordInputWarning: WordInputWarning?
 
     private var filteredWords: [WordEntry] {
@@ -949,7 +964,10 @@ struct WordBookView: View {
     }
 
     private var hasActiveFilter: Bool {
-        selectedGrade != "全部年级" || selectedBook != "全部册" || selectedUnit != "全部单元"
+        selectedGrade != "全部年级"
+            || selectedBook != "全部册"
+            || selectedUnit != "全部单元"
+            || selectedRequirement != VocabularyRequirement.allFilterTitle
     }
 
     var body: some View {
@@ -1076,6 +1094,7 @@ struct WordBookView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 7))
 
                     HStack(spacing: 8) {
+                        textbookPicker(title: "要求", selection: $selectedRequirement, values: VocabularyRequirement.filterValues)
                         textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades)
                         textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks)
                         textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits)
@@ -1085,6 +1104,7 @@ struct WordBookView: View {
                                 selectedGrade = "全部年级"
                                 selectedBook = "全部册"
                                 selectedUnit = "全部单元"
+                                selectedRequirement = VocabularyRequirement.allFilterTitle
                             } label: {
                                 Text("重置")
                                     .font(AppFont.font(size: 13, weight: .semibold))
@@ -1134,12 +1154,13 @@ struct WordBookView: View {
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
                 && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
+                && VocabularyRequirement.matchesFilter(selectedRequirement, tag: tag)
         }
     }
 
     private func wordMatches(_ word: WordEntry, query: String) -> Bool {
         let textbookText = store.textbookTags(for: word)
-            .map { "\($0.grade) \($0.book) \($0.unit) \($0.meaning)" }
+            .map { "\($0.grade) \($0.book) \($0.unit) \($0.meaning) \($0.effectiveRequirement.displayName)" }
             .joined(separator: " ")
         let haystacks = [
             word.word,
@@ -1281,13 +1302,17 @@ struct WordRow: View {
                     if !tags.isEmpty {
                         HStack(spacing: 6) {
                             ForEach(tags.prefix(2)) { tag in
-                                Text(tag.label)
-                                    .font(AppFont.font(size: 12, weight: .semibold))
-                                    .foregroundStyle(PaperTheme.blueInk)
-                                    .padding(.horizontal, 7)
-                                    .padding(.vertical, 3)
-                                    .background(PaperTheme.note.opacity(0.75))
-                                    .clipShape(RoundedRectangle(cornerRadius: 6))
+                                HStack(spacing: 4) {
+                                    Text(tag.label)
+                                        .font(AppFont.font(size: 12, weight: .semibold))
+                                        .foregroundStyle(PaperTheme.blueInk)
+                                        .padding(.horizontal, 7)
+                                        .padding(.vertical, 3)
+                                        .background(PaperTheme.note.opacity(0.75))
+                                        .clipShape(RoundedRectangle(cornerRadius: 6))
+
+                                    RequirementTag(requirement: tag.effectiveRequirement)
+                                }
                             }
                         }
                     }
@@ -1390,6 +1415,7 @@ struct WrongBookView: View {
     @State private var selectedGrade = "全部年级"
     @State private var selectedBook = "全部册"
     @State private var selectedUnit = "全部单元"
+    @State private var selectedRequirement = VocabularyRequirement.allFilterTitle
 
     private var filteredWrongWords: [WordEntry] {
         let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
@@ -1401,7 +1427,10 @@ struct WrongBookView: View {
     }
 
     private var hasActiveFilter: Bool {
-        selectedGrade != "全部年级" || selectedBook != "全部册" || selectedUnit != "全部单元"
+        selectedGrade != "全部年级"
+            || selectedBook != "全部册"
+            || selectedUnit != "全部单元"
+            || selectedRequirement != VocabularyRequirement.allFilterTitle
     }
 
     var body: some View {
@@ -1443,6 +1472,7 @@ struct WrongBookView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 7))
 
                         HStack(spacing: 8) {
+                            textbookPicker(title: "要求", selection: $selectedRequirement, values: VocabularyRequirement.filterValues)
                             textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades)
                             textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks)
                             textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits)
@@ -1452,6 +1482,7 @@ struct WrongBookView: View {
                                     selectedGrade = "全部年级"
                                     selectedBook = "全部册"
                                     selectedUnit = "全部单元"
+                                    selectedRequirement = VocabularyRequirement.allFilterTitle
                                 } label: {
                                     Text("重置")
                                         .font(AppFont.font(size: 13, weight: .semibold))
@@ -1483,6 +1514,19 @@ struct WrongBookView: View {
                                                 .font(AppFont.font(size: 15, weight: .medium))
                                                 .foregroundStyle(PaperTheme.ink)
                                                 .lineLimit(1)
+
+                                            if let tag = store.textbookTags(for: word).first {
+                                                HStack(spacing: 6) {
+                                                    Text(tag.label)
+                                                        .font(AppFont.font(size: 12, weight: .semibold))
+                                                        .foregroundStyle(PaperTheme.blueInk)
+                                                        .padding(.horizontal, 7)
+                                                        .padding(.vertical, 3)
+                                                        .background(PaperTheme.note.opacity(0.75))
+                                                        .clipShape(RoundedRectangle(cornerRadius: 6))
+                                                    RequirementTag(requirement: tag.effectiveRequirement)
+                                                }
+                                            }
                                         }
                                         Spacer()
                                         VStack(alignment: .trailing, spacing: 6) {
@@ -1528,12 +1572,13 @@ struct WrongBookView: View {
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
                 && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
+                && VocabularyRequirement.matchesFilter(selectedRequirement, tag: tag)
         }
     }
 
     private func wordMatches(_ word: WordEntry, query: String) -> Bool {
         let textbookText = store.textbookTags(for: word)
-            .map { "\($0.grade) \($0.book) \($0.unit) \($0.meaning)" }
+            .map { "\($0.grade) \($0.book) \($0.unit) \($0.meaning) \($0.effectiveRequirement.displayName)" }
             .joined(separator: " ")
         let haystacks = [
             word.word,

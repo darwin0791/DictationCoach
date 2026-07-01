@@ -1,278 +1,830 @@
 {
   "younger": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更年轻的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更年轻的",
+      "requirement": "write"
+    }
   ],
   "older": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更年长的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更年长的",
+      "requirement": "write"
+    }
   ],
   "taller": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更高的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更高的",
+      "requirement": "write"
+    }
   ],
   "shorter": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更矮的；更短的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更矮的；更短的",
+      "requirement": "write"
+    }
   ],
   "longer": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更长的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更长的",
+      "requirement": "write"
+    }
   ],
   "thinner": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更瘦的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更瘦的",
+      "requirement": "write"
+    }
   ],
   "heavier": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更重的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更重的",
+      "requirement": "write"
+    }
   ],
   "bigger": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更大的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更大的",
+      "requirement": "write"
+    }
   ],
   "smaller": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更小的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更小的",
+      "requirement": "recognize"
+    }
   ],
   "stronger": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更强壮的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更强壮的",
+      "requirement": "write"
+    }
   ],
   "dinosaur": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "恐龙" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "恐龙",
+      "requirement": "recognize"
+    }
   ],
   "hall": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "大厅" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "大厅",
+      "requirement": "recognize"
+    }
   ],
   "metre": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "米" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "米",
+      "requirement": "recognize"
+    }
   ],
   "meter": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "米" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "米",
+      "requirement": "recognize"
+    }
   ],
   "than": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "比" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "比",
+      "requirement": "recognize"
+    }
   ],
   "both": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "两个都" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "两个都",
+      "requirement": "recognize"
+    }
   ],
   "kilogram": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "千克" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "千克",
+      "requirement": "recognize"
+    }
   ],
   "countryside": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "乡村" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "乡村",
+      "requirement": "recognize"
+    }
   ],
   "lower": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更低的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更低的",
+      "requirement": "write"
+    }
   ],
   "shadow": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "阴影；影子" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "阴影；影子",
+      "requirement": "recognize"
+    }
   ],
   "smarter": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "更聪明的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "更聪明的",
+      "requirement": "recognize"
+    }
   ],
   "become": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 1", "meaning": "开始变得；变成" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "开始变得；变成",
+      "requirement": "recognize"
+    }
   ],
   "cleaned": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "打扫" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "打扫",
+      "requirement": "write"
+    }
   ],
   "stayed": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "停留；待" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "停留；待",
+      "requirement": "write"
+    }
   ],
   "washed": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "洗" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "洗",
+      "requirement": "write"
+    }
   ],
   "watched": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "看" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "看",
+      "requirement": "write"
+    }
   ],
   "had": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "患病；得病；有" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "患病；得病；有",
+      "requirement": "write"
+    }
   ],
   "slept": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "睡觉" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "睡觉",
+      "requirement": "write"
+    }
   ],
   "read": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "读" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "读",
+      "requirement": "write"
+    }
   ],
   "saw": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "看见" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "看见",
+      "requirement": "write"
+    }
   ],
   "last": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "最近的；上一个的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "最近的；上一个的",
+      "requirement": "write"
+    }
   ],
   "yesterday": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "昨天" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "昨天",
+      "requirement": "write"
+    }
   ],
   "before": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "在……之前" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "在……之前",
+      "requirement": "write"
+    }
   ],
   "drank": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "喝" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "喝",
+      "requirement": "recognize"
+    }
   ],
   "show": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "演出；节目" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "演出；节目",
+      "requirement": "recognize"
+    }
   ],
   "magazine": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "杂志" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "杂志",
+      "requirement": "recognize"
+    }
   ],
   "better": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "更好的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "更好的",
+      "requirement": "recognize"
+    }
   ],
   "faster": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "更快的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "更快的",
+      "requirement": "recognize"
+    }
   ],
   "hotel": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "旅馆" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "旅馆",
+      "requirement": "recognize"
+    }
   ],
   "fixed": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "修理" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "修理",
+      "requirement": "recognize"
+    }
   ],
   "broken": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "破损的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "破损的",
+      "requirement": "recognize"
+    }
   ],
   "lamp": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "台灯" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "台灯",
+      "requirement": "recognize"
+    }
   ],
   "loud": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "喧闹的；大声的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "喧闹的；大声的",
+      "requirement": "recognize"
+    }
   ],
   "enjoy": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "享受；喜爱" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "享受；喜爱",
+      "requirement": "recognize"
+    }
   ],
   "stay": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 2", "meaning": "暂住；逗留" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "暂住；逗留",
+      "requirement": "recognize"
+    }
   ],
   "went": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "去" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "去",
+      "requirement": "write"
+    }
   ],
   "camp": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "野营" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "野营",
+      "requirement": "write"
+    }
   ],
   "went camping": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "去野营" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "去野营",
+      "requirement": "write"
+    }
   ],
   "fish": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "钓鱼；鱼" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "钓鱼；鱼",
+      "requirement": "write"
+    }
   ],
   "went fishing": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "去钓鱼" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "去钓鱼",
+      "requirement": "write"
+    }
   ],
   "rode": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "骑" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "骑",
+      "requirement": "write"
+    }
   ],
   "hurt": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "受伤" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "受伤",
+      "requirement": "write"
+    }
   ],
   "ate": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "吃" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "吃",
+      "requirement": "write"
+    }
   ],
   "took": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "拍照；拿" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "拍照；拿",
+      "requirement": "write"
+    }
   ],
   "took pictures": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "拍照" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "拍照",
+      "requirement": "write"
+    }
   ],
   "bought": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "买" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "买",
+      "requirement": "recognize"
+    }
   ],
   "gift": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "礼物" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "礼物",
+      "requirement": "write"
+    }
   ],
   "fell": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "摔倒；落下" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "摔倒；落下",
+      "requirement": "recognize"
+    }
   ],
   "off": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "从……离开" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "从……离开",
+      "requirement": "recognize"
+    }
   ],
   "labour day": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "劳动节" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "劳动节",
+      "requirement": "recognize"
+    }
   ],
   "labor day": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "劳动节" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "劳动节",
+      "requirement": "recognize"
+    }
   ],
   "mule": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "骡子" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "骡子",
+      "requirement": "recognize"
+    }
   ],
   "turpan": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "吐鲁番" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "吐鲁番",
+      "requirement": "recognize"
+    }
   ],
   "could": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "能" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "能",
+      "requirement": "recognize"
+    }
   ],
   "till": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "直到" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "直到",
+      "requirement": "recognize"
+    }
   ],
   "beach": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "海滩" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "海滩",
+      "requirement": "recognize"
+    }
   ],
   "basket": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "篮；筐" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "篮；筐",
+      "requirement": "recognize"
+    }
   ],
   "part": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "角色；部分" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "角色；部分",
+      "requirement": "recognize"
+    }
   ],
   "licked": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "舔" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "舔",
+      "requirement": "recognize"
+    }
   ],
   "laughed": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 3", "meaning": "笑" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "笑",
+      "requirement": "recognize"
+    }
   ],
   "dining hall": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "饭厅" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "饭厅",
+      "requirement": "write"
+    }
   ],
   "grass": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "草坪" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "草坪",
+      "requirement": "write"
+    }
   ],
   "gym": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "体育馆" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "体育馆",
+      "requirement": "write"
+    }
   ],
   "ago": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "以前" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "以前",
+      "requirement": "write"
+    }
   ],
   "cycling": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "骑自行车运动" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "骑自行车运动",
+      "requirement": "write"
+    }
   ],
   "go cycling": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "去骑自行车" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "去骑自行车",
+      "requirement": "write"
+    }
   ],
   "ice-skate": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "滑冰" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "滑冰",
+      "requirement": "recognize"
+    }
   ],
   "badminton": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "羽毛球运动" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "羽毛球运动",
+      "requirement": "write"
+    }
   ],
   "star": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "星" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "星",
+      "requirement": "recognize"
+    }
   ],
   "easy": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "容易的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "容易的",
+      "requirement": "recognize"
+    }
   ],
   "look up": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "查阅" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "查阅",
+      "requirement": "recognize"
+    }
   ],
   "internet": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "互联网" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "互联网",
+      "requirement": "recognize"
+    }
   ],
   "different": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "不同的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "不同的",
+      "requirement": "recognize"
+    }
   ],
   "active": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "积极的；活跃的" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "积极的；活跃的",
+      "requirement": "recognize"
+    }
   ],
   "race": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "赛跑" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "赛跑",
+      "requirement": "recognize"
+    }
   ],
   "nothing": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "没有什么" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "没有什么",
+      "requirement": "recognize"
+    }
   ],
   "thought": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "想" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "想",
+      "requirement": "recognize"
+    }
   ],
   "felt": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "感觉" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "感觉",
+      "requirement": "recognize"
+    }
   ],
   "cheetah": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "猎豹" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "猎豹",
+      "requirement": "recognize"
+    }
   ],
   "trip": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "绊倒" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "绊倒",
+      "requirement": "recognize"
+    }
   ],
   "woke": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "醒" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "醒",
+      "requirement": "recognize"
+    }
   ],
   "dream": [
-    { "grade": "六年级", "book": "下册", "unit": "Unit 4", "meaning": "梦" }
+    {
+      "grade": "六年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "梦",
+      "requirement": "recognize"
+    }
   ]
 }

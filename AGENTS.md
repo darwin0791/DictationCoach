@@ -62,6 +62,10 @@ swift run DictationCoach
 - `scripts/generate_pep_vocab.rb`：从 21 世纪教育网页面生成教材词表索引。
 - `scripts/apply_pep2012_pdf_corrections.rb`：把已从 PEP 2012 版教材扫描页核对过的短语和释义修正应用到 `pep_vocab.json`。
 - `教材数据整理/pep2012_sentences_verified.json`：从用户提供的 35 页扫描 PDF 整理并经用户校验确认的参考数据，共 285 条，其中常用表达 263 条、谚语 22 条；保留 `sourcePDFPage` 用于回查原页。
+- `教材数据整理/词汇学习要求标注表.csv`：从现有 PEP 2012 词汇基准导出的人工标注表，共 816 条教材记录、785 个不同单词或短语；用户只填写「要求」列，用于补齐会写/认读标识。
+- `教材数据整理/词汇学习要求标注说明.md`：给用户填写标注表的简短说明。
+- `scripts/export_vocab_requirement_template.rb`：从 `pep_vocab.json` 和 `pep_vocab_supplement.json` 合并导出词汇学习要求标注表；后续词库变更后可重新运行。
+- `scripts/import_vocab_requirements.rb`：把用户填写后的 `词汇学习要求标注表.csv` 导回教材词库，写入 `requirement` 字段。
 - `scripts/clean_pep2012_sentences.rb`：清理句子 OCR 中的跨栏断句、附录标题噪声，应用已确认的英文拼写修正，并标记 22 条谚语。
 - `scripts/audit_pep2012_against_ecdict.py`：只用 ECDICT 和基础词形规则粗筛教材英文拼写，不比较中文翻译，也不自动替换；结果写入 `教材数据整理/ecdict_*_spelling_review.json`。
 - `remotion-intro/`：产品进场动画工程，4.6 秒、1920×1080、30 fps；画面只使用 `logo.svg` 和英文标题 `DictationCoach`，运行 `npm run studio` 预览、`npm run render` 输出 MP4。
@@ -205,10 +209,17 @@ swift run DictationCoach
 ## 教材分类逻辑
 
 - 教材索引的唯一基准是用户已核对确认的人教 PEP 2012 版 3-6 年级教材数据：816 条教材记录、785 个不同单词或短语。后续产品匹配、分类和校验均以该数据为准。
+- 教材词汇记录必须包含学习要求字段 `requirement`，用于区分课本要求；当前已导入用户标注结果：会写 463 条、认读 353 条、未标注 0 条。
+  - `write`：会写，等价于课本要求听说读写。
+  - `recognize`：认读，等价于课本只要求听说读、不要求默写。
+  - `unknown`：未标注，用于历史数据或暂未核对的词条过渡。
+- 后续录入初中或高中教材词汇时，必须同步录入 `requirement` 标识，不得只录年级、册、单元、单词和释义。
+- 如果教材只用加粗体/标准体区分“会写/认读”，扫描版或 OCR 结果不能直接作为可靠判断；应优先通过人工核对标注表补齐，再由脚本合并回教材词库。
+- 听写、单词本和错题集支持按 `requirement` 筛选：全部、会写、认读、未标注；默认仍由用户自行选择，不自动限定为会写词。
 - `http://zy.21cnjy.com/17820367` 只是初始网页词表的历史来源，不再是产品数据真值来源，不得用重新爬取的网页数据覆盖已核对结果。
 - 当前六年级下册的 92 条记录仍暂存在 `pep_vocab_supplement.json`，应用启动时与主词表合并；这是文件组织方式，不代表其数据级别低于主词表。
 - ECDICT 只用于补充音标、通用中文释义和词形；`zk/gk` 标签不参与 3-6 年级教材归属判定。
-- 本地资源文件是 `pep_vocab.json`，结构为 `word -> [grade/book/unit/meaning]`。
+- 本地资源文件是 `pep_vocab.json`，结构为 `word -> [grade/book/unit/meaning/requirement]`。
 - 网页解析曾把 `baby brother`、`football player`、`sports meet` 等短语拆坏；重新生成主词表后必须再次运行 PDF 修正脚本，不能直接覆盖已核对结果：
 
 ```bash
@@ -218,7 +229,7 @@ ruby scripts/apply_pep2012_pdf_corrections.rb Sources/DictationCoachApp/Resource
 - 听写页面展示的中文释义必须使用当前年级、册、单元对应的教材义项，不得回退到 ECDICT；未匹配教材时显示“未收录教材释义”。单词本和错题集继续展示 ECDICT 通用释义。
 - 教材原释义可能包含英文词形说明，如“（clean 的过去式）打扫”。未来中文播报需要单独生成纯中文提示，不能直接朗读并泄露英文答案。
 - 后续扩展句子功能时，以 `教材数据整理/pep2012_sentences_verified.json` 为 PEP 2012 版参考源；不要重新从 OCR 草稿或通用词典生成教材句子。
-- 单词本筛选器包括：年级、册、单元。
+- 单词本、听写页和错题集筛选器包括：要求、年级、册、单元。
 - 筛选清空操作在所有页面统一使用「重置」文字按钮，文字不得换行或被压缩成竖条；不使用单独图标。
 - 年级、册、单元下拉筛选统一使用纸面下拉样式：外层圆角矩形包住控件，左侧是字段名，中间细分割线，右侧才是可点击下拉选项区，默认显示“全部”，展开后显示字典项。不要退回系统默认小灰色 Picker。
 - 未匹配到教材索引的单词，在未筛选时正常显示；启用教材筛选后不显示。

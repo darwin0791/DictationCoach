@@ -287,6 +287,32 @@ struct StatusTag: View {
     }
 }
 
+struct RequirementTag: View {
+    var requirement: VocabularyRequirement
+
+    private var color: Color {
+        switch requirement {
+        case .write: return PaperTheme.greenInk
+        case .recognize: return PaperTheme.blueInk
+        case .unknown: return PaperTheme.mutedInk
+        }
+    }
+
+    var body: some View {
+        Text(requirement.displayName)
+            .font(AppFont.font(size: 12, weight: .semibold))
+            .foregroundStyle(color)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(color.opacity(0.1))
+            .overlay(
+                RoundedRectangle(cornerRadius: 6)
+                    .stroke(color.opacity(0.35), lineWidth: 1)
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 6))
+    }
+}
+
 struct IconOnlyButtonStyle: ButtonStyle {
     var color: Color
 

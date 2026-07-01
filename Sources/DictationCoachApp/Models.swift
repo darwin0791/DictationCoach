@@ -114,6 +114,7 @@ struct PracticeSessionSnapshot: Codable {
     var selectedGrade: String
     var selectedBook: String
     var selectedUnit: String
+    var selectedRequirement: String?
     var savedAt: Date
 }
 
@@ -129,13 +130,44 @@ struct TextbookTag: Codable, Hashable, Identifiable {
     var book: String
     var unit: String
     var meaning: String
+    var requirement: VocabularyRequirement?
 
     var id: String {
-        "\(grade)-\(book)-\(unit)-\(meaning)"
+        "\(grade)-\(book)-\(unit)-\(meaning)-\(effectiveRequirement.rawValue)"
     }
 
     var label: String {
         "\(grade)\(book) \(unit)"
+    }
+
+    var effectiveRequirement: VocabularyRequirement {
+        requirement ?? .unknown
+    }
+}
+
+enum VocabularyRequirement: String, Codable, CaseIterable, Identifiable {
+    case write
+    case recognize
+    case unknown
+
+    var id: String { rawValue }
+
+    var displayName: String {
+        switch self {
+        case .write: return "会写"
+        case .recognize: return "认读"
+        case .unknown: return "未标注"
+        }
+    }
+
+    static let allFilterTitle = "全部要求"
+
+    static var filterValues: [String] {
+        [allFilterTitle] + allCases.map(\.displayName)
+    }
+
+    static func matchesFilter(_ filter: String, tag: TextbookTag) -> Bool {
+        filter == allFilterTitle || tag.effectiveRequirement.displayName == filter
     }
 }
 
