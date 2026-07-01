@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Rough-screen OCR English spelling against the bundled ECDICT database."""
+"""Rough-screen OCR English spelling against ECDICT.
+
+The full ECDICT database is a development-time source and is no longer bundled
+in the app resources. This audit uses the full raw source when available, then
+falls back to the compact runtime dictionary.
+"""
 
 import json
 import re
@@ -9,7 +14,13 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DB_PATH = ROOT / "Sources/DictationCoachApp/Resources/stardict.db"
+DB_CANDIDATES = [
+    ROOT / "教材数据整理/raw/stardict_full.db",
+    ROOT / "教材数据整理/stardict_full.db",
+    ROOT / "Sources/DictationCoachApp/Resources/stardict.db",
+    ROOT / "Sources/DictationCoachApp/Resources/mini_stardict.db",
+]
+DB_PATH = next((path for path in DB_CANDIDATES if path.exists()), DB_CANDIDATES[-1])
 VOCAB_PATHS = [
     ROOT / "Sources/DictationCoachApp/Resources/pep_vocab.json",
     ROOT / "Sources/DictationCoachApp/Resources/pep_vocab_supplement.json",

@@ -11,6 +11,10 @@ APP_DIR="$ROOT_DIR/build/DictationCoach.app"
 EXECUTABLE="$BUILD_DIR/DictationCoach"
 RESOURCE_BUNDLE="$BUILD_DIR/AIEnglishDictationCoach_DictationCoachApp.bundle"
 
+# SwiftPM may leave deleted resources in an existing bundle between builds.
+# The full ECDICT source database must never be copied into the packaged app.
+find "$RESOURCE_BUNDLE" -name "stardict.db" -delete
+
 rm -rf "$APP_DIR"
 mkdir -p "$APP_DIR/Contents/MacOS"
 mkdir -p "$APP_DIR/Contents/Resources"
@@ -41,9 +45,9 @@ cat > "$APP_DIR/Contents/Info.plist" <<'PLIST'
   <key>CFBundlePackageType</key>
   <string>APPL</string>
   <key>CFBundleShortVersionString</key>
-  <string>0.1.0</string>
+  <string>0.2.0</string>
   <key>CFBundleVersion</key>
-  <string>1</string>
+  <string>2</string>
   <key>LSMinimumSystemVersion</key>
   <string>13.0</string>
   <key>NSHighResolutionCapable</key>

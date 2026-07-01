@@ -7,7 +7,7 @@ final class SQLiteDictionary {
     private var db: OpaquePointer?
 
     init() {
-        guard let url = Bundle.module.url(forResource: "stardict", withExtension: "db") else {
+        guard let url = Bundle.module.url(forResource: "mini_stardict", withExtension: "db") else {
             return
         }
 

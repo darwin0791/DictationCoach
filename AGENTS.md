@@ -52,7 +52,7 @@ swift run DictationCoach
 - `Sources/DictationCoachApp/PaperStyles.swift`：纸张风格、卡片、按钮、标签。
 - `Sources/DictationCoachApp/FontRegistry.swift`：`ukai.ttc` 字体注册。
 - `Sources/DictationCoachApp/IntroVideoView.swift`：启动动画的无控件原生播放器和主界面切换。
-- `Sources/DictationCoachApp/Resources/stardict.db`：大型本地 ECDICT SQLite 词典。
+- `Sources/DictationCoachApp/Resources/mini_stardict.db`：运行时使用的精简 ECDICT SQLite 词典，当前约 3MB、1.38 万条；表名仍为 `stardict`。
 - `Sources/DictationCoachApp/Resources/ukai.ttc`：应用文字字体。
 - `Sources/DictationCoachApp/Resources/ipa_dictionary.json`：轻量兜底词卡词典。
 - `Sources/DictationCoachApp/Resources/pep_vocab.json`：人教版 PEP 3-6 年级教材词表索引。
@@ -68,6 +68,7 @@ swift run DictationCoach
 - `scripts/import_vocab_requirements.rb`：把用户填写后的 `词汇学习要求标注表.csv` 导回教材词库，写入 `requirement` 字段。
 - `scripts/clean_pep2012_sentences.rb`：清理句子 OCR 中的跨栏断句、附录标题噪声，应用已确认的英文拼写修正，并标记 22 条谚语。
 - `scripts/audit_pep2012_against_ecdict.py`：只用 ECDICT 和基础词形规则粗筛教材英文拼写，不比较中文翻译，也不自动替换；结果写入 `教材数据整理/ecdict_*_spelling_review.json`。
+- `scripts/build_mini_stardict.py`：从完整 ECDICT 原料库抽取运行时精简词典，输出 `Sources/DictationCoachApp/Resources/mini_stardict.db` 和 `教材数据整理/mini_stardict_build_report.json`。
 - `remotion-intro/`：产品进场动画工程，4.6 秒、1920×1080、30 fps；画面只使用 `logo.svg` 和英文标题 `DictationCoach`，运行 `npm run studio` 预览、`npm run render` 输出 MP4。
 
 ## 数据和产物
@@ -86,8 +87,9 @@ swift run DictationCoach
 
 - `build/` 和 `.build/` 是生成产物，已忽略。
 - `.build/` 可以删除释放空间，下次构建会重新生成。
-- `build/DictationCoach.app` 里会复制一份 `stardict.db`，所以 app 体积较大。
-- 不要把 `.secrets/`、`.tools/`、`.vite/`、`.DS_Store`、`.build/`、`build/`、`node_modules/` 纳入版本历史。
+- `build/DictationCoach.app` 只应复制运行时精简词典 `mini_stardict.db`，不得再打包完整 800MB 级 `stardict.db`。
+- 完整 ECDICT 原料库如需保留，放在已忽略的 `教材数据整理/raw/stardict_full.db`，只供脚本抽取和审计使用。
+- 不要把 `.secrets/`、`.tools/`、`.vite/`、`.DS_Store`、`.build/`、`build/`、`node_modules/`、`教材数据整理/raw/` 纳入版本历史。
 
 ## 产品和 UX 规则
 
@@ -198,8 +200,9 @@ swift run DictationCoach
 
 ## 本地词典逻辑
 
-- 优先查 `stardict.db`。
+- 优先查运行时精简库 `mini_stardict.db`，表名仍为 `stardict`。
 - 查不到再用 `ipa_dictionary.json` 兜底。
+- `mini_stardict.db` 由 `scripts/build_mini_stardict.py` 从完整 ECDICT 抽取，包含教材词、教材句子词、教材短语兜底词条、`zk/gk/cet4` 标签词和高频词；重新生成后必须检查 `教材数据整理/mini_stardict_build_report.json`。
 - 如果精确词条有中文释义但没有音标，尝试基础词形补音标：
   - `parents -> parent`
   - `ies -> y`
