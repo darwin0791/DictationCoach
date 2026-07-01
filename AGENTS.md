@@ -61,15 +61,13 @@ swift run DictationCoach
 - `Sources/DictationCoachApp/Resources/dictationcoach-intro.mp4`：应用每次启动时播放一次的 1920×1080 进场动画。
 - `scripts/generate_pep_vocab.rb`：从 21 世纪教育网页面生成教材词表索引。
 - `scripts/apply_pep2012_pdf_corrections.rb`：把已从 PEP 2012 版教材扫描页核对过的短语和释义修正应用到 `pep_vocab.json`。
-- `教材数据整理/pep2012_sentences_verified.json`：从用户提供的 35 页扫描 PDF 整理并经用户校验确认的参考数据，共 285 条，其中常用表达 263 条、谚语 22 条；保留 `sourcePDFPage` 用于回查原页。
-- `教材数据整理/词汇学习要求标注表.csv`：从现有 PEP 2012 词汇基准导出的人工标注表，共 816 条教材记录、785 个不同单词或短语；用户只填写「要求」列，用于补齐会写/认读标识。
-- `教材数据整理/词汇学习要求标注说明.md`：给用户填写标注表的简短说明。
+- `教材数据整理/`：本机过程资料目录，已从 GitHub 版本历史移出并整体忽略；如需重新抽取词典或回查 OCR/标注过程，在本机保留即可。
 - `scripts/export_vocab_requirement_template.rb`：从 `pep_vocab.json` 和 `pep_vocab_supplement.json` 合并导出词汇学习要求标注表；后续词库变更后可重新运行。
 - `scripts/import_vocab_requirements.rb`：把用户填写后的 `词汇学习要求标注表.csv` 导回教材词库，写入 `requirement` 字段。
 - `scripts/clean_pep2012_sentences.rb`：清理句子 OCR 中的跨栏断句、附录标题噪声，应用已确认的英文拼写修正，并标记 22 条谚语。
 - `scripts/audit_pep2012_against_ecdict.py`：只用 ECDICT 和基础词形规则粗筛教材英文拼写，不比较中文翻译，也不自动替换；结果写入 `教材数据整理/ecdict_*_spelling_review.json`。
 - `scripts/build_mini_stardict.py`：从完整 ECDICT 原料库抽取运行时精简词典，输出 `Sources/DictationCoachApp/Resources/mini_stardict.db` 和 `教材数据整理/mini_stardict_build_report.json`。
-- `remotion-intro/`：产品进场动画工程，4.6 秒、1920×1080、30 fps；画面只使用 `logo.svg` 和英文标题 `DictationCoach`，运行 `npm run studio` 预览、`npm run render` 输出 MP4。
+- `remotion-intro/`、宣传页、社交卡、设计源图和背景音乐：本机创作素材，已从 GitHub 版本历史移出并整体忽略；Git 中只保留 App 运行需要的最终资源。
 
 ## 数据和产物
 
@@ -89,7 +87,7 @@ swift run DictationCoach
 - `.build/` 可以删除释放空间，下次构建会重新生成。
 - `build/DictationCoach.app` 只应复制运行时精简词典 `mini_stardict.db`，不得再打包完整 800MB 级 `stardict.db`。
 - 完整 ECDICT 原料库如需保留，放在已忽略的 `教材数据整理/raw/stardict_full.db`，只供脚本抽取和审计使用。
-- 不要把 `.secrets/`、`.tools/`、`.vite/`、`.DS_Store`、`.build/`、`build/`、`node_modules/`、`教材数据整理/raw/` 纳入版本历史。
+- 不要把 `.secrets/`、`.tools/`、`.vite/`、`.DS_Store`、`.build/`、`build/`、`node_modules/`、`教材数据整理/`、`remotion-intro/`、宣传素材目录和本机设计源文件纳入版本历史。
 
 ## 产品和 UX 规则
 

@@ -7,4 +7,22 @@ build/
 .tools/
 tmp/
 node_modules/
-教材数据整理/raw/
+
+# Local-only source material and generated marketing assets.
+Memory.md
+AI英语错题教练_PRD.md
+教材数据整理/
+remotion-intro/
+product-manual-infographic/
+social-card-zhengzi-xhs/
+product-video-voiceover.srt
+AppIcon.png
+AppIcon.xd
+logo.png
+logo.svg
+logo.xd
+zhengzi-manual-4x3.png
+已生成图像 1.png
+ChatGPT Image *.png
+Gemini_Generated_Image_*.png
+流行舒缓治愈风-*.mp3

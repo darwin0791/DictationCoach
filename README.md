@@ -94,6 +94,15 @@ python3 scripts/build_mini_stardict.py
 
 ECDICT 项目来源：[skywind3000/ECDICT](https://github.com/skywind3000/ECDICT)
 
+## GitHub 仓库范围
+
+GitHub 只保留构建和运行 App 必需的源码、脚本、文档与最终运行时资源。下列内容留在本机，不进入版本历史：
+
+- `教材数据整理/`：OCR、审计、人工标注和完整 ECDICT 原料等过程资料。
+- `remotion-intro/`：启动动画源工程；仓库只保留 App 使用的最终 `dictationcoach-intro.mp4`。
+- `product-manual-infographic/`、`social-card-zhengzi-xhs/`、根目录生成图、设计源文件和背景音乐等宣传素材。
+- `Memory.md`、旧版 `AI英语错题教练_PRD.md` 等本机工作记录或已废弃方向文档。
+
 ## 本地数据
 
 用户练习数据保存在：
@@ -200,9 +209,4 @@ scripts/
   build_mini_stardict.py         生成精简 ECDICT 运行词典
   audit_pep2012_against_ecdict.py 英文拼写粗筛
   apply_pep2012_pdf_corrections.rb 教材词表修正
-
-教材数据整理/
-  README.md                      教材数据整理过程和校验记录
-  pep2012_sentences_verified.json 已核验句子参考数据
-  词汇学习要求标注表.csv          人工标注表
 ```
