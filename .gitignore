@@ -3,6 +3,7 @@
 .build/
 .vite/
 build/
+dist/
 .secrets/
 .tools/
 tmp/
