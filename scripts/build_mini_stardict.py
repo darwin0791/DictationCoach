@@ -5,7 +5,7 @@ Build a compact ECDICT SQLite database for DictationCoach.
 The full ECDICT database is used as a development-time source only. This script
 extracts the words DictationCoach needs at runtime:
 
-- all PEP 2012 textbook vocabulary words and phrase components
+- all PEP 2012 and PEP 2024 textbook vocabulary words and phrase components
 - words appearing in verified textbook sentences/proverbs
 - ECDICT entries tagged as zk/gk/cet4
 - high-frequency ECDICT words by frq/bnc rank
@@ -35,6 +35,7 @@ DEFAULT_REPORT = ROOT / "教材数据整理" / "mini_stardict_build_report.json"
 VOCAB_PATHS = [
     RESOURCE_DIR / "pep_vocab.json",
     RESOURCE_DIR / "pep_vocab_supplement.json",
+    RESOURCE_DIR / "pep2024_vocab.json",
 ]
 SENTENCE_PATH = RESOURCE_DIR / "pep2012_sentences_verified.json"
 

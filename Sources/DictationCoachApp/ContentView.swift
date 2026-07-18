@@ -34,6 +34,7 @@ enum AppSection: String, CaseIterable, Identifiable {
 
 struct ContentView: View {
     @State private var selectedSection: AppSection = .practice
+    @State private var sectionRevision = UUID()
 
     var body: some View {
         ZStack {
@@ -42,7 +43,10 @@ struct ContentView: View {
                 ZStack(alignment: .topLeading) {
                     SidebarBackground()
 
-                    AppSidebar(selectedSection: $selectedSection)
+                    AppSidebar(selectedSection: $selectedSection) { section in
+                        selectedSection = section
+                        sectionRevision = UUID()
+                    }
                         .padding(.leading, 26)
                         .padding(.top, 54)
                         .padding(.bottom, 22)
@@ -61,6 +65,7 @@ struct ContentView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
 
                     selectedContent
+                        .id(sectionRevision)
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
                         .padding(.leading, 42)
                         .padding(.top, 40)
@@ -92,6 +97,7 @@ struct ContentView: View {
 
 struct AppSidebar: View {
     @Binding var selectedSection: AppSection
+    var onSelect: (AppSection) -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: 22) {
@@ -104,7 +110,7 @@ struct AppSidebar: View {
                     isSelected: selectedSection == section
                 ) {
                     withAnimation(.easeOut(duration: 0.18)) {
-                        selectedSection = section
+                        onSelect(section)
                     }
                 }
             }
@@ -209,7 +215,7 @@ struct AppLogoView: View {
     }
 
     private var appVersion: String {
-        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.2.0"
+        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.3.0"
     }
 }
 
@@ -322,6 +328,11 @@ struct PracticeView: View {
     @State private var selectedUnit = "全部单元"
     @State private var selectedRequirement = VocabularyRequirement.allFilterTitle
     @State private var didRestoreSession = false
+    @State private var selectedCatalogID: String?
+
+    private var activeCatalogID: String {
+        selectedCatalogID ?? TextbookCatalog.pepPrimary2012ID
+    }
 
     private var currentWord: WordEntry? {
         guard queue.indices.contains(currentIndex) else { return nil }
@@ -333,12 +344,14 @@ struct PracticeView: View {
     }
 
     private var practicePool: [WordEntry] {
-        let source = mode == .all ? store.allWordsSorted : store.activeWrongWords
+        let source = mode == .all
+            ? store.words(inCatalog: activeCatalogID)
+            : store.activeWrongWords(inCatalog: activeCatalogID)
         return source.filter(wordMatchesTextbookFilter)
     }
 
     private func textbookTag(for word: WordEntry) -> TextbookTag? {
-        let tags = store.textbookTags(for: word)
+        let tags = store.textbookTags(for: word, catalogID: activeCatalogID)
         return tags.first { tag in
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
@@ -375,8 +388,25 @@ struct PracticeView: View {
     }
 
     var body: some View {
+        if let selectedCatalogID,
+           let catalog = TextbookCatalog.catalog(withID: selectedCatalogID) {
+            practiceContent(catalog: catalog)
+        } else {
+            TextbookCatalogSelectionView(
+                module: .practice,
+                countForCatalog: { store.words(inCatalog: $0).count },
+                onSelect: { selectedCatalogID = $0.id }
+            )
+        }
+    }
+
+    private func practiceContent(catalog: TextbookCatalog) -> some View {
         VStack(alignment: .leading, spacing: 18) {
             HeaderBlock(title: "听写", subtitle: "按范围开始听写，记录每一次对错")
+            CatalogContextBar(catalog: catalog) {
+                speech.stop()
+                selectedCatalogID = nil
+            }
 
             HStack(alignment: .top, spacing: 18) {
                 PaperCard(title: nil, tint: PaperTheme.sheet) {
@@ -390,9 +420,9 @@ struct PracticeView: View {
                         HStack(spacing: 8) {
                             PracticeModeDropdown(selection: $mode)
                             textbookPicker(title: "要求", selection: $selectedRequirement, values: VocabularyRequirement.filterValues)
-                            textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades)
-                            textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks)
-                            textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits)
+                            textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades(catalogID: activeCatalogID))
+                            textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks(catalogID: activeCatalogID))
+                            textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits(catalogID: activeCatalogID))
 
                             if hasActiveFilter {
                                 Button {
@@ -497,10 +527,10 @@ struct PracticeView: View {
 
                             Divider()
 
-                            StatLine(label: "全部单词", value: "\(store.wordBookCount)")
+                            StatLine(label: "全部单词", value: "\(store.words(inCatalog: activeCatalogID).count)")
                             StatLine(label: "当前范围", value: "\(practicePool.count)")
-                            StatLine(label: "错题集", value: "\(store.wrongWords.count)")
-                            StatLine(label: "待复听", value: "\(store.activeWrongWords.count)")
+                            StatLine(label: "错题集", value: "\(store.wrongWords(inCatalog: activeCatalogID).count)")
+                            StatLine(label: "待复听", value: "\(store.activeWrongWords(inCatalog: activeCatalogID).count)")
 
                             if let currentWord {
                                 Divider()
@@ -785,7 +815,7 @@ struct PracticeView: View {
     private func wordMatchesTextbookFilter(_ word: WordEntry) -> Bool {
         guard hasActiveFilter else { return true }
 
-        let tags = store.textbookTags(for: word)
+        let tags = store.textbookTags(for: word, catalogID: activeCatalogID)
         return tags.contains { tag in
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
@@ -854,6 +884,7 @@ struct PracticeView: View {
         didRestoreSession = true
 
         guard let snapshot = store.loadPracticeSession() else { return }
+        guard (snapshot.catalogID ?? TextbookCatalog.pepPrimary2012ID) == activeCatalogID else { return }
         let restoredQueue = snapshot.wordIDs.compactMap { store.word(withID: $0) }
         guard !restoredQueue.isEmpty else {
             store.clearPracticeSession()
@@ -889,6 +920,7 @@ struct PracticeView: View {
             selectedBook: selectedBook,
             selectedUnit: selectedUnit,
             selectedRequirement: selectedRequirement,
+            catalogID: activeCatalogID,
             savedAt: Date()
         ))
     }
@@ -953,11 +985,16 @@ struct WordBookView: View {
     @State private var selectedUnit = "全部单元"
     @State private var selectedRequirement = VocabularyRequirement.allFilterTitle
     @State private var wordInputWarning: WordInputWarning?
+    @State private var selectedCatalogID: String?
+
+    private var activeCatalogID: String {
+        selectedCatalogID ?? TextbookCatalog.pepPrimary2012ID
+    }
 
     private var filteredWords: [WordEntry] {
         let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
 
-        return store.allWordsSorted.filter { word in
+        return store.words(inCatalog: activeCatalogID).filter { word in
             let matchesSearch = query.isEmpty || wordMatches(word, query: query)
             return matchesSearch && wordMatchesTextbookFilter(word)
         }
@@ -971,8 +1008,22 @@ struct WordBookView: View {
     }
 
     var body: some View {
+        if let selectedCatalogID,
+           let catalog = TextbookCatalog.catalog(withID: selectedCatalogID) {
+            wordBookContent(catalog: catalog)
+        } else {
+            TextbookCatalogSelectionView(
+                module: .wordBook,
+                countForCatalog: { store.words(inCatalog: $0).count },
+                onSelect: { selectedCatalogID = $0.id }
+            )
+        }
+    }
+
+    private func wordBookContent(catalog: TextbookCatalog) -> some View {
         VStack(alignment: .leading, spacing: 18) {
             HeaderBlock(title: "单词本", subtitle: "整理你的单词来源，随时查找和导入")
+            CatalogContextBar(catalog: catalog) { selectedCatalogID = nil }
 
             HStack(alignment: .top, spacing: 18) {
                 wordListCard
@@ -1009,7 +1060,7 @@ struct WordBookView: View {
                             Spacer(minLength: 0)
 
                             Button {
-                                store.importWords()
+                                attemptImportWords()
                             } label: {
                                 Label("导入单词", systemImage: "square.and.arrow.down")
                             }
@@ -1027,7 +1078,7 @@ struct WordBookView: View {
                             .frame(height: 70)
                     }
 
-                    OCRImportView()
+                    OCRImportView(destination: importDestination)
 
                     Text(store.dataMessage)
                         .font(AppFont.font(size: 13))
@@ -1043,7 +1094,9 @@ struct WordBookView: View {
                 title: Text(warning.title),
                 message: Text(warning.message),
                 primaryButton: .default(Text("仍然添加")) {
-                    store.addSingleWord(force: true)
+                    if let destination = importDestination {
+                        store.addSingleWord(destination: destination, force: true)
+                    }
                 },
                 secondaryButton: .cancel(Text("取消"))
             )
@@ -1051,18 +1104,54 @@ struct WordBookView: View {
     }
 
     private func attemptAddSingleWord() {
+        guard let destination = importDestination else {
+            store.dataMessage = importScopeMessage
+            return
+        }
         if let warning = store.pendingSingleWordWarning() {
             wordInputWarning = warning
         } else {
-            store.addSingleWord()
+            store.addSingleWord(destination: destination)
         }
+    }
+
+    private func attemptImportWords() {
+        guard let destination = importDestination else {
+            store.dataMessage = importScopeMessage
+            return
+        }
+        store.importWords(destination: destination)
+    }
+
+    private var importDestination: TextbookImportDestination? {
+        guard selectedGrade != "全部年级",
+              selectedBook != "全部册",
+              selectedUnit != "全部单元" else { return nil }
+        let requirement = VocabularyRequirement.allCases.first {
+            $0.displayName == selectedRequirement
+        } ?? .unknown
+        return TextbookImportDestination(
+            catalogID: activeCatalogID,
+            grade: selectedGrade,
+            book: selectedBook,
+            unit: selectedUnit,
+            requirement: requirement
+        )
+    }
+
+    private var importScopeMessage: String {
+        var missing: [String] = []
+        if selectedGrade == "全部年级" { missing.append("年级") }
+        if selectedBook == "全部册" { missing.append("册") }
+        if selectedUnit == "全部单元" { missing.append("单元") }
+        return "请先选择\(missing.joined(separator: "、"))后再导入。"
     }
 
     private var wordListCard: some View {
         PaperCard(title: nil, tint: PaperTheme.sheet) {
-            SectionTitle(icon: "book.closed.fill", title: "全部单词（\(store.wordBookCount)）")
+            SectionTitle(icon: "book.closed.fill", title: "全部单词（\(store.words(inCatalog: activeCatalogID).count)）")
 
-            if store.allWordsSorted.isEmpty {
+            if store.words(inCatalog: activeCatalogID).isEmpty {
                 EmptyState(text: "还没有单词。")
             } else {
                 VStack(alignment: .leading, spacing: 10) {
@@ -1095,9 +1184,9 @@ struct WordBookView: View {
 
                     HStack(spacing: 8) {
                         textbookPicker(title: "要求", selection: $selectedRequirement, values: VocabularyRequirement.filterValues)
-                        textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades)
-                        textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks)
-                        textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits)
+                        textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades(catalogID: activeCatalogID))
+                        textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks(catalogID: activeCatalogID))
+                        textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits(catalogID: activeCatalogID))
 
                         if hasActiveFilter {
                             Button {
@@ -1115,7 +1204,7 @@ struct WordBookView: View {
                         }
                     }
 
-                    Text(searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !hasActiveFilter ? "共 \(store.wordBookCount) 个单词" : "找到 \(filteredWords.count) 个")
+                    Text(searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !hasActiveFilter ? "共 \(store.words(inCatalog: activeCatalogID).count) 个单词" : "找到 \(filteredWords.count) 个")
                         .font(AppFont.font(size: 13))
                         .foregroundStyle(PaperTheme.mutedInk)
 
@@ -1124,7 +1213,7 @@ struct WordBookView: View {
                     } else {
                         List {
                             ForEach(filteredWords) { word in
-                                WordRow(word: word)
+                                WordRow(word: word, catalogID: activeCatalogID)
                                     .listRowBackground(Color.clear)
                             }
                         }
@@ -1149,7 +1238,7 @@ struct WordBookView: View {
     private func wordMatchesTextbookFilter(_ word: WordEntry) -> Bool {
         guard hasActiveFilter else { return true }
 
-        let tags = store.textbookTags(for: word)
+        let tags = store.textbookTags(for: word, catalogID: activeCatalogID)
         return tags.contains { tag in
             (selectedGrade == "全部年级" || tag.grade == selectedGrade)
                 && (selectedBook == "全部册" || tag.book == selectedBook)
@@ -1159,7 +1248,7 @@ struct WordBookView: View {
     }
 
     private func wordMatches(_ word: WordEntry, query: String) -> Bool {
-        let textbookText = store.textbookTags(for: word)
+        let textbookText = store.textbookTags(for: word, catalogID: activeCatalogID)
             .map { "\($0.grade) \($0.book) \($0.unit) \($0.meaning) \($0.effectiveRequirement.displayName)" }
             .joined(separator: " ")
         let haystacks = [
@@ -1184,6 +1273,7 @@ struct OCRImportView: View {
     @State private var recognizedWords: [String] = []
     @State private var isRecognizing = false
     @State private var message = "支持 PNG、JPG、截图。"
+    var destination: TextbookImportDestination?
 
     var body: some View {
         PaperCard(title: nil, tint: PaperTheme.sheet) {
@@ -1199,7 +1289,11 @@ struct OCRImportView: View {
                 .disabled(isRecognizing)
 
                 Button {
-                    store.importWords(recognizedWords, source: "OCR")
+                    guard let destination else {
+                        store.dataMessage = "请先选择年级、册和单元后再导入。"
+                        return
+                    }
+                    store.importWords(recognizedWords, source: "OCR", destination: destination)
                     recognizedWords = []
                     message = "已提交导入。"
                 } label: {
@@ -1268,6 +1362,7 @@ struct WordRow: View {
     @EnvironmentObject private var store: WordStore
     @EnvironmentObject private var speech: SpeechService
     var word: WordEntry
+    var catalogID: String
     @State private var draftWord = ""
     @State private var isEditingWord = false
     @FocusState private var isWordFieldFocused: Bool
@@ -1298,7 +1393,7 @@ struct WordRow: View {
                         .help("播放 \(word.word)")
                     }
 
-                    let tags = store.textbookTags(for: word)
+                    let tags = store.textbookTags(for: word, catalogID: catalogID)
                     if !tags.isEmpty {
                         HStack(spacing: 6) {
                             ForEach(tags.prefix(2)) { tag in
@@ -1416,31 +1511,60 @@ struct WrongBookView: View {
     @State private var selectedBook = "全部册"
     @State private var selectedUnit = "全部单元"
     @State private var selectedRequirement = VocabularyRequirement.allFilterTitle
+    @State private var selectedMastery = "全部状态"
+    @State private var exportError: String?
+    @State private var selectedCatalogID: String?
+
+    private var activeCatalogID: String {
+        selectedCatalogID ?? TextbookCatalog.pepPrimary2012ID
+    }
 
     private var filteredWrongWords: [WordEntry] {
         let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
 
-        return store.wrongWords.filter { word in
+        return store.wrongWords(inCatalog: activeCatalogID).filter { word in
             let matchesSearch = query.isEmpty || wordMatches(word, query: query)
-            return matchesSearch && wordMatchesTextbookFilter(word)
+            let matchesMastery = selectedMastery == "全部状态" || word.masteryStatus.rawValue == selectedMastery
+            return matchesSearch && matchesMastery && wordMatchesTextbookFilter(word)
         }
     }
 
-    private var hasActiveFilter: Bool {
+    private var hasActiveTextbookFilter: Bool {
         selectedGrade != "全部年级"
             || selectedBook != "全部册"
             || selectedUnit != "全部单元"
             || selectedRequirement != VocabularyRequirement.allFilterTitle
     }
 
+    private var hasActiveFilter: Bool {
+        hasActiveTextbookFilter || selectedMastery != "全部状态"
+    }
+
     var body: some View {
+        if let selectedCatalogID,
+           let catalog = TextbookCatalog.catalog(withID: selectedCatalogID) {
+            wrongBookContent(catalog: catalog)
+        } else {
+            TextbookCatalogSelectionView(
+                module: .wrongBook,
+                countForCatalog: { store.wrongWords(inCatalog: $0).count },
+                onSelect: { selectedCatalogID = $0.id }
+            )
+        }
+    }
+
+    private func wrongBookContent(catalog: TextbookCatalog) -> some View {
         VStack(alignment: .leading, spacing: 18) {
             HeaderBlock(title: "错题集", subtitle: "集中复听错词，直到真正掌握")
+            CatalogContextBar(catalog: catalog) {
+                selectedCatalogID = nil
+                resetFilters()
+            }
 
             PaperCard(title: nil, tint: PaperTheme.sheet) {
                 SectionTitle(icon: "pencil.and.outline", title: "红笔批注")
 
-                if store.wrongWords.isEmpty {
+                if store.wrongWords(inCatalog: activeCatalogID).isEmpty {
                     EmptyState(text: "还没有错词。听写时点“错”，这里就会自动记录。")
                 } else {
                     VStack(alignment: .leading, spacing: 10) {
@@ -1473,16 +1597,14 @@ struct WrongBookView: View {
 
                         HStack(spacing: 8) {
                             textbookPicker(title: "要求", selection: $selectedRequirement, values: VocabularyRequirement.filterValues)
-                            textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades)
-                            textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks)
-                            textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits)
+                            textbookPicker(title: "掌握", selection: $selectedMastery, values: ["全部状态", MasteryStatus.reviewing.rawValue, MasteryStatus.basic.rawValue])
+                            textbookPicker(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.textbookGrades(catalogID: activeCatalogID))
+                            textbookPicker(title: "册", selection: $selectedBook, values: ["全部册"] + store.textbookBooks(catalogID: activeCatalogID))
+                            textbookPicker(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.textbookUnits(catalogID: activeCatalogID))
 
                             if hasActiveFilter {
                                 Button {
-                                    selectedGrade = "全部年级"
-                                    selectedBook = "全部册"
-                                    selectedUnit = "全部单元"
-                                    selectedRequirement = VocabularyRequirement.allFilterTitle
+                                    resetFilters()
                                 } label: {
                                     Text("重置")
                                         .font(AppFont.font(size: 13, weight: .semibold))
@@ -1491,9 +1613,20 @@ struct WrongBookView: View {
                                 .buttonStyle(StampButtonStyle(color: PaperTheme.mutedInk))
                                 .help("重置筛选")
                             }
+
+                            Spacer(minLength: 0)
+
+                            Button(action: exportFilteredWrongWords) {
+                                Label("导出", systemImage: "square.and.arrow.up")
+                                    .font(AppFont.font(size: 13, weight: .semibold))
+                                    .fixedSize(horizontal: true, vertical: false)
+                            }
+                            .buttonStyle(StampButtonStyle(color: PaperTheme.blueInk))
+                            .help("导出当前结果")
+                            .disabled(filteredWrongWords.isEmpty)
                         }
 
-                        Text(searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !hasActiveFilter ? "共 \(store.wrongWords.count) 个错词" : "找到 \(filteredWrongWords.count) 个")
+                        Text(searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !hasActiveFilter ? "共 \(store.wrongWords(inCatalog: activeCatalogID).count) 个错词" : "找到 \(filteredWrongWords.count) 个")
                             .font(AppFont.font(size: 13))
                             .foregroundStyle(PaperTheme.mutedInk)
 
@@ -1515,7 +1648,7 @@ struct WrongBookView: View {
                                                 .foregroundStyle(PaperTheme.ink)
                                                 .lineLimit(1)
 
-                                            if let tag = store.textbookTags(for: word).first {
+                                            if let tag = store.textbookTags(for: word, catalogID: activeCatalogID).first {
                                                 HStack(spacing: 6) {
                                                     Text(tag.label)
                                                         .font(AppFont.font(size: 12, weight: .semibold))
@@ -1553,6 +1686,14 @@ struct WrongBookView: View {
                 }
             }
         }
+        .alert("导出失败", isPresented: Binding(
+            get: { exportError != nil },
+            set: { if !$0 { exportError = nil } }
+        )) {
+            Button("知道了", role: .cancel) {}
+        } message: {
+            Text(exportError ?? "无法导出当前结果。")
+        }
     }
 
     private func textbookPicker(title: String, selection: Binding<String>, values: [String]) -> some View {
@@ -1565,19 +1706,73 @@ struct WrongBookView: View {
     }
 
     private func wordMatchesTextbookFilter(_ word: WordEntry) -> Bool {
-        guard hasActiveFilter else { return true }
+        guard hasActiveTextbookFilter else { return true }
 
-        let tags = store.textbookTags(for: word)
-        return tags.contains { tag in
-            (selectedGrade == "全部年级" || tag.grade == selectedGrade)
-                && (selectedBook == "全部册" || tag.book == selectedBook)
-                && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
-                && VocabularyRequirement.matchesFilter(selectedRequirement, tag: tag)
+        let tags = store.textbookTags(for: word, catalogID: activeCatalogID)
+        return tags.contains(where: tagMatchesTextbookFilter)
+    }
+
+    private func tagMatchesTextbookFilter(_ tag: TextbookTag) -> Bool {
+        (selectedGrade == "全部年级" || tag.grade == selectedGrade)
+            && (selectedBook == "全部册" || tag.book == selectedBook)
+            && (selectedUnit == "全部单元" || tag.unit == selectedUnit)
+            && VocabularyRequirement.matchesFilter(selectedRequirement, tag: tag)
+    }
+
+    private func exportFilteredWrongWords() {
+        let panel = NSSavePanel()
+        panel.title = "导出错题"
+        panel.nameFieldStringValue = "正字-错题集.csv"
+        panel.allowedContentTypes = [.commaSeparatedText]
+        panel.canCreateDirectories = true
+
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+
+        do {
+            try csvData(for: filteredWrongWords).write(to: url, options: .atomic)
+        } catch {
+            exportError = error.localizedDescription
         }
     }
 
+    private func csvData(for words: [WordEntry]) -> Data {
+        let headers = ["单词", "音标", "中文释义", "学习要求", "掌握状态", "错误次数", "连续答对", "年级", "册", "单元"]
+        var rows = [headers]
+
+        rows += words.map { word in
+            let allTags = store.textbookTags(for: word, catalogID: activeCatalogID)
+            let tags = hasActiveTextbookFilter ? allTags.filter(tagMatchesTextbookFilter) : allTags
+            return [
+                word.word,
+                word.displayIPA,
+                word.displayMeaning,
+                joinedUnique(tags.map { $0.effectiveRequirement.displayName }),
+                word.masteryStatus.rawValue,
+                String(word.wrongCount),
+                String(word.consecutiveCorrectInWrongBook),
+                joinedUnique(tags.map(\.grade)),
+                joinedUnique(tags.map(\.book)),
+                joinedUnique(tags.map(\.unit))
+            ]
+        }
+
+        let csv = rows
+            .map { $0.map(csvEscaped).joined(separator: ",") }
+            .joined(separator: "\r\n")
+        return Data(("\u{FEFF}" + csv + "\r\n").utf8)
+    }
+
+    private func joinedUnique(_ values: [String]) -> String {
+        var seen = Set<String>()
+        return values.filter { seen.insert($0).inserted }.joined(separator: " / ")
+    }
+
+    private func csvEscaped(_ value: String) -> String {
+        "\"\(value.replacingOccurrences(of: "\"", with: "\"\""))\""
+    }
+
     private func wordMatches(_ word: WordEntry, query: String) -> Bool {
-        let textbookText = store.textbookTags(for: word)
+        let textbookText = store.textbookTags(for: word, catalogID: activeCatalogID)
             .map { "\($0.grade) \($0.book) \($0.unit) \($0.meaning) \($0.effectiveRequirement.displayName)" }
             .joined(separator: " ")
         let haystacks = [
@@ -1594,6 +1789,15 @@ struct WrongBookView: View {
         return haystacks
             .map { $0.lowercased() }
             .contains { $0.contains(query) }
+    }
+
+    private func resetFilters() {
+        searchText = ""
+        selectedGrade = "全部年级"
+        selectedBook = "全部册"
+        selectedUnit = "全部单元"
+        selectedRequirement = VocabularyRequirement.allFilterTitle
+        selectedMastery = "全部状态"
     }
 }
 
@@ -1825,7 +2029,7 @@ struct AboutSettingsCard: View {
     }
 
     private var appVersion: String {
-        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.2.0"
+        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "0.3.0"
     }
 }
 

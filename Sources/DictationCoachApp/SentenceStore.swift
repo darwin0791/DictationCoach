@@ -16,6 +16,7 @@ final class SentenceStore: ObservableObject {
         encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
         decoder = JSONDecoder()
         loadSentences()
+        migrateToCatalogBaselineIfNeeded()
     }
 
     var allSentencesSorted: [SentenceEntry] {
@@ -40,7 +41,15 @@ final class SentenceStore: ObservableObject {
         sentences.filter { $0.kind == .proverb }.count
     }
 
-    func addSingleSentence() {
+    func sentences(inCatalog catalogID: String) -> [SentenceEntry] {
+        allSentencesSorted.filter { $0.effectiveCatalogID == catalogID }
+    }
+
+    func grades(catalogID: String) -> [String] { sortedValues(\.grade, catalogID: catalogID) }
+    func books(catalogID: String) -> [String] { sortedValues(\.book, catalogID: catalogID) }
+    func units(catalogID: String) -> [String] { sortedValues(\.unit, catalogID: catalogID) }
+
+    func addSingleSentence(catalogID: String) {
         let english = clean(singleEnglish)
         let chinese = clean(singleChinese)
         guard !english.isEmpty else {
@@ -52,28 +61,32 @@ final class SentenceStore: ObservableObject {
             return
         }
 
-        sentences.append(SentenceEntry(english: english, chinese: chinese))
+        sentences.append(SentenceEntry(english: english, chinese: chinese, catalogID: catalogID))
         singleEnglish = ""
         singleChinese = ""
         saveSentences()
         dataMessage = "已新增常用句。"
     }
 
-    func importSentences() {
+    func importSentences(catalogID: String) {
         let candidates = parseImportLines(importText)
         guard !candidates.isEmpty else {
             dataMessage = "先输入一些句子。"
             return
         }
 
-        let result = append(candidates)
+        let result = append(candidates.map { entry in
+            var assigned = entry
+            assigned.catalogID = catalogID
+            return assigned
+        })
         importText = ""
         dataMessage = "已导入 \(result.imported) 条，跳过 \(result.skipped) 条重复内容。"
     }
 
-    func importRecognizedLines(_ lines: [String]) {
+    func importRecognizedLines(_ lines: [String], catalogID: String) {
         let candidates = lines
-            .map { SentenceEntry(english: clean($0), chinese: "") }
+            .map { SentenceEntry(english: clean($0), chinese: "", catalogID: catalogID) }
             .filter { !$0.english.isEmpty }
         guard !candidates.isEmpty else {
             dataMessage = "OCR 没有可导入的英文句子。"
@@ -170,8 +183,30 @@ final class SentenceStore: ObservableObject {
         }
     }
 
-    private func sortedValues(_ keyPath: KeyPath<SentenceEntry, String>) -> [String] {
-        Array(Set(sentences.map { $0[keyPath: keyPath] })).sorted { sortKey($0) < sortKey($1) }
+    private func sortedValues(_ keyPath: KeyPath<SentenceEntry, String>, catalogID: String? = nil) -> [String] {
+        let source = catalogID == nil ? sentences : sentences.filter { $0.effectiveCatalogID == catalogID }
+        return Array(Set(source.map { $0[keyPath: keyPath] })).sorted { sortKey($0) < sortKey($1) }
+    }
+
+    private func migrateToCatalogBaselineIfNeeded() {
+        let migrationVersion = "catalog-baseline-v1"
+        let markerURL = appSupportDirectory().appendingPathComponent("sentence_catalog_baseline_version.txt")
+        if (try? String(contentsOf: markerURL, encoding: .utf8)) == migrationVersion { return }
+
+        var changed = false
+        for index in sentences.indices where sentences[index].catalogID == nil {
+            sentences[index].catalogID = TextbookCatalog.pepPrimary2012ID
+            changed = true
+        }
+        if changed { saveSentences() }
+
+        do {
+            let directory = appSupportDirectory()
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            try migrationVersion.write(to: markerURL, atomically: true, encoding: .utf8)
+        } catch {
+            dataMessage = "常用句词库迁移标记保存失败：\(error.localizedDescription)"
+        }
     }
 
     private func sortKey(for sentence: SentenceEntry) -> String {

@@ -41,6 +41,8 @@ swift run DictationCoach
 ## 目录说明
 
 - `产品说明书.md`：面向用户的产品定位、页面功能、使用流程、数据隐私与常见问题说明。
+- `教材词库分层需求.md`：多教材词库的产品需求和验收口径；第一阶段的选择页、默认数据迁移和单词导入归属已实现。
+- `Sources/DictationCoachApp/TextbookCatalogViews.swift`：教材词库元数据、三卡片选择页、文件夹卡片和功能页当前教材栏。
 - `Package.swift`：Swift Package 配置。
 - `Sources/DictationCoachApp/ContentView.swift`：主要 UI、左侧导航和原有主页面。
 - `Sources/DictationCoachApp/SentenceViews.swift`：常用句页面、句子行编辑和句子 OCR 导入。
@@ -52,13 +54,16 @@ swift run DictationCoach
 - `Sources/DictationCoachApp/PaperStyles.swift`：纸张风格、卡片、按钮、标签。
 - `Sources/DictationCoachApp/FontRegistry.swift`：`ukai.ttc` 字体注册。
 - `Sources/DictationCoachApp/IntroVideoView.swift`：启动动画的无控件原生播放器和主界面切换。
-- `Sources/DictationCoachApp/Resources/mini_stardict.db`：运行时使用的精简 ECDICT SQLite 词典，当前约 3MB、1.38 万条；表名仍为 `stardict`。
+- `Sources/DictationCoachApp/Resources/mini_stardict.db`：运行时使用的精简 ECDICT SQLite 词典，当前约 3.26MB、1.46 万条；表名仍为 `stardict`。
 - `Sources/DictationCoachApp/Resources/ukai.ttc`：应用文字字体。
 - `Sources/DictationCoachApp/Resources/ipa_dictionary.json`：轻量兜底词卡词典。
 - `Sources/DictationCoachApp/Resources/pep_vocab.json`：人教版 PEP 3-6 年级教材词表索引。
 - `Sources/DictationCoachApp/Resources/pep_vocab_supplement.json`：教材词表增补，目前用于补齐源页面缺失的六年级下册。
+- `Sources/DictationCoachApp/Resources/pep2024_vocab.json`：人教版 PEP 2024 新版词表索引；当前清理后 845 条记录、836 个不同单词或短语，覆盖三年级上册至六年级上册。
 - `Sources/DictationCoachApp/Resources/pep2012_sentences_verified.json`：已核验的 285 条常用句基准，其中常用句与表达 263 条、谚语 22 条。
 - `Sources/DictationCoachApp/Resources/dictationcoach-intro.mp4`：应用每次启动时播放一次的 1920×1080 进场动画。
+- `Sources/DictationCoachApp/Resources/textbook-folder-card.png`：教材选择页使用的透明立体文件夹卡片底板；文字和按钮由 SwiftUI 叠加。
+- `Sources/DictationCoachApp/Resources/textbook-shelf.png`：教材选择页三张文件夹下方使用的透明浅木色书架素材。
 - `scripts/generate_pep_vocab.rb`：从 21 世纪教育网页面生成教材词表索引。
 - `scripts/apply_pep2012_pdf_corrections.rb`：把已从 PEP 2012 版教材扫描页核对过的短语和释义修正应用到 `pep_vocab.json`。
 - `教材数据整理/`：本机过程资料目录，已从 GitHub 版本历史移出并整体忽略；如需重新抽取词典或回查 OCR/标注过程，在本机保留即可。
@@ -66,6 +71,8 @@ swift run DictationCoach
 - `scripts/import_vocab_requirements.rb`：把用户填写后的 `词汇学习要求标注表.csv` 导回教材词库，写入 `requirement` 字段。
 - `scripts/clean_pep2012_sentences.rb`：清理句子 OCR 中的跨栏断句、附录标题噪声，应用已确认的英文拼写修正，并标记 22 条谚语。
 - `scripts/audit_pep2012_against_ecdict.py`：只用 ECDICT 和基础词形规则粗筛教材英文拼写，不比较中文翻译，也不自动替换；结果写入 `教材数据整理/ecdict_*_spelling_review.json`。
+- `scripts/import_pep2024_vocab.py`：从本机完整合并版 Excel 生成 `pep2024_vocab.json`，映射学习要求、统一音标格式，并应用已确认的英文截断修正。
+- `scripts/audit_pep2024_against_ecdict.py`：只检查 PEP 2024 英文拼写，结果写入本机 `教材数据整理/pep2024_ecdict_spelling_review.json`，不比较中文释义或自动替换。
 - `scripts/build_mini_stardict.py`：从完整 ECDICT 原料库抽取运行时精简词典，输出 `Sources/DictationCoachApp/Resources/mini_stardict.db` 和 `教材数据整理/mini_stardict_build_report.json`。
 - `remotion-intro/`、宣传页、社交卡、设计源图和背景音乐：本机创作素材，已从 GitHub 版本历史移出并整体忽略；Git 中只保留 App 运行需要的最终资源。
 
@@ -97,6 +104,11 @@ swift run DictationCoach
 - 全局文字使用 `ukai.ttc`。
 - SF Symbols 图标必须使用系统符号字体，不能套 `ukai.ttc`，否则图标会消失。
 - 主导航使用左侧浅色竖向导航，不使用顶部系统 `TabView`。从上到下为产品 Logo、听写、单词本、常用句、错题集、设置。
+- 听写、单词本、常用句和错题集的默认页统一为“教材选择页”，不再直接展示练习页、全部单词、全部常用句或全部错词列表；设置页不增加该层。
+- 四个模块复用同一套教材卡片组件，但页头和进入动作随模块变化；未准备完成的词库显示“准备中”且不可进入。
+- 进入某套教材后，功能页页头下方必须显示当前教材和“更换教材”入口；返回时仍留在当前左侧主导航模块。
+- 教材卡片不显示“上次使用”批注；从左侧主导航进入四个模块时也不得自动跳过教材选择页。
+- 教材选择页固定一行展示 3 张文件夹卡片并共用一层书架；卡片底板和书架必须分别使用 `textbook-folder-card.png`、`textbook-shelf.png`，不要再用 SwiftUI Shape 或矩形近似绘制。卡片填充统一为纯白，页签和边框使用中性灰，仅当前可用词库的主操作按钮使用蓝色。
 - 左侧“常用句”导航固定使用本地资源 `句子.svg`，不使用系统兜底图标替代。
 - 左侧导航栏背景使用从上方白色到下方暖黄的纵向渐变。
 - 左侧导航选中项使用柔和的暖金黄背景 `PaperTheme.sidebarSelection`，图标和文字保持深墨色。
@@ -136,6 +148,9 @@ swift run DictationCoach
 单词本：
 
 - 主体为左右两列：左侧是占主要宽度的全部单词，右侧是手动新增、批量导入和 OCR 导入工具。
+- 手动新增、批量导入和 OCR 导入都按单词本当前选中的“教材词库 + 年级 + 册 + 单元”写入归属；年级、册、单元任一项仍为“全部”时不得导入，应提示用户先完成选择。
+- 导入范围校验失败时，必须保留已输入文本和 OCR 预览；重复单词应追加新的教材归属标签，不新建重复 `WordEntry`。
+- 导入时如选定具体学习要求则一并写入；“全部要求”时默认写入“未标注”，不因此阻断导入。
 - 批量导入的文本输入区高度为 70pt，避免右侧三张工具卡撑高整个单词本布局。
 - 批量导入的「导入单词」按钮放在卡片标题行右上角，不放在文本输入区下方。
 - 批量导入的多行输入区高度保持为 100pt，避免右侧三个工具卡片撑高整个单词本页面。
@@ -176,7 +191,9 @@ swift run DictationCoach
 
 - 答错过的词保留在错题集可见。
 - `错题复听` 只抽取未标记为 `基本掌握` 的词。
-- 错题集支持和单词本一致的搜索与教材筛选：可搜索英文、中文释义、音标、词性释义、例句；可按年级、册、单元筛选。
+- 错题集支持搜索英文、中文释义、音标、词性释义、例句，并可按学习要求、掌握状态、年级、册、单元组合筛选。
+- 掌握状态筛选包括：全部状态、复习中、基本掌握。
+- 错题集支持把当前搜索和筛选结果导出为带 UTF-8 BOM 的 CSV，确保 Excel 和 Numbers 可直接打开中文内容；导出不得修改错题数据。
 
 ## 错题逻辑
 
@@ -208,6 +225,13 @@ swift run DictationCoach
 - 借用基础词形音标时，要保留原词自己的中文释义。
 
 ## 教材分类逻辑
+
+- 已在现有“要求 / 年级 / 册 / 单元”之前增加必选、单选的“教材词库”层，界面展示“人教版 3–6 年级”、“人教版 3–6 年级（新）”和“人教版 7–9 年级”；开发口径见 `教材词库分层需求.md`。
+- 每条教材标签使用稳定 `catalogID`；三套词库不得直接混入同一教材索引。
+- 首次升级时，当前系统内已有的全部单词和全部常用句（包括用户已导入的内容）默认归入“人教版 3–6 年级”，内部 `catalogID` 为 `pep-primary-2012`；不得因迁移丢失、归档或改写原有内容和练习记录。
+- “人教版 3–6 年级（新）”使用稳定内部 ID `pep-primary-2024`，卡片显示 `PEP 2024`。听写、单词本和错题集可进入；新版常用句因无句子数据仍显示“准备中”。
+- PEP 2024 运行词库以 `pep2024_vocab.json` 为准：845 条记录、836 个不同单词或短语；会写 110 条、认读 414 条、未标注 321 条。当前只覆盖三年级上册至六年级上册，不得伪造六年级下册分类。
+- PEP 2024 原始表中可明确恢复的 6 条截断英文由导入脚本固定修正；`Jeel` 和 `Jew` 两条原表已标注需核对原图，当前明确排除，未经人工确认不得加入运行词库。
 
 - 教材索引的唯一基准是用户已核对确认的人教 PEP 2012 版 3-6 年级教材数据：816 条教材记录、785 个不同单词或短语。后续产品匹配、分类和校验均以该数据为准。
 - 教材词汇记录必须包含学习要求字段 `requirement`，用于区分课本要求；当前已导入用户标注结果：会写 463 条、认读 353 条、未标注 0 条。

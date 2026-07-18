@@ -7,34 +7,46 @@ final class TextbookIndex {
     init() {
         tagsByWord = mergeIndexes([
             loadIndex(named: "pep_vocab"),
-            loadIndex(named: "pep_vocab_supplement")
+            loadIndex(named: "pep_vocab_supplement"),
+            loadIndex(named: "pep2024_vocab")
         ])
         phraseComponentTagsByWord = buildPhraseComponentIndex(from: tagsByWord)
     }
 
-    var grades: [String] {
-        sortedValues { $0.grade }
+    func grades(catalogID: String) -> [String] {
+        sortedValues(catalogID: catalogID) { $0.grade }
     }
 
-    var books: [String] {
-        sortedValues { $0.book }
+    func books(catalogID: String) -> [String] {
+        sortedValues(catalogID: catalogID) { $0.book }
     }
 
-    var units: [String] {
-        sortedValues { $0.unit }
+    func units(catalogID: String) -> [String] {
+        sortedValues(catalogID: catalogID) { $0.unit }
     }
 
     var verifiedVocabulary: [(word: String, meaning: String)] {
-        tagsByWord.map { word, tags in
-            (word: word, meaning: tags.first?.meaning ?? "")
+        tagsByWord.compactMap { word, tags in
+            guard let tag = tags.first(where: { $0.effectiveCatalogID == TextbookCatalog.pepPrimary2012ID }) else {
+                return nil
+            }
+            return (word: word, meaning: tag.meaning)
         }
         .sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
     }
 
-    func tags(for word: String) -> [TextbookTag] {
+    func vocabulary(catalogID: String) -> [(word: String, tag: TextbookTag)] {
+        tagsByWord.compactMap { word, tags in
+            guard let tag = tags.first(where: { $0.effectiveCatalogID == catalogID }) else { return nil }
+            return (word: word, tag: tag)
+        }
+        .sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
+    }
+
+    func tags(for word: String, catalogID: String? = nil) -> [TextbookTag] {
         let normalized = normalize(word)
         if let tags = tagsByWord[normalized] {
-            return tags
+            return filtered(tags, catalogID: catalogID)
         }
 
         let lemmaTags = lemmaCandidates(for: normalized)
@@ -42,16 +54,17 @@ final class TextbookIndex {
             .flatMap { $0 }
 
         if !lemmaTags.isEmpty {
-            return lemmaTags
+            return filtered(lemmaTags, catalogID: catalogID)
         }
 
         if let phraseTags = phraseComponentTagsByWord[normalized] {
-            return phraseTags
+            return filtered(phraseTags, catalogID: catalogID)
         }
 
-        return lemmaCandidates(for: normalized)
+        let tags = lemmaCandidates(for: normalized)
             .compactMap { phraseComponentTagsByWord[$0] }
             .flatMap { $0 }
+        return filtered(tags, catalogID: catalogID)
     }
 
     private func buildPhraseComponentIndex(from source: [String: [TextbookTag]]) -> [String: [TextbookTag]] {
@@ -110,13 +123,19 @@ final class TextbookIndex {
             .trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
-    private func sortedValues(_ keyPath: (TextbookTag) -> String) -> [String] {
+    private func sortedValues(catalogID: String, _ keyPath: (TextbookTag) -> String) -> [String] {
         let values = tagsByWord.values
             .flatMap { $0 }
+            .filter { $0.effectiveCatalogID == catalogID }
             .map(keyPath)
         return Array(Set(values)).sorted { lhs, rhs in
             sortKey(lhs) < sortKey(rhs)
         }
+    }
+
+    private func filtered(_ tags: [TextbookTag], catalogID: String?) -> [TextbookTag] {
+        guard let catalogID else { return tags }
+        return tags.filter { $0.effectiveCatalogID == catalogID }
     }
 
     private func sortKey(_ value: String) -> String {

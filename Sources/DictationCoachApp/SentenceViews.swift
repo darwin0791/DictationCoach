@@ -9,10 +9,19 @@ struct CommonSentencesView: View {
     @State private var selectedBook = "全部册"
     @State private var selectedUnit = "全部单元"
     @State private var selectedKind = "全部类型"
+    @State private var selectedCatalogID: String?
+
+    private var activeCatalogID: String {
+        selectedCatalogID ?? TextbookCatalog.pepPrimary2012ID
+    }
+
+    private var catalogSentences: [SentenceEntry] {
+        store.sentences(inCatalog: activeCatalogID)
+    }
 
     private var filteredSentences: [SentenceEntry] {
         let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
-        return store.allSentencesSorted.filter { sentence in
+        return catalogSentences.filter { sentence in
             let matchesSearch = query.isEmpty || [
                 sentence.english,
                 sentence.chinese,
@@ -38,8 +47,25 @@ struct CommonSentencesView: View {
     }
 
     var body: some View {
+        if let selectedCatalogID,
+           let catalog = TextbookCatalog.catalog(withID: selectedCatalogID) {
+            sentenceContent(catalog: catalog)
+        } else {
+            TextbookCatalogSelectionView(
+                module: .sentences,
+                countForCatalog: { store.sentences(inCatalog: $0).count },
+                onSelect: { selectedCatalogID = $0.id }
+            )
+        }
+    }
+
+    private func sentenceContent(catalog: TextbookCatalog) -> some View {
         VStack(alignment: .leading, spacing: 18) {
             HeaderBlock(title: "常用句", subtitle: "整理教材表达，随时查找和跟读")
+            CatalogContextBar(catalog: catalog) {
+                selectedCatalogID = nil
+                resetFilters()
+            }
 
             HStack(alignment: .top, spacing: 18) {
                 sentenceListCard
@@ -55,7 +81,7 @@ struct CommonSentencesView: View {
                         TextField("输入中文释义", text: $store.singleChinese)
                             .textFieldStyle(.roundedBorder)
                             .font(AppFont.font(size: 15))
-                            .onSubmit { store.addSingleSentence() }
+                            .onSubmit { store.addSingleSentence(catalogID: activeCatalogID) }
 
                         HStack {
                             Text("按回车也可以新增。")
@@ -63,7 +89,7 @@ struct CommonSentencesView: View {
                                 .foregroundStyle(PaperTheme.mutedInk)
                             Spacer()
                             Button {
-                                store.addSingleSentence()
+                                store.addSingleSentence(catalogID: activeCatalogID)
                             } label: {
                                 Label("新增", systemImage: "plus.circle")
                             }
@@ -76,7 +102,7 @@ struct CommonSentencesView: View {
                             SectionTitle(icon: "square.and.arrow.down", title: "批量导入")
                             Spacer(minLength: 0)
                             Button {
-                                store.importSentences()
+                                store.importSentences(catalogID: activeCatalogID)
                             } label: {
                                 Label("导入句子", systemImage: "square.and.arrow.down")
                             }
@@ -98,7 +124,7 @@ struct CommonSentencesView: View {
                             .foregroundStyle(PaperTheme.mutedInk)
                     }
 
-                    SentenceOCRImportView()
+                    SentenceOCRImportView(catalogID: activeCatalogID)
 
                     Text(store.dataMessage)
                         .font(AppFont.font(size: 13))
@@ -113,7 +139,7 @@ struct CommonSentencesView: View {
 
     private var sentenceListCard: some View {
         PaperCard(title: nil, tint: PaperTheme.sheet) {
-            SectionTitle(icon: "text.quote", title: "全部常用句（\(store.sentences.count)）")
+            SectionTitle(icon: "text.quote", title: "全部常用句（\(catalogSentences.count)）")
 
             HStack(spacing: 8) {
                 Image(systemName: "magnifyingglass")
@@ -139,17 +165,14 @@ struct CommonSentencesView: View {
             .clipShape(RoundedRectangle(cornerRadius: 7))
 
             HStack(spacing: 8) {
-                PaperDropdown(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.grades, width: 112)
-                PaperDropdown(title: "册", selection: $selectedBook, values: ["全部册"] + store.books, width: 100)
-                PaperDropdown(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.units, width: 118)
+                PaperDropdown(title: "年级", selection: $selectedGrade, values: ["全部年级"] + store.grades(catalogID: activeCatalogID), width: 112)
+                PaperDropdown(title: "册", selection: $selectedBook, values: ["全部册"] + store.books(catalogID: activeCatalogID), width: 100)
+                PaperDropdown(title: "单元", selection: $selectedUnit, values: ["全部单元"] + store.units(catalogID: activeCatalogID), width: 118)
                 PaperDropdown(title: "类型", selection: $selectedKind, values: ["全部类型"] + SentenceKind.allCases.map(\.displayName), width: 150)
 
                 if hasActiveFilter {
                     Button {
-                        selectedGrade = "全部年级"
-                        selectedBook = "全部册"
-                        selectedUnit = "全部单元"
-                        selectedKind = "全部类型"
+                        resetFilters()
                     } label: {
                         Text("重置")
                             .font(AppFont.font(size: 13, weight: .semibold))
@@ -161,9 +184,9 @@ struct CommonSentencesView: View {
             }
 
             HStack {
-                Text(searchText.isEmpty && !hasActiveFilter ? "共 \(store.sentences.count) 条" : "找到 \(filteredSentences.count) 条")
+                Text(searchText.isEmpty && !hasActiveFilter ? "共 \(catalogSentences.count) 条" : "找到 \(filteredSentences.count) 条")
                 Spacer()
-                Text("常用句与表达 \(store.expressionCount)  ·  谚语 \(store.proverbCount)")
+                Text("常用句与表达 \(catalogSentences.filter { $0.kind == .expression }.count)  ·  谚语 \(catalogSentences.filter { $0.kind == .proverb }.count)")
             }
             .font(AppFont.font(size: 13))
             .foregroundStyle(PaperTheme.mutedInk)
@@ -182,6 +205,14 @@ struct CommonSentencesView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+    }
+
+    private func resetFilters() {
+        searchText = ""
+        selectedGrade = "全部年级"
+        selectedBook = "全部册"
+        selectedUnit = "全部单元"
+        selectedKind = "全部类型"
     }
 }
 
@@ -287,6 +318,7 @@ private struct SentenceOCRImportView: View {
     @State private var recognizedLines: [String] = []
     @State private var isRecognizing = false
     @State private var message = "支持 PNG、JPG、截图。"
+    let catalogID: String
 
     var body: some View {
         PaperCard(title: nil, tint: PaperTheme.sheet) {
@@ -300,7 +332,7 @@ private struct SentenceOCRImportView: View {
                 .disabled(isRecognizing)
 
                 Button {
-                    store.importRecognizedLines(recognizedLines)
+                    store.importRecognizedLines(recognizedLines, catalogID: catalogID)
                     recognizedLines = []
                     message = "已提交导入。"
                 } label: {

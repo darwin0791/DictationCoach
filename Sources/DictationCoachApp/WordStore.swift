@@ -3,6 +3,17 @@ import SwiftUI
 
 @MainActor
 final class WordStore: ObservableObject {
+    private enum ImportWordResult: Equatable {
+        case added
+        case tagged
+        case existing
+    }
+
+    private struct ImportSummary {
+        var added = 0
+        var tagged = 0
+        var existing = 0
+    }
     @Published private(set) var words: [WordEntry] = []
     @Published var importText = ""
     @Published var singleWordText = ""
@@ -23,6 +34,8 @@ final class WordStore: ObservableObject {
         loadIPADictionary()
         loadWords()
         migrateToVerifiedTextbookBaselineIfNeeded()
+        migrateToCatalogBaselineIfNeeded()
+        migrateToPep2024CatalogIfNeeded()
         enrichWordsFromDictionary()
     }
 
@@ -50,24 +63,37 @@ final class WordStore: ObservableObject {
             .sorted { $0.word.localizedCaseInsensitiveCompare($1.word) == .orderedAscending }
     }
 
-    var wordBookCount: Int {
-        allWordsSorted.count
+    func words(inCatalog catalogID: String) -> [WordEntry] {
+        allWordsSorted.filter { wordBelongsToCatalog($0, catalogID: catalogID) }
     }
 
-    var textbookGrades: [String] {
-        textbookIndex.grades
+    func wrongWords(inCatalog catalogID: String) -> [WordEntry] {
+        wrongWords.filter { wordBelongsToCatalog($0, catalogID: catalogID) }
     }
 
-    var textbookBooks: [String] {
-        textbookIndex.books
+    func activeWrongWords(inCatalog catalogID: String) -> [WordEntry] {
+        activeWrongWords.filter { wordBelongsToCatalog($0, catalogID: catalogID) }
     }
 
-    var textbookUnits: [String] {
-        textbookIndex.units
+    func textbookGrades(catalogID: String) -> [String] {
+        textbookIndex.grades(catalogID: catalogID)
     }
 
-    func textbookTags(for word: WordEntry) -> [TextbookTag] {
-        textbookIndex.tags(for: word.word)
+    func textbookBooks(catalogID: String) -> [String] {
+        textbookIndex.books(catalogID: catalogID)
+    }
+
+    func textbookUnits(catalogID: String) -> [String] {
+        textbookIndex.units(catalogID: catalogID)
+    }
+
+    func textbookTags(for word: WordEntry, catalogID: String? = nil) -> [TextbookTag] {
+        let indexed = textbookIndex.tags(for: word.word, catalogID: catalogID)
+        let userTags = (word.userTextbookTags ?? []).filter { tag in
+            catalogID == nil || tag.effectiveCatalogID == catalogID
+        }
+        var seen = Set<String>()
+        return (indexed + userTags).filter { seen.insert($0.id).inserted }
     }
 
     func word(withID id: UUID) -> WordEntry? {
@@ -104,27 +130,22 @@ final class WordStore: ObservableObject {
         try? FileManager.default.removeItem(at: url)
     }
 
-    func addSingleWord(force: Bool = false) {
+    func addSingleWord(destination: TextbookImportDestination, force: Bool = false) {
         let word = normalizeWord(singleWordText)
         guard !word.isEmpty else {
             dataMessage = "先输入一个单词。"
             return
         }
 
-        guard !words.contains(where: { $0.word == word }) else {
-            dataMessage = "\(word) 已经在单词本里。"
-            return
-        }
-
-        if !force, let warning = singleWordWarning(for: word) {
+        if !force, !words.contains(where: { $0.word == word }), let warning = singleWordWarning(for: word) {
             dataMessage = warning.message
             return
         }
 
-        words.append(WordEntry(word: word, dictionaryEntry: lookupDictionaryEntry(for: word)))
+        let result = importWord(word, destination: destination)
         saveWords()
         singleWordText = ""
-        dataMessage = "已新增 \(word)。"
+        dataMessage = result == .existing ? "\(word) 已在当前单元。" : "已新增 \(word)。"
     }
 
     func pendingSingleWordWarning() -> WordInputWarning? {
@@ -134,7 +155,7 @@ final class WordStore: ObservableObject {
         return singleWordWarning(for: word)
     }
 
-    func importWords() {
+    func importWords(destination: TextbookImportDestination) {
         let candidates = importText
             .components(separatedBy: CharacterSet(charactersIn: "\n,，;；\t "))
             .map(normalizeWord)
@@ -145,23 +166,14 @@ final class WordStore: ObservableObject {
             return
         }
 
-        var imported = 0
-        var skipped = 0
-        for word in candidates {
-            if words.contains(where: { $0.word == word }) {
-                skipped += 1
-                continue
-            }
-            words.append(WordEntry(word: word, dictionaryEntry: lookupDictionaryEntry(for: word)))
-            imported += 1
-        }
+        let summary = importWords(candidates, destination: destination)
 
         saveWords()
         importText = ""
-        dataMessage = "已导入 \(imported) 个单词，跳过 \(skipped) 个重复项。"
+        dataMessage = summaryMessage(prefix: "已导入", summary: summary)
     }
 
-    func importWords(_ candidates: [String], source: String) {
+    func importWords(_ candidates: [String], source: String, destination: TextbookImportDestination) {
         let normalizedWords = candidates
             .map(normalizeWord)
             .filter { !$0.isEmpty }
@@ -171,19 +183,10 @@ final class WordStore: ObservableObject {
             return
         }
 
-        var imported = 0
-        var skipped = 0
-        for word in normalizedWords {
-            if words.contains(where: { $0.word == word }) {
-                skipped += 1
-                continue
-            }
-            words.append(WordEntry(word: word, dictionaryEntry: lookupDictionaryEntry(for: word)))
-            imported += 1
-        }
+        let summary = importWords(normalizedWords, destination: destination)
 
         saveWords()
-        dataMessage = "\(source) 已导入 \(imported) 个单词，跳过 \(skipped) 个重复项。"
+        dataMessage = summaryMessage(prefix: "\(source) 已导入", summary: summary)
     }
 
     func updateWord(for entry: WordEntry, newWord rawWord: String) {
@@ -256,6 +259,8 @@ final class WordStore: ObservableObject {
         let exampleEnglish = words[index].exampleEnglish
         let exampleChinese = words[index].exampleChinese
         let isArchivedFromWordBook = words[index].isArchivedFromWordBook
+        let catalogID = words[index].catalogID
+        let userTextbookTags = words[index].userTextbookTags
         words[index] = WordEntry(word: word, dictionaryEntry: DictionaryEntry(
             usIPA: ipaUS,
             ukIPA: ipaUK,
@@ -268,6 +273,8 @@ final class WordStore: ObservableObject {
         ))
         words[index].id = entry.id
         words[index].isArchivedFromWordBook = isArchivedFromWordBook
+        words[index].catalogID = catalogID
+        words[index].userTextbookTags = userTextbookTags
         saveWords()
     }
 
@@ -281,6 +288,59 @@ final class WordStore: ObservableObject {
         words[index].exampleEnglish = dictionaryEntry?.example?.english
         words[index].exampleChinese = dictionaryEntry?.example?.chinese
         saveWords()
+    }
+
+    private func wordBelongsToCatalog(_ word: WordEntry, catalogID: String) -> Bool {
+        if (word.catalogID ?? TextbookCatalog.pepPrimary2012ID) == catalogID {
+            return true
+        }
+        return textbookTags(for: word, catalogID: catalogID).isEmpty == false
+    }
+
+    private func importWords(_ candidates: [String], destination: TextbookImportDestination) -> ImportSummary {
+        var summary = ImportSummary()
+        var seen = Set<String>()
+        for word in candidates where seen.insert(word).inserted {
+            switch importWord(word, destination: destination) {
+            case .added: summary.added += 1
+            case .tagged: summary.tagged += 1
+            case .existing: summary.existing += 1
+            }
+        }
+        return summary
+    }
+
+    private func importWord(_ word: String, destination: TextbookImportDestination) -> ImportWordResult {
+        let tag = TextbookTag(
+            catalogID: destination.catalogID,
+            grade: destination.grade,
+            book: destination.book,
+            unit: destination.unit,
+            meaning: textbookIndex.tags(for: word, catalogID: destination.catalogID).first(where: {
+                $0.grade == destination.grade && $0.book == destination.book && $0.unit == destination.unit
+            })?.meaning ?? "",
+            requirement: destination.requirement
+        )
+
+        if let index = words.firstIndex(where: { $0.word == word }) {
+            let alreadyExists = textbookTags(for: words[index], catalogID: destination.catalogID).contains {
+                $0.grade == destination.grade && $0.book == destination.book && $0.unit == destination.unit
+            }
+            guard !alreadyExists else { return .existing }
+            words[index].userTextbookTags = (words[index].userTextbookTags ?? []) + [tag]
+            words[index].isArchivedFromWordBook = false
+            return .tagged
+        }
+
+        var entry = WordEntry(word: word, dictionaryEntry: lookupDictionaryEntry(for: word))
+        entry.catalogID = destination.catalogID
+        entry.userTextbookTags = [tag]
+        words.append(entry)
+        return .added
+    }
+
+    private func summaryMessage(prefix: String, summary: ImportSummary) -> String {
+        "\(prefix) \(summary.added) 个新单词，追加 \(summary.tagged) 个教材归属，已存在 \(summary.existing) 个。"
     }
 
     private func normalizeWord(_ value: String) -> String {
@@ -418,6 +478,84 @@ final class WordStore: ObservableObject {
             dataMessage = "已同步 \(migrated.count) 个教材词条，并保留 \(preservedWrongWords.count) 个历史错词。"
         } catch {
             dataMessage = "教材词库已同步，但迁移标记保存失败：\(error.localizedDescription)"
+        }
+    }
+
+    private func migrateToCatalogBaselineIfNeeded() {
+        let migrationVersion = "catalog-baseline-v1"
+        let markerURL = appSupportDirectory().appendingPathComponent("catalog_baseline_version.txt")
+        if (try? String(contentsOf: markerURL, encoding: .utf8)) == migrationVersion {
+            return
+        }
+
+        var changed = false
+        for index in words.indices {
+            if words[index].catalogID == nil {
+                words[index].catalogID = TextbookCatalog.pepPrimary2012ID
+                changed = true
+            }
+            if words[index].isArchivedFromWordBook == true {
+                words[index].isArchivedFromWordBook = false
+                changed = true
+            }
+        }
+        if changed { saveWords() }
+
+        do {
+            let directory = appSupportDirectory()
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            try migrationVersion.write(to: markerURL, atomically: true, encoding: .utf8)
+        } catch {
+            dataMessage = "教材词库迁移标记保存失败：\(error.localizedDescription)"
+        }
+    }
+
+    private func migrateToPep2024CatalogIfNeeded() {
+        let migrationVersion = "pep2024-vocab-845-v1"
+        let markerURL = appSupportDirectory().appendingPathComponent("pep2024_vocab_version.txt")
+        if (try? String(contentsOf: markerURL, encoding: .utf8)) == migrationVersion {
+            return
+        }
+
+        let vocabulary = textbookIndex.vocabulary(catalogID: TextbookCatalog.pepPrimary2024ID)
+        var existingByWord: [String: Int] = [:]
+        for index in words.indices where existingByWord[canonicalWord(words[index].word)] == nil {
+            existingByWord[canonicalWord(words[index].word)] = index
+        }
+        var added = 0
+        var updatedIPA = 0
+
+        for item in vocabulary {
+            let key = canonicalWord(item.word)
+            if let index = existingByWord[key] {
+                if needsDictionaryRefresh(words[index].ipaUS, missingText: "未收录音标"),
+                   let ipa = item.tag.ipa, !ipa.isEmpty {
+                    words[index].ipaUS = ipa
+                    updatedIPA += 1
+                }
+                continue
+            }
+
+            var entry = WordEntry(word: item.word, dictionaryEntry: lookupDictionaryEntry(for: item.word))
+            entry.catalogID = TextbookCatalog.pepPrimary2024ID
+            if needsDictionaryRefresh(entry.ipaUS, missingText: "未收录音标"),
+               let ipa = item.tag.ipa, !ipa.isEmpty {
+                entry.ipaUS = ipa
+            }
+            words.append(entry)
+            existingByWord[key] = words.count - 1
+            added += 1
+        }
+
+        if added > 0 || updatedIPA > 0 { saveWords() }
+
+        do {
+            let directory = appSupportDirectory()
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+            try migrationVersion.write(to: markerURL, atomically: true, encoding: .utf8)
+            dataMessage = "已接入人教版 3–6 年级（新）\(vocabulary.count) 个单词，其中新增 \(added) 个。"
+        } catch {
+            dataMessage = "新版教材词库已接入，但迁移标记保存失败：\(error.localizedDescription)"
         }
     }
 

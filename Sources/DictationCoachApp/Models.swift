@@ -43,6 +43,8 @@ struct WordEntry: Identifiable, Codable, Equatable {
     var isInWrongBook: Bool
     var masteryStatus: MasteryStatus
     var isArchivedFromWordBook: Bool?
+    var catalogID: String?
+    var userTextbookTags: [TextbookTag]?
 
     init(word: String, dictionaryEntry: DictionaryEntry? = nil) {
         self.id = UUID()
@@ -61,6 +63,8 @@ struct WordEntry: Identifiable, Codable, Equatable {
         self.isInWrongBook = false
         self.masteryStatus = .new
         self.isArchivedFromWordBook = false
+        self.catalogID = TextbookCatalog.pepPrimary2012ID
+        self.userTextbookTags = nil
     }
 
     var displayIPA: String {
@@ -115,6 +119,7 @@ struct PracticeSessionSnapshot: Codable {
     var selectedBook: String
     var selectedUnit: String
     var selectedRequirement: String?
+    var catalogID: String?
     var savedAt: Date
 }
 
@@ -126,14 +131,16 @@ struct WordInputWarning: Identifiable {
 }
 
 struct TextbookTag: Codable, Hashable, Identifiable {
+    var catalogID: String?
     var grade: String
     var book: String
     var unit: String
     var meaning: String
     var requirement: VocabularyRequirement?
+    var ipa: String? = nil
 
     var id: String {
-        "\(grade)-\(book)-\(unit)-\(meaning)-\(effectiveRequirement.rawValue)"
+        "\(effectiveCatalogID)-\(grade)-\(book)-\(unit)-\(meaning)-\(effectiveRequirement.rawValue)"
     }
 
     var label: String {
@@ -143,6 +150,18 @@ struct TextbookTag: Codable, Hashable, Identifiable {
     var effectiveRequirement: VocabularyRequirement {
         requirement ?? .unknown
     }
+
+    var effectiveCatalogID: String {
+        catalogID ?? TextbookCatalog.pepPrimary2012ID
+    }
+}
+
+struct TextbookImportDestination {
+    var catalogID: String
+    var grade: String
+    var book: String
+    var unit: String
+    var requirement: VocabularyRequirement
 }
 
 enum VocabularyRequirement: String, Codable, CaseIterable, Identifiable {
@@ -186,6 +205,7 @@ enum SentenceKind: String, Codable, CaseIterable, Identifiable {
 }
 
 struct TextbookSentenceSource: Codable {
+    var catalogID: String?
     var grade: String
     var book: String
     var unit: String
@@ -204,6 +224,7 @@ struct SentenceEntry: Identifiable, Codable, Equatable {
     var chinese: String
     var kind: SentenceKind
     var sourcePDFPage: Int?
+    var catalogID: String?
 
     init(source: TextbookSentenceSource) {
         id = UUID()
@@ -214,6 +235,7 @@ struct SentenceEntry: Identifiable, Codable, Equatable {
         chinese = source.chinese
         kind = source.kind
         sourcePDFPage = source.sourcePDFPage
+        catalogID = source.catalogID ?? TextbookCatalog.pepPrimary2012ID
     }
 
     init(
@@ -222,7 +244,8 @@ struct SentenceEntry: Identifiable, Codable, Equatable {
         unit: String = "未分类",
         english: String,
         chinese: String,
-        kind: SentenceKind = .expression
+        kind: SentenceKind = .expression,
+        catalogID: String = TextbookCatalog.pepPrimary2012ID
     ) {
         id = UUID()
         self.grade = grade
@@ -232,9 +255,14 @@ struct SentenceEntry: Identifiable, Codable, Equatable {
         self.chinese = chinese
         self.kind = kind
         sourcePDFPage = nil
+        self.catalogID = catalogID
     }
 
     var textbookLabel: String {
         "\(grade)\(book) \(unit)"
+    }
+
+    var effectiveCatalogID: String {
+        catalogID ?? TextbookCatalog.pepPrimary2012ID
     }
 }

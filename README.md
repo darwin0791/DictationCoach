@@ -2,7 +2,7 @@
 
 正字是一款个人使用的 macOS 原生英语听写工具。它面向家长和孩子的日常练习场景：按教材范围听写单词、中文默写英文、复听错词，并把练习记录保存在本机。
 
-当前版本：`0.2.0`
+当前版本：`0.3.0`
 
 ## 产品定位
 
@@ -10,12 +10,18 @@
 
 当前重点：
 
-- 以人教 PEP 2012 版 3-6 年级教材词汇为基准。
+- 内置人教 PEP 2012 版与 PEP 2024 版 3-6 年级教材词库。
 - 支持英文听写和中文默写两种练习方式。
 - 家长或孩子在纸上作答，应用只负责播放、记录对错和沉淀错词。
 - 所有学习数据保存在本机，不需要账号和云端同步。
 
 ## 功能概览
+
+- 教材词库入口
+  - 听写、单词本、常用句和错题集都先选择教材，再进入对应功能页。
+  - “人教版 3–6 年级 / PEP 2012”完整支持单词和常用句；“人教版 3–6 年级（新）/ PEP 2024”已开放听写、单词本和错题集。
+  - PEP 2024 常用句以及人教版 7–9 年级数据尚未导入，对应卡片仍显示“准备中”。
+  - 已有单词、常用句和用户导入内容会自动归入当前 PEP 2012 词库，原练习记录不变。
 
 - 听写
   - 支持“英文听写 / 中文默写”切换。
@@ -32,6 +38,7 @@
 
 - 单词本
   - 支持手动新增、批量导入和 OCR 图片导入。
+  - 导入前必须具体选择年级、册和单元；重复单词会追加教材归属，不生成重复词条。
   - 支持搜索英文、中文释义、音标、词性释义。
   - 显示教材来源标签。
   - 支持按教材范围和学习要求筛选。
@@ -55,13 +62,17 @@
 
 教材词汇基准：
 
-- 人教 PEP 2012 版 3-6 年级。
-- 816 条教材记录。
-- 785 个不同单词或短语。
-- 已导入学习要求标识：
+- 人教 PEP 2012 版 3-6 年级：816 条教材记录，785 个不同单词或短语。
+- PEP 2012 学习要求：
   - 会写：463 条。
   - 认读：353 条。
   - 未标注：0 条。
+- 人教 PEP 2024 版 3-6 年级（当前覆盖三年级上册至六年级上册）：清理后 845 条教材记录，836 个不同单词或短语。
+- PEP 2024 学习要求：
+  - 会写：110 条。
+  - 认读：414 条。
+  - 未标注：321 条。
+- PEP 2024 原表中 6 条可明确恢复的截断英文由导入脚本修正；`Jeel`、`Jew` 两条待原图核对记录暂不进入运行词库。
 
 教材句子基准：
 
@@ -73,7 +84,7 @@
 
 - 运行时使用精简 ECDICT SQLite 词典：
   - `Sources/DictationCoachApp/Resources/mini_stardict.db`
-  - 当前约 3.09MB，13,832 条词条。
+  - 当前约 3.26MB，14,595 条词条。
 - 完整 ECDICT 不随 app 打包。
 - 如需重新抽取精简词典，将完整原料库放在已忽略路径：
   - `教材数据整理/raw/stardict_full.db`
@@ -85,12 +96,12 @@ python3 scripts/build_mini_stardict.py
 
 精简词典抽取范围：
 
-- PEP 2012 教材词和短语。
+- PEP 2012、PEP 2024 教材词和短语。
 - 教材句子与谚语中的英文词。
 - ECDICT 中带 `zk/gk/cet4` 标签的基础词。
 - ECDICT `frq` 或 `bnc` 排名前 10000 的高频词。
 - 常见复数、`-ed`、`-ing` 等变形。
-- ECDICT 未收录的教材短语，会用教材释义生成 `pep2012` 兜底词条。
+- ECDICT 未收录的教材短语，会用教材释义生成本地兜底词条。
 
 ECDICT 项目来源：[skywind3000/ECDICT](https://github.com/skywind3000/ECDICT)
 
@@ -183,6 +194,13 @@ ruby scripts/clean_pep2012_sentences.rb
 
 ```bash
 python3 scripts/audit_pep2012_against_ecdict.py
+python3 scripts/audit_pep2024_against_ecdict.py
+```
+
+从本机完整 Excel 重新生成 PEP 2024 运行词库：
+
+```bash
+python3 scripts/import_pep2024_vocab.py
 ```
 
 重新生成精简运行词典：
@@ -196,17 +214,20 @@ python3 scripts/build_mini_stardict.py
 ```text
 Sources/DictationCoachApp/
   ContentView.swift              主界面和听写/单词本/错题集页面
+  TextbookCatalogViews.swift     教材选择页、文件夹卡片和当前教材栏
   SentenceViews.swift            常用句页面
   WordStore.swift                单词状态、导入、判定和持久化
   SentenceStore.swift            常用句加载、导入和持久化
   SQLiteDictionary.swift         精简 ECDICT 查询和词形回退
   SpeechService.swift            英文/中文语音播放
   OCRService.swift               Vision OCR 图片识别
-  Resources/                     本地词典、教材数据、字体和图片资源
+  Resources/                     本地词典、教材数据、字体及文件夹/书架等图片资源
 
 scripts/
   build_app.sh                   打包 macOS app
   build_mini_stardict.py         生成精简 ECDICT 运行词典
   audit_pep2012_against_ecdict.py 英文拼写粗筛
+  audit_pep2024_against_ecdict.py 新版教材英文拼写粗筛
+  import_pep2024_vocab.py        从完整 Excel 生成 PEP 2024 词库
   apply_pep2012_pdf_corrections.rb 教材词表修正
 ```

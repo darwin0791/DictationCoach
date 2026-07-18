@@ -1,0 +1,9279 @@
+{
+  "a box of": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "一盒……",
+      "requirement": "unknown",
+      "ipa": "/ə bɑks əv/"
+    }
+  ],
+  "a lot of": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "大量；许多",
+      "requirement": "recognize",
+      "ipa": "/ə lɔt əv/"
+    }
+  ],
+  "about": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "大约；左右",
+      "requirement": "recognize",
+      "ipa": "/əˈbaʊt/"
+    }
+  ],
+  "add": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "添加；加",
+      "requirement": "unknown",
+      "ipa": "/æd/"
+    }
+  ],
+  "afraid": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "担心；害怕",
+      "requirement": "recognize",
+      "ipa": "/əˈfreɪd/"
+    }
+  ],
+  "after": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "在……后面",
+      "requirement": "recognize",
+      "ipa": "/ɑːftə(r)/"
+    }
+  ],
+  "afternoon": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "下午",
+      "requirement": "recognize",
+      "ipa": "/ˌæftərˈnun/"
+    }
+  ],
+  "ago": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "以前",
+      "requirement": "recognize",
+      "ipa": "/əˈgoʊ/"
+    }
+  ],
+  "agree": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "同意；赞成",
+      "requirement": "recognize",
+      "ipa": "/əˈgri/"
+    }
+  ],
+  "air": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "空气",
+      "requirement": "write",
+      "ipa": "/eə(r)/"
+    }
+  ],
+  "air conditioner": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "空调",
+      "requirement": "unknown",
+      "ipa": "/ɛr kənˈdɪʃənər/"
+    }
+  ],
+  "airport": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "机场",
+      "requirement": "unknown",
+      "ipa": "/ˈɛrˌpɔrt/"
+    }
+  ],
+  "alien": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "外星人",
+      "requirement": "unknown",
+      "ipa": "/ˈeɪliən/"
+    }
+  ],
+  "all": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "所有；全部",
+      "requirement": "recognize",
+      "ipa": "/ɔːl/"
+    }
+  ],
+  "along": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "沿着；顺着",
+      "requirement": "recognize",
+      "ipa": "/əˈlɔŋ/"
+    }
+  ],
+  "also": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "也",
+      "requirement": "recognize",
+      "ipa": "/ˈɔlsoʊ/"
+    }
+  ],
+  "always": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "总是",
+      "requirement": "recognize",
+      "ipa": "/ˈɔlˌweɪz/"
+    }
+  ],
+  "and": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "和；与",
+      "requirement": "write",
+      "ipa": "/ənd , ænd/"
+    }
+  ],
+  "angry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "愤怒的；生气的",
+      "requirement": "recognize",
+      "ipa": "/ˈæŋgri/"
+    }
+  ],
+  "another": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "另一个",
+      "requirement": "unknown",
+      "ipa": "/əˈnəðər/"
+    }
+  ],
+  "answer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "答复；回答",
+      "requirement": "recognize",
+      "ipa": "/ˈænsər/"
+    }
+  ],
+  "any": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "任何的；任一的",
+      "requirement": "recognize",
+      "ipa": "/ˈɛni/"
+    }
+  ],
+  "app": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "应用程序",
+      "requirement": "unknown",
+      "ipa": "/æp/"
+    }
+  ],
+  "apple": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "苹果",
+      "requirement": "write",
+      "ipa": "/ˈæpl/"
+    }
+  ],
+  "April": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "四月",
+      "requirement": "recognize",
+      "ipa": "/ˈeɪprəl/"
+    }
+  ],
+  "arm": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "胳膊",
+      "requirement": "write",
+      "ipa": "/ɑːm/"
+    }
+  ],
+  "art": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "美术；艺术",
+      "requirement": "recognize",
+      "ipa": "/ɑrt/"
+    }
+  ],
+  "artist": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "艺术家；画家",
+      "requirement": "recognize",
+      "ipa": "/ˈɑrtɪst/"
+    }
+  ],
+  "as": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "作为；像……一样",
+      "requirement": "unknown",
+      "ipa": "/ɛz/"
+    }
+  ],
+  "ask": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "问；询问",
+      "requirement": "recognize",
+      "ipa": "/æsk/"
+    }
+  ],
+  "astronaut": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "宇航员",
+      "requirement": "unknown",
+      "ipa": "/ˈæstrəˌnɑt/"
+    }
+  ],
+  "at": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "在（某处）",
+      "requirement": "recognize",
+      "ipa": "/æt/"
+    }
+  ],
+  "August": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "八月",
+      "requirement": "recognize",
+      "ipa": "/ˈɔgəst/"
+    }
+  ],
+  "aunt": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "姑母；姨母；伯母；婶母；舅母",
+      "requirement": "write",
+      "ipa": "/ɑːnt,ænt/"
+    }
+  ],
+  "Australia": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "澳大利亚",
+      "requirement": "recognize",
+      "ipa": "/ɔˈstreɪljə/"
+    }
+  ],
+  "autumn": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "秋天",
+      "requirement": "unknown",
+      "ipa": "/ˈɔtəm/"
+    }
+  ],
+  "baby": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "婴儿",
+      "requirement": "write",
+      "ipa": "/'beɪbɪ/"
+    }
+  ],
+  "back": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "回到原处",
+      "requirement": "recognize",
+      "ipa": "/bæk/"
+    }
+  ],
+  "bad": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "坏的；糟糕的",
+      "requirement": "unknown",
+      "ipa": "/bæd/"
+    }
+  ],
+  "bag": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "包；袋",
+      "requirement": "recognize",
+      "ipa": "/bæg/"
+    }
+  ],
+  "ball": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "球",
+      "requirement": "recognize",
+      "ipa": "/bɔːl/"
+    }
+  ],
+  "bamboo": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "竹子",
+      "requirement": "unknown",
+      "ipa": "/bæmˈbu/"
+    }
+  ],
+  "banana": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "香蕉",
+      "requirement": "write",
+      "ipa": "/bəˈnɑːnə, bəˈnænə/"
+    }
+  ],
+  "basketball": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "篮球运动",
+      "requirement": "recognize",
+      "ipa": "/ˈbæskətˌbɔl/"
+    }
+  ],
+  "bathroom": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "浴室；洗手间",
+      "requirement": "recognize",
+      "ipa": "/ˈbæθˌrum/"
+    }
+  ],
+  "beach": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "海滩；沙滩",
+      "requirement": "recognize",
+      "ipa": "/biʧ/"
+    }
+  ],
+  "bear": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "熊",
+      "requirement": "write",
+      "ipa": "/beə(r)/"
+    }
+  ],
+  "beautiful": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "美丽的",
+      "requirement": "recognize",
+      "ipa": "/ˈbjutəfəl/"
+    }
+  ],
+  "because": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "因为",
+      "requirement": "recognize",
+      "ipa": "/bɪˈkəz/"
+    }
+  ],
+  "bed": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "床",
+      "requirement": "unknown",
+      "ipa": "/bɛd/"
+    }
+  ],
+  "bedroom": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "卧室",
+      "requirement": "recognize",
+      "ipa": "/ˈbɛˌdrum/"
+    }
+  ],
+  "bee": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "蜜蜂",
+      "requirement": "unknown",
+      "ipa": "/bi/"
+    }
+  ],
+  "beef": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "牛肉",
+      "requirement": "unknown",
+      "ipa": "/bif/"
+    }
+  ],
+  "before": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "在……以前",
+      "requirement": "unknown",
+      "ipa": "/ˌbiˈfɔr/"
+    }
+  ],
+  "begin": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "开始",
+      "requirement": "unknown",
+      "ipa": "/bɪˈgɪn/"
+    }
+  ],
+  "behind": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "在⋯⋯的后面",
+      "requirement": "recognize",
+      "ipa": "/bɪˈhaɪnd/"
+    }
+  ],
+  "Beijing opera": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "京剧",
+      "requirement": "unknown",
+      "ipa": "/ˌbeɪˈdʒɪŋ ˈɑːpərə/"
+    }
+  ],
+  "beside": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "在旁边；在附近",
+      "requirement": "recognize",
+      "ipa": "/ˌbiˈsaɪd/"
+    }
+  ],
+  "best": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "最好的",
+      "requirement": "recognize",
+      "ipa": "/bɛst/"
+    }
+  ],
+  "better": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "更好的",
+      "requirement": "unknown",
+      "ipa": "/ˈbɛtər/"
+    }
+  ],
+  "between": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "在⋯⋯中间；介于⋯⋯之间",
+      "requirement": "recognize",
+      "ipa": "/bɪtˈwin/"
+    }
+  ],
+  "big": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "大的",
+      "requirement": "write",
+      "ipa": "/bɪg/"
+    }
+  ],
+  "bike": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "自行车",
+      "requirement": "unknown",
+      "ipa": "/baɪk/"
+    }
+  ],
+  "bird": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "鸟",
+      "requirement": "write",
+      "ipa": "/b3:d/"
+    }
+  ],
+  "black": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "黑色（的）",
+      "requirement": "write",
+      "ipa": "/blæk/"
+    }
+  ],
+  "blackboard": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "黑板",
+      "requirement": "recognize",
+      "ipa": "/ˈblækˌbɔrd/"
+    }
+  ],
+  "blog": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "博客",
+      "requirement": "unknown",
+      "ipa": "/blɔg/"
+    }
+  ],
+  "blue": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "蓝色；蓝色的",
+      "requirement": "write",
+      "ipa": "/blu:/"
+    }
+  ],
+  "boat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "小船；舟",
+      "requirement": "recognize",
+      "ipa": "/bəʊt/"
+    }
+  ],
+  "body": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "身体",
+      "requirement": "recognize",
+      "ipa": "/ˈbɒdi/"
+    }
+  ],
+  "book": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "书；书籍",
+      "requirement": "recognize",
+      "ipa": "/bʊk/"
+    }
+  ],
+  "book fair": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "书展",
+      "requirement": "unknown",
+      "ipa": "/bʊk fɛr/"
+    }
+  ],
+  "borrow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "借；借用",
+      "requirement": "recognize",
+      "ipa": "/ˈbɑˌroʊ/"
+    }
+  ],
+  "both": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "两者",
+      "requirement": "recognize",
+      "ipa": "/boʊθ/"
+    }
+  ],
+  "bottle": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "瓶子",
+      "requirement": "unknown",
+      "ipa": "/ˈbɑtəl/"
+    }
+  ],
+  "bowl": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "碗",
+      "requirement": "unknown",
+      "ipa": "/boʊl/"
+    }
+  ],
+  "box": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "箱子",
+      "requirement": "recognize",
+      "ipa": "/bɒks/"
+    }
+  ],
+  "boy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "男孩",
+      "requirement": "recognize",
+      "ipa": "/bɔɪ/"
+    }
+  ],
+  "bread": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "面包",
+      "requirement": "recognize",
+      "ipa": "/bred/"
+    }
+  ],
+  "breakfast": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "早餐；早饭",
+      "requirement": "recognize",
+      "ipa": "/ˈbrekfəst/"
+    }
+  ],
+  "bring": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "带来",
+      "requirement": "unknown",
+      "ipa": "/brɪŋ/"
+    }
+  ],
+  "Britain": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "英国",
+      "requirement": "unknown",
+      "ipa": "/ˈbrɪtn/"
+    }
+  ],
+  "brother": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "兄弟",
+      "requirement": "write",
+      "ipa": "/'brʌðə/"
+    }
+  ],
+  "brown": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "棕色；棕色的",
+      "requirement": "write",
+      "ipa": "/braʊn/"
+    }
+  ],
+  "brush": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "刷；刷子",
+      "requirement": "unknown",
+      "ipa": "/brəʃ/"
+    }
+  ],
+  "building": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "建筑物",
+      "requirement": "unknown",
+      "ipa": "/ˈbɪldɪŋ/"
+    }
+  ],
+  "bus": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "公共汽车",
+      "requirement": "unknown",
+      "ipa": "/bəs/"
+    }
+  ],
+  "bus stop": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "公共汽车站",
+      "requirement": "recognize",
+      "ipa": "/bəs stɑp/"
+    }
+  ],
+  "busy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "忙碌的",
+      "requirement": "recognize",
+      "ipa": "/ˈbɪzi/"
+    }
+  ],
+  "buy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "购买",
+      "requirement": "recognize",
+      "ipa": "/baɪ/"
+    }
+  ],
+  "Cairo": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "开罗",
+      "requirement": "unknown",
+      "ipa": "/ˈkaɪroʊ/"
+    }
+  ],
+  "cake": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "蛋糕",
+      "requirement": "write",
+      "ipa": "/keɪk/"
+    }
+  ],
+  "call": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "打电话；称呼",
+      "requirement": "unknown",
+      "ipa": "/kɔl/"
+    }
+  ],
+  "camel": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "骆驼",
+      "requirement": "unknown",
+      "ipa": "/ˈkæməl/"
+    }
+  ],
+  "can": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "可以",
+      "requirement": "write",
+      "ipa": "/kæn , kən/"
+    }
+  ],
+  "Canada": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "加拿大",
+      "requirement": "recognize",
+      "ipa": "/kænədə/"
+    }
+  ],
+  "candy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "糖果",
+      "requirement": "recognize",
+      "ipa": "/kændi/"
+    }
+  ],
+  "cap": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "帽子",
+      "requirement": "recognize",
+      "ipa": "/kæp/"
+    }
+  ],
+  "car": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "小汽车；轿车",
+      "requirement": "recognize",
+      "ipa": "/kɑː(r)/"
+    }
+  ],
+  "card": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "贺卡；慰问卡；卡片",
+      "requirement": "recognize",
+      "ipa": "/kɑːd/"
+    }
+  ],
+  "carrot": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "胡萝卜",
+      "requirement": "unknown",
+      "ipa": "/ˈkɛrət/"
+    }
+  ],
+  "carry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "携带；搬运",
+      "requirement": "unknown",
+      "ipa": "/ˈkɛri/"
+    }
+  ],
+  "cat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "猫",
+      "requirement": "write",
+      "ipa": "/kæt/"
+    }
+  ],
+  "catch": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "捕捉；接住",
+      "requirement": "recognize",
+      "ipa": "/kæʧ/"
+    }
+  ],
+  "celebrate": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "庆祝；庆贺",
+      "requirement": "recognize",
+      "ipa": "/ˈsɛləˌbreɪt/"
+    }
+  ],
+  "centre": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "中心",
+      "requirement": "recognize",
+      "ipa": "/ˈsɛntər/"
+    }
+  ],
+  "chair": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "椅子",
+      "requirement": "recognize",
+      "ipa": "/ʧɛr/"
+    }
+  ],
+  "change": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "改变；变化",
+      "requirement": "unknown",
+      "ipa": "/ʧeɪnʤ/"
+    }
+  ],
+  "cheap": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "便宜的",
+      "requirement": "recognize",
+      "ipa": "/ʧip/"
+    }
+  ],
+  "check": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "查看；查明",
+      "requirement": "recognize",
+      "ipa": "/ʧɛk/"
+    }
+  ],
+  "cheer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "欢呼；加油",
+      "requirement": "unknown",
+      "ipa": "/ʧɪr/"
+    }
+  ],
+  "chess": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "国际象棋",
+      "requirement": "recognize",
+      "ipa": "/ʧɛs/"
+    }
+  ],
+  "chicken": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "鸡；鸡肉",
+      "requirement": "unknown",
+      "ipa": "/ˈʧɪkən/"
+    }
+  ],
+  "child": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "（复数children） 儿童；小孩",
+      "requirement": "recognize",
+      "ipa": "/ʧaɪld/"
+    }
+  ],
+  "children": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "孩子们",
+      "requirement": "unknown",
+      "ipa": "/ˈʧɪldrən/"
+    }
+  ],
+  "China": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "中国",
+      "requirement": "recognize",
+      "ipa": "/tʃaɪnə/"
+    }
+  ],
+  "Chinese": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "中文；中国人；中国的",
+      "requirement": "recognize",
+      "ipa": "/ʧaɪˈniz/"
+    }
+  ],
+  "chopstick": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "筷子",
+      "requirement": "unknown",
+      "ipa": "/ˈʧɑpˌstɪk/"
+    }
+  ],
+  "chore": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "家庭杂务",
+      "requirement": "recognize",
+      "ipa": "/ʧɔr/"
+    }
+  ],
+  "Christmas": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "圣诞节",
+      "requirement": "recognize",
+      "ipa": "/ˈkrɪsməs/"
+    }
+  ],
+  "cinema": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "电影院",
+      "requirement": "recognize",
+      "ipa": "/ˈsɪnəmə/"
+    }
+  ],
+  "city": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "都市；城市",
+      "requirement": "recognize",
+      "ipa": "/ˈsɪti/"
+    }
+  ],
+  "class": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "课；班级",
+      "requirement": "recognize",
+      "ipa": "/klɑːs/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "课； 课程；班；班级",
+      "requirement": "recognize",
+      "ipa": "/klæs/"
+    }
+  ],
+  "classmate": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "同班同学",
+      "requirement": "recognize",
+      "ipa": "/klɑːsmeɪt/"
+    }
+  ],
+  "classroom": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "教室",
+      "requirement": "recognize",
+      "ipa": "/ˈklæsˌrum/"
+    }
+  ],
+  "clay": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "黏土",
+      "requirement": "unknown",
+      "ipa": "/kleɪ/"
+    }
+  ],
+  "clean": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "打扫；干净的",
+      "requirement": "recognize",
+      "ipa": "/klin/"
+    }
+  ],
+  "cleaner": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "清洁工",
+      "requirement": "recognize",
+      "ipa": "/ˈklinər/"
+    }
+  ],
+  "clear the table": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "收拾餐桌",
+      "requirement": "unknown",
+      "ipa": "/klɪr ðə ˈteɪbəl/"
+    }
+  ],
+  "clever": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "聪明的；聪颖的",
+      "requirement": "recognize",
+      "ipa": "/ˈklɛvər/"
+    }
+  ],
+  "climb": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "攀登；爬",
+      "requirement": "unknown",
+      "ipa": "/klaɪm/"
+    }
+  ],
+  "clock": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "时钟",
+      "requirement": "recognize",
+      "ipa": "/klɑk/"
+    }
+  ],
+  "close": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "关闭；接近的",
+      "requirement": "unknown",
+      "ipa": "/kloʊz/"
+    }
+  ],
+  "closed": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "关闭的",
+      "requirement": "unknown",
+      "ipa": "/kloʊzd/"
+    }
+  ],
+  "cloth": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "布；布料",
+      "requirement": "unknown",
+      "ipa": "/klɔθ/"
+    }
+  ],
+  "clothes": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "衣服；服装",
+      "requirement": "recognize",
+      "ipa": "/kloʊðz/"
+    }
+  ],
+  "cloud": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "云",
+      "requirement": "unknown",
+      "ipa": "/klaʊd/"
+    }
+  ],
+  "cloudy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "多云的",
+      "requirement": "unknown",
+      "ipa": "/ˈklaʊdi/"
+    }
+  ],
+  "coat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "外套；大衣",
+      "requirement": "unknown",
+      "ipa": "/koʊt/"
+    }
+  ],
+  "coconut": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "椰子",
+      "requirement": "unknown",
+      "ipa": "/ˈkoʊkəˌnət/"
+    }
+  ],
+  "cold": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "冷的；感冒",
+      "requirement": "unknown",
+      "ipa": "/koʊld/"
+    }
+  ],
+  "colour": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "颜色",
+      "requirement": "write",
+      "ipa": "/ˈkʌlə(r)/"
+    }
+  ],
+  "colourful": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "五彩缤纷的",
+      "requirement": "recognize",
+      "ipa": "/kʌləfl/"
+    }
+  ],
+  "common": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "共同的；共有的",
+      "requirement": "recognize",
+      "ipa": "/ˈkɑmən/"
+    }
+  ],
+  "community": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "社区",
+      "requirement": "recognize",
+      "ipa": "/kəmˈjunɪti/"
+    }
+  ],
+  "computer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "计算机；电脑",
+      "requirement": "recognize",
+      "ipa": "/kəmˈpjuːtə(r)/"
+    }
+  ],
+  "Confucius": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "孔子",
+      "requirement": "unknown",
+      "ipa": "/kənˈfjuːʃəs/"
+    }
+  ],
+  "cook": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "烹饪；煮",
+      "requirement": "recognize",
+      "ipa": "/kʊk/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "厨师",
+      "requirement": "recognize",
+      "ipa": "/kʊk/"
+    }
+  ],
+  "cool": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "酷的；绝妙的",
+      "requirement": "recognize",
+      "ipa": "/kuːl/"
+    }
+  ],
+  "cough": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "咳嗽",
+      "requirement": "unknown",
+      "ipa": "/kɔf/"
+    }
+  ],
+  "could": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "能；可以（can的过去式）",
+      "requirement": "unknown",
+      "ipa": "/kʊd/"
+    }
+  ],
+  "count down": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "倒计时",
+      "requirement": "unknown",
+      "ipa": "/kaʊnt daʊn/"
+    }
+  ],
+  "country": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "国；国家",
+      "requirement": "recognize",
+      "ipa": "/ˈkəntri/"
+    }
+  ],
+  "cousin": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "堂（表）兄弟；堂（表）姐妹",
+      "requirement": "write",
+      "ipa": "/'kʌzən/"
+    }
+  ],
+  "cow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "奶牛",
+      "requirement": "recognize",
+      "ipa": "/kaʊ/"
+    }
+  ],
+  "CPC Founding Day": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "中国共产党建党日",
+      "requirement": "recognize",
+      "ipa": "/ˌsiː piː ˈsiː ˈfaʊndɪŋ deɪ/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "中国共产党建党日",
+      "requirement": "unknown",
+      "ipa": "/ˌsiː piː ˈsiː ˈfaʊndɪŋ deɪ/"
+    }
+  ],
+  "cry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "哭；叫喊",
+      "requirement": "unknown",
+      "ipa": "/kraɪ/"
+    }
+  ],
+  "culture": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "文化",
+      "requirement": "unknown",
+      "ipa": "/ˈkəlʧər/"
+    }
+  ],
+  "cup": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "一杯(的量) ；杯子",
+      "requirement": "recognize",
+      "ipa": "/kəp/"
+    }
+  ],
+  "cut": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "切块",
+      "requirement": "write",
+      "ipa": "/kʌt/"
+    }
+  ],
+  "cute": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "可爱的",
+      "requirement": "write",
+      "ipa": "/kju:t/"
+    }
+  ],
+  "dad": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（口语）爸爸",
+      "requirement": "write",
+      "ipa": "/dæd/"
+    }
+  ],
+  "dance": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "跳舞",
+      "requirement": "recognize",
+      "ipa": "/dɑːns/"
+    }
+  ],
+  "dangerous": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "危险的",
+      "requirement": "unknown",
+      "ipa": "/ˈdeɪnʤərəs/"
+    }
+  ],
+  "daytime": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "白天",
+      "requirement": "unknown",
+      "ipa": "/ˈdeɪˌtaɪm/"
+    }
+  ],
+  "dear": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "亲爱的",
+      "requirement": "recognize",
+      "ipa": "/dɪr/"
+    }
+  ],
+  "December": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "十二月",
+      "requirement": "recognize",
+      "ipa": "/dɪˈsɛmbər/"
+    }
+  ],
+  "delicious": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "美味的",
+      "requirement": "unknown",
+      "ipa": "/dɪˈlɪʃəs/"
+    }
+  ],
+  "delivery worker": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "快递员",
+      "requirement": "recognize",
+      "ipa": "/dɪˈlɪvəri ˈwərkər/"
+    }
+  ],
+  "desert": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "沙漠；荒漠",
+      "requirement": "recognize",
+      "ipa": "/ˈdɛzərt/"
+    }
+  ],
+  "desk": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "书桌；办公桌",
+      "requirement": "recognize",
+      "ipa": "/dɛsk/"
+    }
+  ],
+  "diet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "饮食",
+      "requirement": "unknown",
+      "ipa": "/daɪət/"
+    }
+  ],
+  "difference": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "差异；不同",
+      "requirement": "unknown",
+      "ipa": "/ˈdɪfərəns/"
+    }
+  ],
+  "different": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "不同的",
+      "requirement": "unknown",
+      "ipa": "/ˈdɪfərənt/"
+    }
+  ],
+  "difficult": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "困难的",
+      "requirement": "unknown",
+      "ipa": "/ˈdɪfəkəlt/"
+    }
+  ],
+  "dinner": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "（中午或晚上吃的） 正餐",
+      "requirement": "recognize",
+      "ipa": "/ˈdɪnər/"
+    }
+  ],
+  "direct": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "给(某人) 指路；指挥",
+      "requirement": "recognize",
+      "ipa": "/dɪˈrɛkt/"
+    }
+  ],
+  "dirty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "脏的",
+      "requirement": "unknown",
+      "ipa": "/ˈdərti/"
+    }
+  ],
+  "discuss": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "讨论",
+      "requirement": "unknown",
+      "ipa": "/dɪˈskəs/"
+    }
+  ],
+  "doctor": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "医生",
+      "requirement": "recognize",
+      "ipa": "/ˈdɔktər/"
+    }
+  ],
+  "dog": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "狗",
+      "requirement": "write",
+      "ipa": "/dɒɡ/"
+    }
+  ],
+  "doll": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "玩偶；玩具娃娃",
+      "requirement": "recognize",
+      "ipa": "/dɒl/"
+    }
+  ],
+  "door": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "门",
+      "requirement": "recognize",
+      "ipa": "/dɔr/"
+    }
+  ],
+  "Dragon Boat Festival": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "端午节",
+      "requirement": "recognize",
+      "ipa": "/ˈdræɡən boʊt ˈfestɪvəl/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "端午节",
+      "requirement": "unknown",
+      "ipa": "/ˈdræɡən boʊt ˈfestɪvəl/"
+    }
+  ],
+  "draw": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "画",
+      "requirement": "write",
+      "ipa": "/drɔː/"
+    }
+  ],
+  "dress": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "连衣裙；穿衣服",
+      "requirement": "unknown",
+      "ipa": "/drɛs/"
+    }
+  ],
+  "drink": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "饮料；喝",
+      "requirement": "unknown",
+      "ipa": "/drɪŋk/"
+    }
+  ],
+  "drive": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "驾驶；驱动",
+      "requirement": "unknown",
+      "ipa": "/draɪv/"
+    }
+  ],
+  "driver": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "司机",
+      "requirement": "recognize",
+      "ipa": "/ˈdraɪvər/"
+    }
+  ],
+  "dry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "干的；使变干",
+      "requirement": "unknown",
+      "ipa": "/draɪ/"
+    }
+  ],
+  "duck": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "鸭",
+      "requirement": "write",
+      "ipa": "/dʌk/"
+    }
+  ],
+  "dumpling": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "饺子",
+      "requirement": "unknown",
+      "ipa": "/ˈdəmplɪŋ/"
+    }
+  ],
+  "ear": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "耳朵",
+      "requirement": "write",
+      "ipa": "/ɪə(r),ɪr/"
+    }
+  ],
+  "early": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "早的；早地",
+      "requirement": "unknown",
+      "ipa": "/ˈərli/"
+    }
+  ],
+  "earth": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "地球；土地",
+      "requirement": "unknown",
+      "ipa": "/ərθ/"
+    }
+  ],
+  "easy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "容易的；轻易的",
+      "requirement": "recognize",
+      "ipa": "/ˈizi/"
+    }
+  ],
+  "eat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "吃",
+      "requirement": "write",
+      "ipa": "/i:t/"
+    }
+  ],
+  "egg": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（作食物用的）蛋；鸡蛋",
+      "requirement": "recognize",
+      "ipa": "/eɡ/"
+    }
+  ],
+  "Eiffel Tower": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "埃菲尔铁塔",
+      "requirement": "unknown",
+      "ipa": "/ˈaɪfəl ˈtaʊə(r)/"
+    }
+  ],
+  "eight": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "八",
+      "requirement": "write",
+      "ipa": "/eɪt/"
+    }
+  ],
+  "eighteen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十八",
+      "requirement": "recognize",
+      "ipa": "/ˌeɪ'tiːn/"
+    }
+  ],
+  "eighty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "八十",
+      "requirement": "unknown",
+      "ipa": "/ˈeɪti/"
+    }
+  ],
+  "electricity": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "电",
+      "requirement": "unknown",
+      "ipa": "/ɪˌlɛkˈtrɪsəti/"
+    }
+  ],
+  "elephant": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "大象",
+      "requirement": "write",
+      "ipa": "/ˈelɪfənt/"
+    }
+  ],
+  "eleven": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十一",
+      "requirement": "recognize",
+      "ipa": "/ɪ'levn/"
+    }
+  ],
+  "else": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "其他的；别的",
+      "requirement": "recognize",
+      "ipa": "/ɛls/"
+    }
+  ],
+  "email": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "电子邮件",
+      "requirement": "unknown",
+      "ipa": "/iˈmeɪl/"
+    }
+  ],
+  "energy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "能量；能源",
+      "requirement": "unknown",
+      "ipa": "/ˈɛnərʤi/"
+    }
+  ],
+  "English": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "英语的；英语",
+      "requirement": "recognize",
+      "ipa": "/ɪŋɡlɪʃ/"
+    }
+  ],
+  "enough": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "足够的；充足的；充分的",
+      "requirement": "recognize",
+      "ipa": "/ɪˈnəf/"
+    }
+  ],
+  "environment": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "环境",
+      "requirement": "unknown",
+      "ipa": "/ɪnˈvaɪrənmənt/"
+    }
+  ],
+  "eraser": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "橡皮",
+      "requirement": "recognize",
+      "ipa": "/ɪˈreɪzə(r)/"
+    }
+  ],
+  "even": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "甚至；即使",
+      "requirement": "unknown",
+      "ipa": "/ˈivɪn/"
+    }
+  ],
+  "evening": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "晚上；傍晚",
+      "requirement": "recognize",
+      "ipa": "/ˈivnɪŋ/"
+    }
+  ],
+  "ever": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "曾经；在任何时候",
+      "requirement": "unknown",
+      "ipa": "/ˈɛvər/"
+    }
+  ],
+  "everyday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "每天的；日常的",
+      "requirement": "unknown",
+      "ipa": "/ˈɛvriˈdeɪ/"
+    }
+  ],
+  "everyone": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "每个人",
+      "requirement": "recognize",
+      "ipa": "/ˈɛvriˌwən/"
+    }
+  ],
+  "excited": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "激动的；兴奋的",
+      "requirement": "recognize",
+      "ipa": "/ɪkˈsaɪtɪd/"
+    }
+  ],
+  "exciting": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "令人兴奋的",
+      "requirement": "unknown",
+      "ipa": "/ɪkˈsaɪtɪŋ/"
+    }
+  ],
+  "exercise": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "锻炼；训练；操练",
+      "requirement": "recognize",
+      "ipa": "/ˈɛksərˌsaɪz/"
+    }
+  ],
+  "expensive": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "昂贵的；价格高的",
+      "requirement": "recognize",
+      "ipa": "/ɪkˈspɛnsɪv/"
+    }
+  ],
+  "explore": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "探索",
+      "requirement": "unknown",
+      "ipa": "/ɪkˈsplɔr/"
+    }
+  ],
+  "eye": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "眼睛",
+      "requirement": "write",
+      "ipa": "/aɪ/"
+    }
+  ],
+  "face": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "脸；面孔",
+      "requirement": "recognize",
+      "ipa": "/feɪs/"
+    }
+  ],
+  "factory worker": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "工厂工人",
+      "requirement": "recognize",
+      "ipa": "/ˈfæktəri ˈwərkər/"
+    }
+  ],
+  "fall": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "秋天；落下",
+      "requirement": "unknown",
+      "ipa": "/fɔl/"
+    }
+  ],
+  "family": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "家；家庭",
+      "requirement": "write",
+      "ipa": "/'fæməli/"
+    }
+  ],
+  "famous": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "著名的",
+      "requirement": "unknown",
+      "ipa": "/ˈfeɪməs/"
+    }
+  ],
+  "fan": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "风扇",
+      "requirement": "recognize",
+      "ipa": "/fæn/"
+    }
+  ],
+  "far": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "远的；较远的",
+      "requirement": "recognize",
+      "ipa": "/fɑr/"
+    }
+  ],
+  "farm": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "农场",
+      "requirement": "write",
+      "ipa": "/fɑːm/"
+    }
+  ],
+  "farmer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "农场主；农民",
+      "requirement": "recognize",
+      "ipa": "/ˈfɑrmər/"
+    }
+  ],
+  "fast": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "快的",
+      "requirement": "write",
+      "ipa": "/fɑːst,fæst/"
+    }
+  ],
+  "fat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "肥的；肥胖的",
+      "requirement": "recognize",
+      "ipa": "/fæt/"
+    }
+  ],
+  "father": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "父亲；爸爸",
+      "requirement": "write",
+      "ipa": "/ˈfɑːðə(r)/"
+    }
+  ],
+  "favourite": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "最喜欢的",
+      "requirement": "recognize",
+      "ipa": "/ˈfeɪvərɪt/"
+    }
+  ],
+  "February": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "二月",
+      "requirement": "recognize",
+      "ipa": "/ˈfɛbruˌɛri/"
+    }
+  ],
+  "feed": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "喂养",
+      "requirement": "unknown",
+      "ipa": "/fid/"
+    }
+  ],
+  "feel": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "觉得；感到",
+      "requirement": "recognize",
+      "ipa": "/fil/"
+    }
+  ],
+  "feel like": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "想要；感觉像",
+      "requirement": "unknown",
+      "ipa": "/fil laɪk/"
+    }
+  ],
+  "fever": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "发烧",
+      "requirement": "unknown",
+      "ipa": "/ˈfivər/"
+    }
+  ],
+  "fifteen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十五",
+      "requirement": "recognize",
+      "ipa": "/fɪfˈtiːn/"
+    }
+  ],
+  "fifty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "五十",
+      "requirement": "unknown",
+      "ipa": "/ˈfɪfti/"
+    }
+  ],
+  "film": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "电影；胶片",
+      "requirement": "unknown",
+      "ipa": "/fɪlm/"
+    }
+  ],
+  "finally": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "最后；终于",
+      "requirement": "unknown",
+      "ipa": "/ˈfaɪnəli/"
+    }
+  ],
+  "find": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "找到；找出",
+      "requirement": "recognize",
+      "ipa": "/faɪnd/"
+    }
+  ],
+  "fine": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "好的；晴朗的",
+      "requirement": "unknown",
+      "ipa": "/faɪn/"
+    }
+  ],
+  "finish": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "完成；做好",
+      "requirement": "recognize",
+      "ipa": "/ˈfɪnɪʃ/"
+    }
+  ],
+  "fire": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "火；火灾",
+      "requirement": "unknown",
+      "ipa": "/faɪər/"
+    }
+  ],
+  "firefighter": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "消防队员",
+      "requirement": "recognize",
+      "ipa": "/ˈfaɪrˌfaɪtər/"
+    }
+  ],
+  "first": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "首先；首次；第一",
+      "requirement": "recognize",
+      "ipa": "/fərst/"
+    }
+  ],
+  "fish": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "鱼",
+      "requirement": "write",
+      "ipa": "/fɪʃ/"
+    }
+  ],
+  "five": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "五",
+      "requirement": "write",
+      "ipa": "/faɪv/"
+    }
+  ],
+  "flash": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "闪光灯",
+      "requirement": "recognize",
+      "ipa": "/flæʃ/"
+    }
+  ],
+  "flood": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "洪水",
+      "requirement": "unknown",
+      "ipa": "/fləd/"
+    }
+  ],
+  "floor": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "地板；地面",
+      "requirement": "recognize",
+      "ipa": "/flɔr/"
+    }
+  ],
+  "flower": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "花",
+      "requirement": "write",
+      "ipa": "/ˈflaʊə(r)/"
+    }
+  ],
+  "flu": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "流行性感冒；流感",
+      "requirement": "recognize",
+      "ipa": "/flu/"
+    }
+  ],
+  "fly": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "飞；放飞",
+      "requirement": "unknown",
+      "ipa": "/flaɪ/"
+    }
+  ],
+  "follow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "遵循, 听从（忠告、指示等）",
+      "requirement": "recognize",
+      "ipa": "/ˈfɑloʊ/"
+    }
+  ],
+  "food": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "食物",
+      "requirement": "unknown",
+      "ipa": "/fud/"
+    }
+  ],
+  "foot": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "脚；足",
+      "requirement": "unknown",
+      "ipa": "/fʊt/"
+    }
+  ],
+  "football": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "足球运动",
+      "requirement": "recognize",
+      "ipa": "/ˈfʊtˌbɔl/"
+    }
+  ],
+  "for example": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "例如",
+      "requirement": "unknown",
+      "ipa": "/fər ɪgˈzæmpəl/"
+    }
+  ],
+  "foreign": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "外国的",
+      "requirement": "recognize",
+      "ipa": "/ˈfɔrən/"
+    }
+  ],
+  "forest": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "森林",
+      "requirement": "unknown",
+      "ipa": "/ˈfɔrɪst/"
+    }
+  ],
+  "fork": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "叉子",
+      "requirement": "unknown",
+      "ipa": "/fɔrk/"
+    }
+  ],
+  "forty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "四十",
+      "requirement": "unknown",
+      "ipa": "/ˈfɔrti/"
+    }
+  ],
+  "four": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "四",
+      "requirement": "write",
+      "ipa": "/fɔː(r)/"
+    }
+  ],
+  "fourteen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十四",
+      "requirement": "recognize",
+      "ipa": "/fɔːˈtiːn/"
+    }
+  ],
+  "fox": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "狐狸",
+      "requirement": "write",
+      "ipa": "/fɔks/"
+    }
+  ],
+  "free": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "免费的",
+      "requirement": "recognize",
+      "ipa": "/fri/"
+    }
+  ],
+  "Friday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期五",
+      "requirement": "recognize",
+      "ipa": "/ˈfraɪˌdeɪ/"
+    }
+  ],
+  "friend": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "朋友",
+      "requirement": "write",
+      "ipa": "/frend/"
+    }
+  ],
+  "from": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "（表示来源）来自，从……来",
+      "requirement": "recognize",
+      "ipa": "/frɒm/"
+    }
+  ],
+  "front": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "前部",
+      "requirement": "recognize",
+      "ipa": "/frənt/"
+    }
+  ],
+  "fruit": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "水果",
+      "requirement": "recognize",
+      "ipa": "/fruːt/"
+    }
+  ],
+  "fun": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "乐趣；有趣的",
+      "requirement": "unknown",
+      "ipa": "/fən/"
+    }
+  ],
+  "gala": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "联欢会；庆典",
+      "requirement": "unknown",
+      "ipa": "/ˈgælə/"
+    }
+  ],
+  "game": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "游戏",
+      "requirement": "recognize",
+      "ipa": "/geɪm/"
+    }
+  ],
+  "garden": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "花园",
+      "requirement": "write",
+      "ipa": "/ˈɡɑːdn/"
+    }
+  ],
+  "get": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "得到；到达",
+      "requirement": "unknown",
+      "ipa": "/gɪt/"
+    }
+  ],
+  "get together": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "聚会；相聚",
+      "requirement": "unknown",
+      "ipa": "/gɪt təˈgɛðər/"
+    }
+  ],
+  "get up": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "起床",
+      "requirement": "recognize",
+      "ipa": "/gɪt əp/"
+    }
+  ],
+  "gift": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "礼物",
+      "requirement": "recognize",
+      "ipa": "/ɡɪft/"
+    }
+  ],
+  "gingerbread house": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "姜饼屋",
+      "requirement": "unknown",
+      "ipa": "/ˈdʒɪndʒərbred haʊs/"
+    }
+  ],
+  "giraffe": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "长颈鹿",
+      "requirement": "write",
+      "ipa": "/dʒəˈrɑːf/"
+    }
+  ],
+  "girl": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "女孩",
+      "requirement": "recognize",
+      "ipa": "/ɡɜːl/"
+    }
+  ],
+  "give": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "给",
+      "requirement": "write",
+      "ipa": "/ɡɪv/"
+    }
+  ],
+  "glass": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "玻璃；玻璃杯",
+      "requirement": "unknown",
+      "ipa": "/glæs/"
+    }
+  ],
+  "glove": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "手套",
+      "requirement": "unknown",
+      "ipa": "/gləv/"
+    }
+  ],
+  "go": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "去",
+      "requirement": "write",
+      "ipa": "/gəʊ/"
+    }
+  ],
+  "go hiking": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "去远足",
+      "requirement": "unknown",
+      "ipa": "/goʊ ˈhaɪkɪŋ/"
+    }
+  ],
+  "go home": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "回家",
+      "requirement": "recognize",
+      "ipa": "/goʊ hoʊm/"
+    }
+  ],
+  "go to bed": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "上床睡觉",
+      "requirement": "recognize",
+      "ipa": "/goʊ tɪ bɛd/"
+    }
+  ],
+  "go to school": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "上学",
+      "requirement": "recognize",
+      "ipa": "/goʊ tɪ skul/"
+    }
+  ],
+  "good": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "好的",
+      "requirement": "write",
+      "ipa": "/gud/"
+    }
+  ],
+  "goodbye": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "再见",
+      "requirement": "write",
+      "ipa": "/ˌɡʊdˈbaɪ/"
+    }
+  ],
+  "goods": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "商品；货物",
+      "requirement": "unknown",
+      "ipa": "/gʊdz/"
+    }
+  ],
+  "grandfather": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（外）祖父；爷爷；姥爷；外公",
+      "requirement": "write",
+      "ipa": "/ˈɡrænfɑːðə(r)/"
+    }
+  ],
+  "grandma": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（口语）（外）祖母；奶奶；姥姥；外婆",
+      "requirement": "write",
+      "ipa": "/ˈɡrænmɑː/"
+    }
+  ],
+  "grandmother": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（外）祖母；奶奶；姥姥；外婆",
+      "requirement": "write",
+      "ipa": "/ˈɡrænmʌðə(r)/"
+    }
+  ],
+  "grandpa": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（口语）（外）祖父；爷爷；姥爷；外公",
+      "requirement": "write",
+      "ipa": "/ˈɡrænpɑː/"
+    }
+  ],
+  "grandparent": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "祖父；祖母；外祖父；外祖母",
+      "requirement": "recognize",
+      "ipa": "/ˈgrændˌpɛrənt/"
+    }
+  ],
+  "grape": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "葡萄",
+      "requirement": "write",
+      "ipa": "/ɡreɪp/"
+    }
+  ],
+  "grass": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "草；草地",
+      "requirement": "write",
+      "ipa": "/ɡrɑːs,ɡræs/"
+    }
+  ],
+  "grassland": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "草原；草地",
+      "requirement": "recognize",
+      "ipa": "/ˈgræsˌlænd/"
+    }
+  ],
+  "green": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "绿色；绿色的",
+      "requirement": "write",
+      "ipa": "/gri:n/"
+    }
+  ],
+  "green bean": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "绿豆",
+      "requirement": "unknown",
+      "ipa": "/grin bin/"
+    }
+  ],
+  "guard": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "门卫；看守",
+      "requirement": "recognize",
+      "ipa": "/gɑrd/"
+    }
+  ],
+  "habit": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "习惯",
+      "requirement": "recognize",
+      "ipa": "/ˈhæbət/"
+    }
+  ],
+  "hair": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "头发",
+      "requirement": "recognize",
+      "ipa": "/hɛr/"
+    }
+  ],
+  "haircut": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "理发；发型",
+      "requirement": "unknown",
+      "ipa": "/ˈhɛrˌkət/"
+    }
+  ],
+  "half": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "一半",
+      "requirement": "unknown",
+      "ipa": "/hæf/"
+    }
+  ],
+  "hamburger": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "汉堡包",
+      "requirement": "unknown",
+      "ipa": "/ˈhæmbərgər/"
+    }
+  ],
+  "hand": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "手",
+      "requirement": "write",
+      "ipa": "/hænd/"
+    }
+  ],
+  "hand out": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "分发",
+      "requirement": "recognize",
+      "ipa": "/hænd aʊt/"
+    }
+  ],
+  "hard": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "努力地；费力地",
+      "requirement": "recognize",
+      "ipa": "/hɑrd/"
+    }
+  ],
+  "hard-working": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "工作努力的；辛勤的",
+      "requirement": "recognize",
+      "ipa": "/ˌhɑrdˈwərkɪŋ/"
+    }
+  ],
+  "has": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（have的第三人称单数形式）具有（某种外表、特性或特征）",
+      "requirement": "recognize",
+      "ipa": "/hæz/"
+    }
+  ],
+  "hat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "帽子",
+      "requirement": "recognize",
+      "ipa": "/hæt/"
+    }
+  ],
+  "have": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "有",
+      "requirement": "write",
+      "ipa": "/hæv/"
+    }
+  ],
+  "Hawaii": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "夏威夷",
+      "requirement": "unknown",
+      "ipa": "/həˈwaɪi/"
+    }
+  ],
+  "he": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "他",
+      "requirement": "recognize",
+      "ipa": "/hiː/"
+    }
+  ],
+  "head": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "头；头部",
+      "requirement": "unknown",
+      "ipa": "/hɛd/"
+    }
+  ],
+  "health": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "健康",
+      "requirement": "unknown",
+      "ipa": "/hɛlθ/"
+    }
+  ],
+  "healthy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "健康的",
+      "requirement": "recognize",
+      "ipa": "/helθi/"
+    }
+  ],
+  "hear": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "听见；听到",
+      "requirement": "recognize",
+      "ipa": "/hɪə(r)/"
+    }
+  ],
+  "heat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "热；加热",
+      "requirement": "unknown",
+      "ipa": "/hit/"
+    }
+  ],
+  "heavy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "重的；大的",
+      "requirement": "unknown",
+      "ipa": "/ˈhɛvi/"
+    }
+  ],
+  "help": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "帮助",
+      "requirement": "write",
+      "ipa": "/help/"
+    }
+  ],
+  "helpful": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "有帮助的；有用的",
+      "requirement": "recognize",
+      "ipa": "/ˈhɛlpfəl/"
+    }
+  ],
+  "her": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "她；她的",
+      "requirement": "recognize",
+      "ipa": "/hɜː(r)/"
+    }
+  ],
+  "herself": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "她自己",
+      "requirement": "unknown",
+      "ipa": "/hərˈsɛlf/"
+    }
+  ],
+  "high": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "高的；高地",
+      "requirement": "unknown",
+      "ipa": "/haɪ/"
+    }
+  ],
+  "hill": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "小山",
+      "requirement": "unknown",
+      "ipa": "/hɪl/"
+    }
+  ],
+  "him": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "他",
+      "requirement": "recognize",
+      "ipa": "/ɪm/"
+    }
+  ],
+  "his": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "他的",
+      "requirement": "recognize",
+      "ipa": "/hɪz/"
+    }
+  ],
+  "history": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "历史",
+      "requirement": "unknown",
+      "ipa": "/ˈhɪstəri/"
+    }
+  ],
+  "holiday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "假期",
+      "requirement": "recognize",
+      "ipa": "/ˈhɑlɪˌdeɪ/"
+    }
+  ],
+  "home": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "家；住所",
+      "requirement": "recognize",
+      "ipa": "/həʊm/"
+    }
+  ],
+  "hometown": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "家乡；故乡",
+      "requirement": "recognize",
+      "ipa": "/ˈhoʊmˌtaʊn/"
+    }
+  ],
+  "homework": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "家庭作业",
+      "requirement": "recognize",
+      "ipa": "/ˈhoʊmˌwərk/"
+    }
+  ],
+  "Hong Kong-Zhuhai-Macao Bridge": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "港珠澳大桥",
+      "requirement": "unknown",
+      "ipa": "/hɒŋ kɒŋ ˈdʒuːhaɪ məˈkaʊ brɪdʒ/"
+    }
+  ],
+  "horse": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "马",
+      "requirement": "recognize",
+      "ipa": "/hɔrs/"
+    }
+  ],
+  "hospital": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "医院",
+      "requirement": "recognize",
+      "ipa": "/ˈhɑˌspɪtəl/"
+    }
+  ],
+  "hot": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "热的",
+      "requirement": "unknown",
+      "ipa": "/hɑt/"
+    }
+  ],
+  "hot pot": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "火锅",
+      "requirement": "unknown",
+      "ipa": "/hɑt pɑt/"
+    }
+  ],
+  "hotel": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "旅馆；酒店",
+      "requirement": "unknown",
+      "ipa": "/hoʊˈtɛl/"
+    }
+  ],
+  "hour": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "小时",
+      "requirement": "unknown",
+      "ipa": "/aʊər/"
+    }
+  ],
+  "hundred": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "一百",
+      "requirement": "unknown",
+      "ipa": "/ˈhənərd/"
+    }
+  ],
+  "hungry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "饥饿的",
+      "requirement": "unknown",
+      "ipa": "/ˈhəŋgri/"
+    }
+  ],
+  "hurry up": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "快点；赶快",
+      "requirement": "recognize",
+      "ipa": "/ˈhəri əp/"
+    }
+  ],
+  "hurt": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "受伤；疼痛",
+      "requirement": "unknown",
+      "ipa": "/hərt/"
+    }
+  ],
+  "ice": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "冰；冰块；冰场",
+      "requirement": "recognize",
+      "ipa": "/aɪs/"
+    }
+  ],
+  "ice cream": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "冰淇淋",
+      "requirement": "unknown",
+      "ipa": "/aɪs krim/"
+    }
+  ],
+  "if": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "如果；假若；倘若",
+      "requirement": "recognize",
+      "ipa": "/ɪf/"
+    }
+  ],
+  "in": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "在……内；在……中",
+      "requirement": "recognize",
+      "ipa": "/ɪn/"
+    }
+  ],
+  "in class": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "在课堂上",
+      "requirement": "unknown",
+      "ipa": "/ɪn klæs/"
+    }
+  ],
+  "India": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "印度",
+      "requirement": "unknown",
+      "ipa": "/ˈɪndiə/"
+    }
+  ],
+  "information": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "信息",
+      "requirement": "unknown",
+      "ipa": "/ˌɪnˌfɔrˈmeɪʃən/"
+    }
+  ],
+  "inside": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "在⋯⋯里",
+      "requirement": "recognize",
+      "ipa": "/ˌɪnˈsaɪd/"
+    }
+  ],
+  "inspiring": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "鼓舞人心的",
+      "requirement": "unknown",
+      "ipa": "/ˌɪnˈspaɪərɪŋ/"
+    }
+  ],
+  "interesting": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "有趣的",
+      "requirement": "unknown",
+      "ipa": "/ˈɪntəˌrɛstɪŋ/"
+    }
+  ],
+  "internet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "互联网",
+      "requirement": "unknown",
+      "ipa": "/ˈɪntərˌnɛt/"
+    }
+  ],
+  "into": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "到……里面",
+      "requirement": "unknown",
+      "ipa": "/ˈɪntu/"
+    }
+  ],
+  "island": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "岛",
+      "requirement": "unknown",
+      "ipa": "/ˈaɪlənd/"
+    }
+  ],
+  "Italy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "意大利",
+      "requirement": "unknown",
+      "ipa": "/ˈɪtəli/"
+    }
+  ],
+  "its": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "它的",
+      "requirement": "recognize",
+      "ipa": "/ɪts/"
+    }
+  ],
+  "jacket": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "夹克衫；短上衣",
+      "requirement": "recognize",
+      "ipa": "/ˈʤækɪt/"
+    }
+  ],
+  "Jan": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "一月（缩写）",
+      "requirement": "unknown",
+      "ipa": "/dʒæn/"
+    }
+  ],
+  "January": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "一月",
+      "requirement": "recognize",
+      "ipa": "/ˈʤænjuˌɛri/"
+    }
+  ],
+  "jar": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "罐子；坛子",
+      "requirement": "unknown",
+      "ipa": "/ʤɑr/"
+    }
+  ],
+  "Jinggangshan Revolution": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "井冈山革命",
+      "requirement": "unknown",
+      "ipa": "/ˈdʒɪŋɡɑːŋʃɑːn ˌrevəˈluːʃən/"
+    }
+  ],
+  "job": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "工作；职业",
+      "requirement": "recognize",
+      "ipa": "/ʤɑb/"
+    }
+  ],
+  "join": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "加入；参加",
+      "requirement": "unknown",
+      "ipa": "/ʤɔɪn/"
+    }
+  ],
+  "judge": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "判断；裁判",
+      "requirement": "unknown",
+      "ipa": "/ʤəʤ/"
+    }
+  ],
+  "juice": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "果汁",
+      "requirement": "recognize",
+      "ipa": "/dʒuːs/"
+    }
+  ],
+  "July": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "七月",
+      "requirement": "recognize",
+      "ipa": "/ˌʤuˈlaɪ/"
+    }
+  ],
+  "jump": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "跳；跃",
+      "requirement": "recognize",
+      "ipa": "/ʤəmp/"
+    }
+  ],
+  "June": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "六月",
+      "requirement": "recognize",
+      "ipa": "/ʤun/"
+    }
+  ],
+  "just": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "只是；仅仅；正要",
+      "requirement": "recognize",
+      "ipa": "/ʤɪst/"
+    }
+  ],
+  "kangaroo": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "袋鼠",
+      "requirement": "recognize",
+      "ipa": "/ˌkæŋgərˈu/"
+    }
+  ],
+  "keep": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "保有；留着",
+      "requirement": "recognize",
+      "ipa": "/kiːp/"
+    }
+  ],
+  "kid": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "小孩",
+      "requirement": "recognize",
+      "ipa": "/kɪd/"
+    }
+  ],
+  "kilometre": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "千米；公里",
+      "requirement": "unknown",
+      "ipa": "/ˈkɪləmiːtə(r)/"
+    }
+  ],
+  "kind": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "友好的",
+      "requirement": "recognize",
+      "ipa": "/kaɪnd/"
+    }
+  ],
+  "kitchen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "厨房",
+      "requirement": "recognize",
+      "ipa": "/ˈkɪʧən/"
+    }
+  ],
+  "kite": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "风筝",
+      "requirement": "unknown",
+      "ipa": "/kaɪt/"
+    }
+  ],
+  "knife": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "刀",
+      "requirement": "unknown",
+      "ipa": "/naɪf/"
+    }
+  ],
+  "know": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "知道；了解",
+      "requirement": "unknown",
+      "ipa": "/noʊ/"
+    }
+  ],
+  "koala": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "考拉",
+      "requirement": "unknown",
+      "ipa": "/koʊˈɑlə/"
+    }
+  ],
+  "Labour Day": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "劳动节",
+      "requirement": "recognize",
+      "ipa": "/ˈleɪbə deɪ/"
+    }
+  ],
+  "lake": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "湖；湖泊",
+      "requirement": "unknown",
+      "ipa": "/leɪk/"
+    }
+  ],
+  "large": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（服装、食物、日用品等）大型号的",
+      "requirement": "recognize",
+      "ipa": "/lɑrʤ/"
+    }
+  ],
+  "last": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "最后的；上一个",
+      "requirement": "unknown",
+      "ipa": "/læst/"
+    }
+  ],
+  "late": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "迟到；迟发生",
+      "requirement": "recognize",
+      "ipa": "/leɪt/"
+    }
+  ],
+  "Later": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "后来；以后",
+      "requirement": "unknown",
+      "ipa": "/ˈleɪtər/"
+    }
+  ],
+  "leaf": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "叶子",
+      "requirement": "unknown",
+      "ipa": "/lif/"
+    }
+  ],
+  "learn": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "学；学习",
+      "requirement": "recognize",
+      "ipa": "/lɜːn/"
+    }
+  ],
+  "left": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "向左；左边",
+      "requirement": "recognize",
+      "ipa": "/lɛft/"
+    }
+  ],
+  "leg": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "腿",
+      "requirement": "recognize",
+      "ipa": "/leɡ/"
+    }
+  ],
+  "less": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "（与不可数名词连用）较少的，更少的",
+      "requirement": "recognize",
+      "ipa": "/lɛs/"
+    }
+  ],
+  "lesson": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "课；一节课",
+      "requirement": "recognize",
+      "ipa": "/ˈlɛsən/"
+    }
+  ],
+  "library": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "图书馆",
+      "requirement": "recognize",
+      "ipa": "/ˈlaɪbrɛˌri/"
+    }
+  ],
+  "light": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "灯；光",
+      "requirement": "recognize",
+      "ipa": "/laɪt/"
+    }
+  ],
+  "like": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "喜欢",
+      "requirement": "write",
+      "ipa": "/laɪk/"
+    }
+  ],
+  "line": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "队伍；行列；线条",
+      "requirement": "recognize",
+      "ipa": "/laɪn/"
+    }
+  ],
+  "lion": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "狮子",
+      "requirement": "write",
+      "ipa": "/ˈlaɪən/"
+    }
+  ],
+  "list": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "清单；目录",
+      "requirement": "recognize",
+      "ipa": "/lɪst/"
+    }
+  ],
+  "listen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "听；倾听",
+      "requirement": "write",
+      "ipa": "/ˈlɪsn/"
+    }
+  ],
+  "litter": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "垃圾；废弃物",
+      "requirement": "recognize",
+      "ipa": "/ˈlɪtər/"
+    }
+  ],
+  "Little": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "小的；少量的",
+      "requirement": "unknown",
+      "ipa": "/ˈlɪtəl/"
+    }
+  ],
+  "live": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "住；居住",
+      "requirement": "recognize",
+      "ipa": "/lɪv/"
+    }
+  ],
+  "living room": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "客厅；起居室",
+      "requirement": "recognize",
+      "ipa": "/ˈlɪvɪŋ rum/"
+    }
+  ],
+  "local": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "当地的；本地的",
+      "requirement": "unknown",
+      "ipa": "/ˈloʊkəl/"
+    }
+  ],
+  "long": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（长度或距离）长的",
+      "requirement": "recognize",
+      "ipa": "/lɒŋ/"
+    }
+  ],
+  "look after": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "照顾",
+      "requirement": "recognize",
+      "ipa": "/lʊk ˈæftər/"
+    }
+  ],
+  "lost": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "迷路的；迷失的",
+      "requirement": "recognize",
+      "ipa": "/lɔst/"
+    }
+  ],
+  "Lotus": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "莲；荷花",
+      "requirement": "unknown",
+      "ipa": "/ˈloʊtəs/"
+    }
+  ],
+  "loud": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "说话太大声的；吵闹的",
+      "requirement": "recognize",
+      "ipa": "/laʊd/"
+    }
+  ],
+  "love": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "喜爱；爱",
+      "requirement": "recognize",
+      "ipa": "/lʌv/"
+    }
+  ],
+  "lovely": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "美丽的；优美的",
+      "requirement": "recognize",
+      "ipa": "/ˈləvli/"
+    }
+  ],
+  "lucky": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "幸运的",
+      "requirement": "unknown",
+      "ipa": "/ˈləki/"
+    }
+  ],
+  "lunch": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "午餐",
+      "requirement": "recognize",
+      "ipa": "/lənʧ/"
+    }
+  ],
+  "magazine": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "杂志",
+      "requirement": "unknown",
+      "ipa": "/ˈmægəˌzin/"
+    }
+  ],
+  "make": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "使出现；做",
+      "requirement": "write",
+      "ipa": "/meɪk/"
+    }
+  ],
+  "make the bed": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "铺床",
+      "requirement": "recognize",
+      "ipa": "/meɪk ðə bɛd/"
+    }
+  ],
+  "man": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "成年男子；男人",
+      "requirement": "recognize",
+      "ipa": "/mæn/"
+    }
+  ],
+  "manage": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "管理；设法做到",
+      "requirement": "unknown",
+      "ipa": "/ˈmænɪʤ/"
+    }
+  ],
+  "map": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "地图",
+      "requirement": "recognize",
+      "ipa": "/mæp/"
+    }
+  ],
+  "marathon": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "马拉松",
+      "requirement": "unknown",
+      "ipa": "/ˈmɛrəˌθɑn/"
+    }
+  ],
+  "marble": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "大理石；弹珠",
+      "requirement": "unknown",
+      "ipa": "/ˈmɑrbəl/"
+    }
+  ],
+  "March": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "三月",
+      "requirement": "recognize",
+      "ipa": "/mɑrʧ/"
+    }
+  ],
+  "market": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "市场",
+      "requirement": "unknown",
+      "ipa": "/ˈmɑrkɪt/"
+    }
+  ],
+  "Mars": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "火星",
+      "requirement": "unknown",
+      "ipa": "/mɑːrz/"
+    }
+  ],
+  "maths": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "数学",
+      "requirement": "recognize",
+      "ipa": "/maths/"
+    }
+  ],
+  "matter": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "事情；问题",
+      "requirement": "recognize",
+      "ipa": "/ˈmætər/"
+    }
+  ],
+  "May": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "五月",
+      "requirement": "recognize",
+      "ipa": "/meɪ/"
+    }
+  ],
+  "maybe": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "也许；可能",
+      "requirement": "unknown",
+      "ipa": "/ˈmeɪbi/"
+    }
+  ],
+  "me": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "我",
+      "requirement": "write",
+      "ipa": "/mi:/"
+    }
+  ],
+  "meat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "肉",
+      "requirement": "recognize",
+      "ipa": "/miːt/"
+    }
+  ],
+  "microscope": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "显微镜",
+      "requirement": "unknown",
+      "ipa": "/ˈmaɪkrəˌskoʊp/"
+    }
+  ],
+  "middle": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "中间；中部",
+      "requirement": "unknown",
+      "ipa": "/ˈmɪdəl/"
+    }
+  ],
+  "milk": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（牛或羊等的）奶；牛奶",
+      "requirement": "recognize",
+      "ipa": "/mɪlk/"
+    }
+  ],
+  "mine": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "我的",
+      "requirement": "unknown",
+      "ipa": "/maɪn/"
+    }
+  ],
+  "minute": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "分钟",
+      "requirement": "recognize",
+      "ipa": "/ˈmɪnət/"
+    }
+  ],
+  "Miss": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "（学生对女教师的称呼）；女士",
+      "requirement": "write",
+      "ipa": "/mis/"
+    }
+  ],
+  "Monday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "星期一",
+      "requirement": "recognize",
+      "ipa": "/ˈmənˌdeɪ/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期一",
+      "requirement": "recognize",
+      "ipa": "/ˈmənˌdeɪ/"
+    }
+  ],
+  "money": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "钱",
+      "requirement": "unknown",
+      "ipa": "/ˈməni/"
+    }
+  ],
+  "monkey": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "猴子",
+      "requirement": "write",
+      "ipa": "/ˈmʌŋki/"
+    }
+  ],
+  "month": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "月份；月",
+      "requirement": "unknown",
+      "ipa": "/mənθ/"
+    }
+  ],
+  "moon": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "月亮",
+      "requirement": "unknown",
+      "ipa": "/mun/"
+    }
+  ],
+  "mother": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "母亲；妈妈",
+      "requirement": "write",
+      "ipa": "/ˈmʌðə(r)/"
+    }
+  ],
+  "Mount Taishan": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "泰山",
+      "requirement": "unknown",
+      "ipa": "/maʊnt ˈtaɪʃɑːn/"
+    }
+  ],
+  "mountain": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "山；山脉",
+      "requirement": "unknown",
+      "ipa": "/ˈmaʊntən/"
+    }
+  ],
+  "mouse": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "老鼠",
+      "requirement": "unknown",
+      "ipa": "/maʊs/"
+    }
+  ],
+  "mouth": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "嘴",
+      "requirement": "write",
+      "ipa": "/maʊθ , maʊð/"
+    }
+  ],
+  "move": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "搬家；移动",
+      "requirement": "recognize",
+      "ipa": "/muv/"
+    }
+  ],
+  "Mr": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "（用于男子的姓氏或姓名前）先生",
+      "requirement": "recognize",
+      "ipa": "/mɪstə(r)/"
+    }
+  ],
+  "Mrs": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "夫人；太太",
+      "requirement": "unknown",
+      "ipa": "/ˈmɪsɪz/"
+    }
+  ],
+  "Ms": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "（用于女子的姓氏或姓名前，不指明婚否）女士",
+      "requirement": "recognize",
+      "ipa": "/mɪz/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "(用于女子的姓氏或姓名前, 不指明婚否) 女士",
+      "requirement": "recognize",
+      "ipa": "/mɪz/"
+    }
+  ],
+  "much": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "许多；大量",
+      "requirement": "recognize",
+      "ipa": "/mʌtʃ/"
+    }
+  ],
+  "mum": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "（口语）妈妈",
+      "requirement": "write",
+      "ipa": "/mʌm/"
+    }
+  ],
+  "music": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "音乐",
+      "requirement": "recognize",
+      "ipa": "/mˈjuzɪk/"
+    }
+  ],
+  "must": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "必须",
+      "requirement": "recognize",
+      "ipa": "/məst/"
+    }
+  ],
+  "National Day": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "国庆节",
+      "requirement": "recognize",
+      "ipa": "/ˈnæʃənəl deɪ/"
+    }
+  ],
+  "nature": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "自然；大自然",
+      "requirement": "unknown",
+      "ipa": "/ˈneɪʧər/"
+    }
+  ],
+  "need": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "需要",
+      "requirement": "write",
+      "ipa": "/ni:d/"
+    }
+  ],
+  "neighbour": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "邻居",
+      "requirement": "recognize",
+      "ipa": "/neɪbə(r)/"
+    }
+  ],
+  "new": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "新的",
+      "requirement": "write",
+      "ipa": "/nju:/"
+    }
+  ],
+  "New Zealand": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "新西兰",
+      "requirement": "unknown",
+      "ipa": "/ˌnjuː ˈziːlənd/"
+    }
+  ],
+  "newspaper": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "报纸",
+      "requirement": "recognize",
+      "ipa": "/ˈnuzˌpeɪpər/"
+    }
+  ],
+  "next": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "紧邻；紧接着",
+      "requirement": "recognize",
+      "ipa": "/nɛkst/"
+    }
+  ],
+  "nice": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "令人愉快的；友好的",
+      "requirement": "write",
+      "ipa": "/naɪs/"
+    }
+  ],
+  "night": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "夜；夜晚",
+      "requirement": "recognize",
+      "ipa": "/naɪt/"
+    }
+  ],
+  "nine": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "九",
+      "requirement": "write",
+      "ipa": "/naɪn/"
+    }
+  ],
+  "nineteen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十九",
+      "requirement": "recognize",
+      "ipa": "/ˌnaɪn'tiːn/"
+    }
+  ],
+  "ninety": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "九十",
+      "requirement": "unknown",
+      "ipa": "/ˈnaɪnti/"
+    }
+  ],
+  "noodle": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（常用复数）面条",
+      "requirement": "recognize",
+      "ipa": "/nu:dl/"
+    }
+  ],
+  "noodles": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "面条",
+      "requirement": "unknown",
+      "ipa": "/ˈnuːdlz/"
+    }
+  ],
+  "northeast": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "东北；东北方",
+      "requirement": "unknown",
+      "ipa": "/ˌnɔrˈθist/"
+    }
+  ],
+  "nose": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "鼻；鼻子",
+      "requirement": "recognize",
+      "ipa": "/nəʊz/"
+    }
+  ],
+  "note": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "笔记；便条",
+      "requirement": "recognize",
+      "ipa": "/noʊt/"
+    }
+  ],
+  "notice": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "注意到；通知",
+      "requirement": "unknown",
+      "ipa": "/ˈnoʊtɪs/"
+    }
+  ],
+  "November": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "十一月",
+      "requirement": "recognize",
+      "ipa": "/noʊˈvɛmbər/"
+    }
+  ],
+  "now": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "现在",
+      "requirement": "recognize",
+      "ipa": "/naʊ/"
+    }
+  ],
+  "nurse": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "护士",
+      "requirement": "recognize",
+      "ipa": "/nərs/"
+    }
+  ],
+  "o'clock": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "（表示整点）……点钟",
+      "requirement": "write",
+      "ipa": "/əˈklɒk,əˈklɑːk/"
+    }
+  ],
+  "ocean": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "海洋",
+      "requirement": "unknown",
+      "ipa": "/ˈoʊʃən/"
+    }
+  ],
+  "October": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "十月",
+      "requirement": "recognize",
+      "ipa": "/ɑkˈtoʊbər/"
+    }
+  ],
+  "office worker": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "公司职员",
+      "requirement": "recognize",
+      "ipa": "/ˈɔfəs ˈwərkər/"
+    }
+  ],
+  "old": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "（多少）岁；年纪；旧的",
+      "requirement": "write",
+      "ipa": "/əʊld,oʊld/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "过去的；年纪大的；老的",
+      "requirement": "recognize",
+      "ipa": "/oʊld/"
+    }
+  ],
+  "on": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "（覆盖，附着）在……上",
+      "requirement": "recognize",
+      "ipa": "/ɒn/"
+    }
+  ],
+  "on foot": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "步行",
+      "requirement": "unknown",
+      "ipa": "/ɔn fʊt/"
+    }
+  ],
+  "one": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "一",
+      "requirement": "write",
+      "ipa": "/wʌn/"
+    }
+  ],
+  "open": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "开放；打开",
+      "requirement": "recognize",
+      "ipa": "/ˈoʊpən/"
+    }
+  ],
+  "or": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "或；或者；还是",
+      "requirement": "recognize",
+      "ipa": "/ɔː(r)/"
+    }
+  ],
+  "orange": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "橙子",
+      "requirement": "write",
+      "ipa": "/ˈɒrɪndʒ/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "橙红色；橙红色的",
+      "requirement": "write",
+      "ipa": "/ˈɒrɪndʒ/"
+    }
+  ],
+  "outer space": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "外太空",
+      "requirement": "unknown",
+      "ipa": "/ˈaʊtər speɪs/"
+    }
+  ],
+  "over": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "在⋯⋯的远端（或对面）",
+      "requirement": "recognize",
+      "ipa": "/ˈoʊvər/"
+    },
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "结束(的)",
+      "requirement": "recognize",
+      "ipa": "/ˈoʊvər/"
+    }
+  ],
+  "own": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "自己的；拥有",
+      "requirement": "unknown",
+      "ipa": "/oʊn/"
+    }
+  ],
+  "painting": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "绘画；油画",
+      "requirement": "unknown",
+      "ipa": "/ˈpeɪnɪŋ/"
+    }
+  ],
+  "pair": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（由连在一起的相似两部分构成的） 一条, 一副",
+      "requirement": "recognize",
+      "ipa": "/pɛr/"
+    }
+  ],
+  "palace": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "宫殿",
+      "requirement": "unknown",
+      "ipa": "/ˈpæləs/"
+    }
+  ],
+  "panda": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "大熊猫",
+      "requirement": "write",
+      "ipa": "/ˈpændə/"
+    }
+  ],
+  "paper": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "纸",
+      "requirement": "recognize",
+      "ipa": "/ˈpeɪpə(r)/"
+    }
+  ],
+  "parent": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "父亲；母亲",
+      "requirement": "recognize",
+      "ipa": "/ˈpɛrənt/"
+    }
+  ],
+  "Paris": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "巴黎",
+      "requirement": "unknown",
+      "ipa": "/ˈpærɪs/"
+    }
+  ],
+  "park": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "公园",
+      "requirement": "recognize",
+      "ipa": "/pɑrk/"
+    }
+  ],
+  "party": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "联欢会；聚会",
+      "requirement": "recognize",
+      "ipa": "/ˈpɑrti/"
+    }
+  ],
+  "pass": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "传递；经过",
+      "requirement": "unknown",
+      "ipa": "/pæs/"
+    }
+  ],
+  "password": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "密码",
+      "requirement": "recognize",
+      "ipa": "/ˈpæsˌwərd/"
+    }
+  ],
+  "paste": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "粘贴；糊状物",
+      "requirement": "unknown",
+      "ipa": "/peɪst/"
+    }
+  ],
+  "pay": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "付费",
+      "requirement": "recognize",
+      "ipa": "/peɪ/"
+    }
+  ],
+  "PE": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "体育(课)",
+      "requirement": "recognize",
+      "ipa": "/ˌpiː ˈiː/"
+    }
+  ],
+  "pen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "钢笔",
+      "requirement": "recognize",
+      "ipa": "/pen/"
+    }
+  ],
+  "pencil": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "铅笔",
+      "requirement": "recognize",
+      "ipa": "/ˈpensl/"
+    }
+  ],
+  "people": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "人；人们",
+      "requirement": "recognize",
+      "ipa": "/ˈpipəl/"
+    }
+  ],
+  "pet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "宠物",
+      "requirement": "write",
+      "ipa": "/pet/"
+    }
+  ],
+  "phone": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "电话；电话机",
+      "requirement": "recognize",
+      "ipa": "/foʊn/"
+    }
+  ],
+  "photo": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "照片",
+      "requirement": "recognize",
+      "ipa": "/ˈfoʊˌtoʊ/"
+    }
+  ],
+  "piano": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "钢琴",
+      "requirement": "recognize",
+      "ipa": "/piˈænə/"
+    }
+  ],
+  "pick": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "采摘；挑选",
+      "requirement": "unknown",
+      "ipa": "/pɪk/"
+    }
+  ],
+  "picture": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "图画；绘画",
+      "requirement": "recognize",
+      "ipa": "/ˈpɪktʃə(r)/"
+    }
+  ],
+  "piece": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "块；片",
+      "requirement": "write",
+      "ipa": "/pi:s/"
+    }
+  ],
+  "pig": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "猪",
+      "requirement": "unknown",
+      "ipa": "/pɪg/"
+    }
+  ],
+  "piggy bank": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "猪形储钱罐",
+      "requirement": "recognize",
+      "ipa": "/'pɪɡi bæŋk/"
+    }
+  ],
+  "ping-pong": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "乒乓球",
+      "requirement": "recognize",
+      "ipa": "/ˈpɪŋ pɒŋ/"
+    }
+  ],
+  "pink": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "粉色；粉色的",
+      "requirement": "write",
+      "ipa": "/pɪŋk/"
+    }
+  ],
+  "PLA Day": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "中国人民解放军建军节",
+      "requirement": "recognize",
+      "ipa": "/ˌpiː el ˈeɪ deɪ/"
+    }
+  ],
+  "place": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "地方；场所",
+      "requirement": "recognize",
+      "ipa": "/pleɪs/"
+    }
+  ],
+  "plan": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "计划",
+      "requirement": "unknown",
+      "ipa": "/plæn/"
+    }
+  ],
+  "plane": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "飞机",
+      "requirement": "unknown",
+      "ipa": "/pleɪn/"
+    }
+  ],
+  "planet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "行星",
+      "requirement": "unknown",
+      "ipa": "/ˈplænət/"
+    }
+  ],
+  "plant": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "种植；植物",
+      "requirement": "write",
+      "ipa": "/plɑːnt,plænt/"
+    }
+  ],
+  "plate": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "盘子",
+      "requirement": "recognize",
+      "ipa": "/pleɪt/"
+    }
+  ],
+  "play": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "玩耍",
+      "requirement": "recognize",
+      "ipa": "/pleɪ/"
+    }
+  ],
+  "player": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "运动员；参赛选手",
+      "requirement": "recognize",
+      "ipa": "/pleɪər/"
+    }
+  ],
+  "playground": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "游乐场；操场",
+      "requirement": "recognize",
+      "ipa": "/ˈpleɪˌgraʊnd/"
+    }
+  ],
+  "pocket money": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "零花钱",
+      "requirement": "unknown",
+      "ipa": "/ˈpɑkət ˈməni/"
+    }
+  ],
+  "police officer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "警察；警员",
+      "requirement": "recognize",
+      "ipa": "/pəˈlis ˈɔfɪsər/"
+    }
+  ],
+  "potato": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "土豆；马铃薯",
+      "requirement": "unknown",
+      "ipa": "/pəˈteɪˌtoʊ/"
+    }
+  ],
+  "power": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "力量；电力",
+      "requirement": "unknown",
+      "ipa": "/paʊər/"
+    }
+  ],
+  "project": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "项目；方案",
+      "requirement": "recognize",
+      "ipa": "/ˈprɑʤɛkt/"
+    }
+  ],
+  "pull": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "拉；拔",
+      "requirement": "unknown",
+      "ipa": "/pʊl/"
+    }
+  ],
+  "pull up": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "拔起；拉起",
+      "requirement": "unknown",
+      "ipa": "/pʊl əp/"
+    }
+  ],
+  "pumpkin": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "南瓜",
+      "requirement": "unknown",
+      "ipa": "/ˈpəmpkɪn/"
+    }
+  ],
+  "purple": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "紫色；紫色的",
+      "requirement": "write",
+      "ipa": "/ˈpɜːpl/"
+    }
+  ],
+  "put": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "放；安置",
+      "requirement": "recognize",
+      "ipa": "/pʊt/"
+    }
+  ],
+  "pyramid": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "金字塔",
+      "requirement": "unknown",
+      "ipa": "/ˈpɪrəmɪd/"
+    }
+  ],
+  "question": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "问题",
+      "requirement": "unknown",
+      "ipa": "/kˈwɛʃən/"
+    }
+  ],
+  "quick": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "快的；迅速的",
+      "requirement": "unknown",
+      "ipa": "/kwɪk/"
+    }
+  ],
+  "quiet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "文静的",
+      "requirement": "recognize",
+      "ipa": "/kwaɪət/"
+    }
+  ],
+  "rabbit": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "兔",
+      "requirement": "write",
+      "ipa": "/'ræbɪt/"
+    }
+  ],
+  "race": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "比赛；赛跑",
+      "requirement": "unknown",
+      "ipa": "/reɪs/"
+    }
+  ],
+  "rain": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "雨；下雨",
+      "requirement": "unknown",
+      "ipa": "/reɪn/"
+    }
+  ],
+  "raincoat": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "雨衣",
+      "requirement": "unknown",
+      "ipa": "/ˈreɪnˌkoʊt/"
+    }
+  ],
+  "rainy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "下雨的；多雨的",
+      "requirement": "unknown",
+      "ipa": "/ˈreɪni/"
+    }
+  ],
+  "read": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "阅读",
+      "requirement": "recognize",
+      "ipa": "/rɛd/"
+    }
+  ],
+  "ready": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "准备好",
+      "requirement": "recognize",
+      "ipa": "/ˈrɛdi/"
+    }
+  ],
+  "recycle": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "回收利用；再利用",
+      "requirement": "recognize",
+      "ipa": "/riˈsaɪkəl/"
+    }
+  ],
+  "red": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "红色；红色的",
+      "requirement": "write",
+      "ipa": "/red/"
+    }
+  ],
+  "red panda": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "小熊猫",
+      "requirement": "write",
+      "ipa": "/rɛd ˈpændə/"
+    }
+  ],
+  "reduce": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "减少",
+      "requirement": "unknown",
+      "ipa": "/rɪˈdus/"
+    }
+  ],
+  "resource": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "资源",
+      "requirement": "unknown",
+      "ipa": "/ˈrisɔrs/"
+    }
+  ],
+  "rest": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "休息；放松",
+      "requirement": "recognize",
+      "ipa": "/rɛst/"
+    }
+  ],
+  "restaurant": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "餐馆",
+      "requirement": "unknown",
+      "ipa": "/ˈrɛˌstrɑnt/"
+    }
+  ],
+  "return": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "归还；回去；返回",
+      "requirement": "recognize",
+      "ipa": "/rɪˈtərn/"
+    }
+  ],
+  "reuse": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "再利用",
+      "requirement": "unknown",
+      "ipa": "/riˈjuz/"
+    }
+  ],
+  "rice": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "大米",
+      "requirement": "recognize",
+      "ipa": "/raɪs/"
+    }
+  ],
+  "ride": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "骑；乘坐",
+      "requirement": "unknown",
+      "ipa": "/raɪd/"
+    }
+  ],
+  "right": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（意见或判断）准确，确切，恰当",
+      "requirement": "recognize",
+      "ipa": "/raɪt/"
+    }
+  ],
+  "river": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "河；江",
+      "requirement": "unknown",
+      "ipa": "/ˈrɪvər/"
+    }
+  ],
+  "robot": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "机器人",
+      "requirement": "recognize",
+      "ipa": "/ˈroʊˌbət/"
+    }
+  ],
+  "room": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "房间",
+      "requirement": "recognize",
+      "ipa": "/rum/"
+    }
+  ],
+  "root": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "根",
+      "requirement": "unknown",
+      "ipa": "/rut/"
+    }
+  ],
+  "rope": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "绳；粗绳",
+      "requirement": "recognize",
+      "ipa": "/roʊp/"
+    }
+  ],
+  "round": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "圆的；圆形的",
+      "requirement": "unknown",
+      "ipa": "/raʊnd/"
+    }
+  ],
+  "rover": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "探测车；漫游车",
+      "requirement": "unknown",
+      "ipa": "/ˈroʊvər/"
+    }
+  ],
+  "rule": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "规则； 规章",
+      "requirement": "recognize",
+      "ipa": "/rul/"
+    }
+  ],
+  "ruler": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "直尺",
+      "requirement": "recognize",
+      "ipa": "/ˈruːlə(r)/"
+    }
+  ],
+  "run": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "跑；奔跑",
+      "requirement": "recognize",
+      "ipa": "/rən/"
+    }
+  ],
+  "run out": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "用完；耗尽",
+      "requirement": "unknown",
+      "ipa": "/rən aʊt/"
+    }
+  ],
+  "runny nose": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "流鼻涕",
+      "requirement": "unknown",
+      "ipa": "/ˈrəni noʊz/"
+    }
+  ],
+  "sad": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "悲哀的；难过的",
+      "requirement": "recognize",
+      "ipa": "/sæd/"
+    }
+  ],
+  "safe": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "安全的",
+      "requirement": "recognize",
+      "ipa": "/seɪf/"
+    }
+  ],
+  "salad": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "沙拉",
+      "requirement": "unknown",
+      "ipa": "/ˈsæləd/"
+    }
+  ],
+  "sale": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "出售；特价销售",
+      "requirement": "unknown",
+      "ipa": "/seɪl/"
+    }
+  ],
+  "satellite": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "卫星",
+      "requirement": "unknown",
+      "ipa": "/ˈsætəˌlaɪt/"
+    }
+  ],
+  "Saturday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期六",
+      "requirement": "recognize",
+      "ipa": "/ˈsæˌtɪˌdeɪ/"
+    }
+  ],
+  "save up": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "储蓄；攒钱",
+      "requirement": "unknown",
+      "ipa": "/seɪv əp/"
+    }
+  ],
+  "say": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "说；讲",
+      "requirement": "write",
+      "ipa": "/seɪ/"
+    }
+  ],
+  "scare": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "惊吓；使害怕",
+      "requirement": "recognize",
+      "ipa": "/skɛr/"
+    }
+  ],
+  "school": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "学校",
+      "requirement": "write",
+      "ipa": "/sku:l/"
+    }
+  ],
+  "schoolbag": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "书包",
+      "requirement": "unknown",
+      "ipa": "/schoolbag/"
+    }
+  ],
+  "science": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "科学；自然科学",
+      "requirement": "recognize",
+      "ipa": "/saɪəns/"
+    }
+  ],
+  "scientist": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "科学家",
+      "requirement": "recognize",
+      "ipa": "/ˈsaɪəntɪst/"
+    }
+  ],
+  "sea": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "海洋",
+      "requirement": "write",
+      "ipa": "/siː/"
+    }
+  ],
+  "seafood": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "海鲜",
+      "requirement": "unknown",
+      "ipa": "/ˈsiˌfud/"
+    }
+  ],
+  "season": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "季节",
+      "requirement": "unknown",
+      "ipa": "/ˈsizən/"
+    }
+  ],
+  "see": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "看见",
+      "requirement": "recognize",
+      "ipa": "/siː/"
+    }
+  ],
+  "seed": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "种子",
+      "requirement": "unknown",
+      "ipa": "/sid/"
+    }
+  ],
+  "sell": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "卖",
+      "requirement": "unknown",
+      "ipa": "/sɛl/"
+    }
+  ],
+  "send": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "发送；寄",
+      "requirement": "unknown",
+      "ipa": "/sɛnd/"
+    }
+  ],
+  "September": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "九月",
+      "requirement": "recognize",
+      "ipa": "/sɛpˈtɛmbər/"
+    }
+  ],
+  "service": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "服务",
+      "requirement": "unknown",
+      "ipa": "/ˈsərvɪs/"
+    }
+  ],
+  "set the table": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "摆放餐具",
+      "requirement": "unknown",
+      "ipa": "/sɛt ðə ˈteɪbəl/"
+    }
+  ],
+  "seven": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "七",
+      "requirement": "write",
+      "ipa": "/ˈsevn/"
+    }
+  ],
+  "seventeen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十七",
+      "requirement": "recognize",
+      "ipa": "/ˌsevn'tiːn/"
+    }
+  ],
+  "seventy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "七十",
+      "requirement": "unknown",
+      "ipa": "/ˈsɛvənti/"
+    }
+  ],
+  "share": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "分享",
+      "requirement": "write",
+      "ipa": "/ʃeə(r)/"
+    }
+  ],
+  "she": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "她",
+      "requirement": "recognize",
+      "ipa": "/ʃiː/"
+    }
+  ],
+  "sheep": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "绵羊",
+      "requirement": "unknown",
+      "ipa": "/ʃip/"
+    }
+  ],
+  "shelf": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "架子（复数：shelves /ʃelvz/）",
+      "requirement": "recognize",
+      "ipa": "/ʃelf/"
+    }
+  ],
+  "ship": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "船",
+      "requirement": "unknown",
+      "ipa": "/ʃɪp/"
+    }
+  ],
+  "shirt": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "衬衫",
+      "requirement": "unknown",
+      "ipa": "/ʃərt/"
+    }
+  ],
+  "shoe": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "鞋",
+      "requirement": "recognize",
+      "ipa": "/ʃu/"
+    }
+  ],
+  "shop": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "商店",
+      "requirement": "recognize",
+      "ipa": "/ʃɑp/"
+    }
+  ],
+  "short": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "短的；个子矮的",
+      "requirement": "recognize",
+      "ipa": "/ʃɔːt/"
+    }
+  ],
+  "shorts": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "短裤",
+      "requirement": "recognize",
+      "ipa": "/ʃɔrts/"
+    }
+  ],
+  "should": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "（提出或征询建议）该，可以",
+      "requirement": "recognize",
+      "ipa": "/ʃʊd/"
+    }
+  ],
+  "shout": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "大声说；叫",
+      "requirement": "recognize",
+      "ipa": "/ʃaʊt/"
+    }
+  ],
+  "show": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "（电视或广播）节目",
+      "requirement": "recognize",
+      "ipa": "/ʃoʊ/"
+    }
+  ],
+  "shower": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "淋浴；阵雨",
+      "requirement": "unknown",
+      "ipa": "/ʃaʊər/"
+    }
+  ],
+  "side": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "边；侧面",
+      "requirement": "unknown",
+      "ipa": "/saɪd/"
+    }
+  ],
+  "sign": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "指示牌；标志",
+      "requirement": "recognize",
+      "ipa": "/saɪn/"
+    }
+  ],
+  "sing": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "唱（歌）；演唱",
+      "requirement": "recognize",
+      "ipa": "/sɪŋ/"
+    }
+  ],
+  "sir": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "先生",
+      "requirement": "recognize",
+      "ipa": "/sər/"
+    }
+  ],
+  "sister": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "姐；妹",
+      "requirement": "write",
+      "ipa": "/'sistə/"
+    }
+  ],
+  "sit": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "坐",
+      "requirement": "recognize",
+      "ipa": "/sɪt/"
+    }
+  ],
+  "six": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "六",
+      "requirement": "write",
+      "ipa": "/sɪks/"
+    }
+  ],
+  "sixteen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十六",
+      "requirement": "recognize",
+      "ipa": "/ˌsɪks'tiːn/"
+    }
+  ],
+  "sixty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "六十",
+      "requirement": "unknown",
+      "ipa": "/ˈsɪksti/"
+    }
+  ],
+  "size": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "尺码；号",
+      "requirement": "recognize",
+      "ipa": "/saɪz/"
+    }
+  ],
+  "skate": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "滑冰；溜冰",
+      "requirement": "recognize",
+      "ipa": "/skeɪt/"
+    }
+  ],
+  "skirt": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "裙子",
+      "requirement": "recognize",
+      "ipa": "/skərt/"
+    }
+  ],
+  "sky": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "天空",
+      "requirement": "unknown",
+      "ipa": "/skaɪ/"
+    }
+  ],
+  "sleep": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "睡觉",
+      "requirement": "recognize",
+      "ipa": "/slip/"
+    }
+  ],
+  "slow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "缓慢的；慢的",
+      "requirement": "recognize",
+      "ipa": "/sləʊ/"
+    }
+  ],
+  "small": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "小的",
+      "requirement": "write",
+      "ipa": "/smɔ:l/"
+    }
+  ],
+  "smell": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "闻（气味）",
+      "requirement": "recognize",
+      "ipa": "/smel/"
+    }
+  ],
+  "smile": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "微笑",
+      "requirement": "write",
+      "ipa": "/smaɪl/"
+    }
+  ],
+  "smoke": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "吸(烟)",
+      "requirement": "recognize",
+      "ipa": "/smoʊk/"
+    }
+  ],
+  "Snow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "雪；下雪",
+      "requirement": "unknown",
+      "ipa": "/snoʊ/"
+    }
+  ],
+  "snowman": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "雪人",
+      "requirement": "unknown",
+      "ipa": "/sˈnoʊˌmæn/"
+    }
+  ],
+  "snowy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "下雪的；多雪的",
+      "requirement": "unknown",
+      "ipa": "/snoʊi/"
+    }
+  ],
+  "so": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（表示大小或数量）这么，那么",
+      "requirement": "recognize",
+      "ipa": "/səʊ/"
+    }
+  ],
+  "sock": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "短袜",
+      "requirement": "unknown",
+      "ipa": "/sɑk/"
+    }
+  ],
+  "soil": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "土壤",
+      "requirement": "unknown",
+      "ipa": "/sɔɪl/"
+    }
+  ],
+  "solar": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "太阳的；太阳能的",
+      "requirement": "unknown",
+      "ipa": "/ˈsoʊlər/"
+    }
+  ],
+  "some": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "一些",
+      "requirement": "write",
+      "ipa": "/səm , sʌm/"
+    }
+  ],
+  "sometimes": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "有时；间或",
+      "requirement": "recognize",
+      "ipa": "/ˈsəmˌtaɪmz/"
+    }
+  ],
+  "song": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "歌；歌曲",
+      "requirement": "recognize",
+      "ipa": "/sɒŋ/"
+    }
+  ],
+  "soon": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "不久；很快",
+      "requirement": "unknown",
+      "ipa": "/sun/"
+    }
+  ],
+  "sorry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "对不起",
+      "requirement": "recognize",
+      "ipa": "/ˈsɑri/"
+    }
+  ],
+  "soup": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "汤",
+      "requirement": "recognize",
+      "ipa": "/suːp/"
+    }
+  ],
+  "source": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "来源；源头",
+      "requirement": "unknown",
+      "ipa": "/sɔrs/"
+    }
+  ],
+  "space": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "太空；空间",
+      "requirement": "unknown",
+      "ipa": "/speɪs/"
+    }
+  ],
+  "space station": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "空间站",
+      "requirement": "unknown",
+      "ipa": "/speɪs ˈsteɪʃən/"
+    }
+  ],
+  "spaceship": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "宇宙飞船",
+      "requirement": "unknown",
+      "ipa": "/ˈspeɪsˌʃɪp/"
+    }
+  ],
+  "speak": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "说；讲",
+      "requirement": "unknown",
+      "ipa": "/spik/"
+    }
+  ],
+  "special": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "特别的；特殊的",
+      "requirement": "recognize",
+      "ipa": "/ˈspɛʃəl/"
+    }
+  ],
+  "spoon": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "勺子",
+      "requirement": "unknown",
+      "ipa": "/spun/"
+    }
+  ],
+  "sport": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "体育运动",
+      "requirement": "recognize",
+      "ipa": "/spɔrt/"
+    }
+  ],
+  "spring": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "春天",
+      "requirement": "unknown",
+      "ipa": "/spərɪŋ/"
+    }
+  ],
+  "stand": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "站立；立",
+      "requirement": "recognize",
+      "ipa": "/stænd/"
+    }
+  ],
+  "star": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "歌唱（或表演）明星",
+      "requirement": "recognize",
+      "ipa": "/stɑr/"
+    }
+  ],
+  "start": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "开始",
+      "requirement": "recognize",
+      "ipa": "/stɑrt/"
+    }
+  ],
+  "station": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "局；所；站",
+      "requirement": "recognize",
+      "ipa": "/ˈsteɪʃən/"
+    }
+  ],
+  "stay": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "待；保持；继续是",
+      "requirement": "recognize",
+      "ipa": "/steɪ/"
+    }
+  ],
+  "stay up": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "熬夜",
+      "requirement": "unknown",
+      "ipa": "/steɪ əp/"
+    }
+  ],
+  "stem": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "茎",
+      "requirement": "unknown",
+      "ipa": "/stɛm/"
+    }
+  ],
+  "still": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "还是；仍然",
+      "requirement": "recognize",
+      "ipa": "/stɪl/"
+    }
+  ],
+  "stone": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "石头",
+      "requirement": "unknown",
+      "ipa": "/stoʊn/"
+    }
+  ],
+  "stop": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "车站；停止",
+      "requirement": "unknown",
+      "ipa": "/stɑp/"
+    }
+  ],
+  "story": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "故事",
+      "requirement": "recognize",
+      "ipa": "/ˈstɔri/"
+    }
+  ],
+  "street": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "大街；街道",
+      "requirement": "recognize",
+      "ipa": "/strit/"
+    }
+  ],
+  "strong": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "强壮的",
+      "requirement": "recognize",
+      "ipa": "/strɔŋ/"
+    }
+  ],
+  "student": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "学生",
+      "requirement": "recognize",
+      "ipa": "/stjuːdnt/"
+    }
+  ],
+  "study": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "书房",
+      "requirement": "recognize",
+      "ipa": "/ˈstədi/"
+    }
+  ],
+  "subject": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "科目；学科",
+      "requirement": "recognize",
+      "ipa": "/ˈsəbʤɪkt/"
+    }
+  ],
+  "suggest": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "建议",
+      "requirement": "unknown",
+      "ipa": "/səˈʤɛst/"
+    }
+  ],
+  "summer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "夏天",
+      "requirement": "unknown",
+      "ipa": "/ˈsəmər/"
+    }
+  ],
+  "sun": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "太阳",
+      "requirement": "write",
+      "ipa": "/sʌn/"
+    }
+  ],
+  "Sunday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期日",
+      "requirement": "recognize",
+      "ipa": "/ˈsənˌdi/"
+    }
+  ],
+  "sunglasses": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "太阳镜；墨镜",
+      "requirement": "recognize",
+      "ipa": "/ˈsənˌglæsɪz/"
+    }
+  ],
+  "sunny": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "晴朗的",
+      "requirement": "unknown",
+      "ipa": "/ˈsəni/"
+    }
+  ],
+  "sunrise": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "日出",
+      "requirement": "unknown",
+      "ipa": "/ˈsənˌraɪz/"
+    }
+  ],
+  "sunset": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "日落",
+      "requirement": "unknown",
+      "ipa": "/ˈsənˌsɛt/"
+    }
+  ],
+  "sunshine": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "阳光；日光",
+      "requirement": "recognize",
+      "ipa": "/ˈsənˌʃaɪn/"
+    }
+  ],
+  "supermarket": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "超市",
+      "requirement": "unknown",
+      "ipa": "/ˈsupərˌmɑrkɪt/"
+    }
+  ],
+  "sweater": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "毛衣",
+      "requirement": "unknown",
+      "ipa": "/sˈwɛtər/"
+    }
+  ],
+  "sweep": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "扫",
+      "requirement": "recognize",
+      "ipa": "/swip/"
+    }
+  ],
+  "swim": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "游泳",
+      "requirement": "unknown",
+      "ipa": "/swɪm/"
+    }
+  ],
+  "Sydney": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "悉尼",
+      "requirement": "unknown",
+      "ipa": "/ˈsɪdni/"
+    }
+  ],
+  "T-shirt": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "T恤衫",
+      "requirement": "unknown",
+      "ipa": "/ˈtiː ʃɜːrt/"
+    }
+  ],
+  "taikonaut": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "中国宇航员",
+      "requirement": "unknown",
+      "ipa": "/ˈtaɪkənɔːt/"
+    }
+  ],
+  "tail": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "尾；尾巴",
+      "requirement": "recognize",
+      "ipa": "/teɪl/"
+    }
+  ],
+  "take": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "买下",
+      "requirement": "recognize",
+      "ipa": "/teɪk/"
+    }
+  ],
+  "take a walk": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "散步",
+      "requirement": "unknown",
+      "ipa": "/teɪk ə wɔk/"
+    }
+  ],
+  "take care of": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "爱护；照顾",
+      "requirement": "recognize",
+      "ipa": "/teɪk keər əv/"
+    }
+  ],
+  "talk": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（用某种语言）讲，说；说话",
+      "requirement": "recognize",
+      "ipa": "/tɔːk/"
+    }
+  ],
+  "tall": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "高的",
+      "requirement": "write",
+      "ipa": "/tɔ:l/"
+    }
+  ],
+  "taste": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "尝（味道）",
+      "requirement": "recognize",
+      "ipa": "/teɪst/"
+    }
+  ],
+  "taxi": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "出租汽车；计程车",
+      "requirement": "recognize",
+      "ipa": "/ˈtæksi/"
+    }
+  ],
+  "tea": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "茶",
+      "requirement": "unknown",
+      "ipa": "/ti/"
+    }
+  ],
+  "teach": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "教(课程) ；讲授",
+      "requirement": "recognize",
+      "ipa": "/tiʧ/"
+    }
+  ],
+  "teacher": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "教师",
+      "requirement": "recognize",
+      "ipa": "/tiːtʃə(r)/"
+    }
+  ],
+  "team": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "（游戏或运动的）队；（一起工作的）组，班",
+      "requirement": "recognize",
+      "ipa": "/tim/"
+    }
+  ],
+  "telescope": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "望远镜",
+      "requirement": "unknown",
+      "ipa": "/ˈtɛləˌskoʊp/"
+    }
+  ],
+  "tell": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "讲述；告诉",
+      "requirement": "recognize",
+      "ipa": "/tɛl/"
+    }
+  ],
+  "ten": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "十",
+      "requirement": "write",
+      "ipa": "/ten/"
+    }
+  ],
+  "Terracotta Warriors": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "兵马俑",
+      "requirement": "unknown",
+      "ipa": "/ˌterəˈkɒtə ˈwɒriərz/"
+    }
+  ],
+  "the Red Army": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "红军",
+      "requirement": "unknown",
+      "ipa": "/ðə rɛd ˈɑrmi/"
+    }
+  ],
+  "their": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "他们的；她们的；它们的",
+      "requirement": "unknown",
+      "ipa": "/ðɛr/"
+    }
+  ],
+  "them": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "它们；他们；它们",
+      "requirement": "write",
+      "ipa": "/ðəm/"
+    }
+  ],
+  "then": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "那么；因此；既然如此",
+      "requirement": "recognize",
+      "ipa": "/ðɛn/"
+    }
+  ],
+  "there": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "（表示存在或发生）；在那里",
+      "requirement": "recognize",
+      "ipa": "/ðɛr/"
+    }
+  ],
+  "these": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "这些",
+      "requirement": "recognize",
+      "ipa": "/ðiːz/"
+    }
+  ],
+  "thin": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "瘦的",
+      "requirement": "recognize",
+      "ipa": "/θɪn/"
+    }
+  ],
+  "think": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "想；思考",
+      "requirement": "recognize",
+      "ipa": "/θɪŋk/"
+    }
+  ],
+  "thirteen": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十三",
+      "requirement": "recognize",
+      "ipa": "/θɜː'tiːn/"
+    }
+  ],
+  "thirty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "三十",
+      "requirement": "unknown",
+      "ipa": "/ˈθərˌdi/"
+    }
+  ],
+  "those": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "（指较远的人或事物） 那些",
+      "requirement": "recognize",
+      "ipa": "/ðoʊz/"
+    }
+  ],
+  "thousand": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "一千",
+      "requirement": "unknown",
+      "ipa": "/ˈθaʊzənd/"
+    }
+  ],
+  "three": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "三",
+      "requirement": "write",
+      "ipa": "/θriː/"
+    }
+  ],
+  "Thursday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期四",
+      "requirement": "recognize",
+      "ipa": "/ˈθərzˌdeɪ/"
+    }
+  ],
+  "ticket": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "票",
+      "requirement": "unknown",
+      "ipa": "/ˈtɪkɪt/"
+    }
+  ],
+  "tidy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "整洁的；整齐的；使整洁；整理",
+      "requirement": "recognize",
+      "ipa": "/ˈtaɪdi/"
+    }
+  ],
+  "tiger": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "老虎",
+      "requirement": "write",
+      "ipa": "/ˈtaɪɡə(r)/"
+    }
+  ],
+  "time": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "时间",
+      "requirement": "recognize",
+      "ipa": "/taɪm/"
+    }
+  ],
+  "tip": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "提示；小费；尖端",
+      "requirement": "unknown",
+      "ipa": "/tɪp/"
+    }
+  ],
+  "tired": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "疲倦的",
+      "requirement": "recognize",
+      "ipa": "/taɪərd/"
+    }
+  ],
+  "today": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "今天",
+      "requirement": "recognize",
+      "ipa": "/təˈdeɪ/"
+    }
+  ],
+  "together": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "在一起；共同",
+      "requirement": "recognize",
+      "ipa": "/təˈgɛðər/"
+    }
+  ],
+  "toilet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "厕所；卫生间",
+      "requirement": "recognize",
+      "ipa": "/ˈtɔɪlət/"
+    }
+  ],
+  "tomato": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "西红柿",
+      "requirement": "unknown",
+      "ipa": "/təˈmɑˌtoʊ/"
+    }
+  ],
+  "tomorrow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "明天",
+      "requirement": "unknown",
+      "ipa": "/təˈmɑˌroʊ/"
+    }
+  ],
+  "tongue": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "舌；舌头",
+      "requirement": "recognize",
+      "ipa": "/tʌŋ/"
+    }
+  ],
+  "tooth": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "牙齿",
+      "requirement": "unknown",
+      "ipa": "/tuθ/"
+    }
+  ],
+  "toothpaste": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "牙膏",
+      "requirement": "unknown",
+      "ipa": "/ˈtuθˌpeɪst/"
+    }
+  ],
+  "top": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "顶部；顶端",
+      "requirement": "unknown",
+      "ipa": "/tɔp/"
+    }
+  ],
+  "touch": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "触摸；碰",
+      "requirement": "recognize",
+      "ipa": "/tʌtʃ/"
+    }
+  ],
+  "tour": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "旅行；游览",
+      "requirement": "unknown",
+      "ipa": "/tʊr/"
+    }
+  ],
+  "toy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "玩具",
+      "requirement": "write",
+      "ipa": "/tɔɪ/"
+    }
+  ],
+  "traffic": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "交通",
+      "requirement": "recognize",
+      "ipa": "/ˈtræfɪk/"
+    }
+  ],
+  "train": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "火车；列车",
+      "requirement": "recognize",
+      "ipa": "/treɪn/"
+    }
+  ],
+  "travel": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "旅行",
+      "requirement": "unknown",
+      "ipa": "/ˈtrævəl/"
+    }
+  ],
+  "tree": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "树",
+      "requirement": "write",
+      "ipa": "/tri:/"
+    }
+  ],
+  "trip": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "旅行",
+      "requirement": "unknown",
+      "ipa": "/trɪp/"
+    }
+  ],
+  "trousers": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "裤子",
+      "requirement": "recognize",
+      "ipa": "/ˈtraʊzərz/"
+    }
+  ],
+  "try on": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "试穿",
+      "requirement": "recognize",
+      "ipa": "/traɪ ɔn/"
+    }
+  ],
+  "Tuesday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期二",
+      "requirement": "recognize",
+      "ipa": "/ˈtuzˌdeɪ/"
+    }
+  ],
+  "turkey": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "火鸡",
+      "requirement": "recognize",
+      "ipa": "/ˈtərki/"
+    }
+  ],
+  "turn off": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "关掉",
+      "requirement": "recognize",
+      "ipa": "/tərn ɔf/"
+    }
+  ],
+  "TV": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "电视",
+      "requirement": "recognize",
+      "ipa": "/ˌtɛləˈvɪʒən/"
+    }
+  ],
+  "twelve": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "十二",
+      "requirement": "recognize",
+      "ipa": "/twelv/"
+    }
+  ],
+  "twenty": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 6",
+      "meaning": "二十",
+      "requirement": "recognize",
+      "ipa": "/'twenti/"
+    }
+  ],
+  "twice": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "两次",
+      "requirement": "unknown",
+      "ipa": "/twaɪs/"
+    }
+  ],
+  "two": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "二",
+      "requirement": "write",
+      "ipa": "/tu:/"
+    }
+  ],
+  "type": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "类型；种类",
+      "requirement": "unknown",
+      "ipa": "/taɪp/"
+    }
+  ],
+  "UK": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "英国",
+      "requirement": "recognize",
+      "ipa": "/juːkeɪ/"
+    }
+  ],
+  "umbrella": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "伞",
+      "requirement": "unknown",
+      "ipa": "/ˈəmˌbrɛlə/"
+    }
+  ],
+  "uncle": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "舅父；叔父；伯父；姑父；姨父",
+      "requirement": "write",
+      "ipa": "/ˈʌŋkl/"
+    }
+  ],
+  "under": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 5",
+      "meaning": "在（或到、通过）……下面",
+      "requirement": "recognize",
+      "ipa": "/ˈʌndə(r)/"
+    }
+  ],
+  "underground": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "地铁；地下的",
+      "requirement": "unknown",
+      "ipa": "/ˈəndərˌgraʊnd/"
+    }
+  ],
+  "understand": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "懂；理解",
+      "requirement": "recognize",
+      "ipa": "/ˌəndərˈstænd/"
+    }
+  ],
+  "unhappy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "不高兴的",
+      "requirement": "unknown",
+      "ipa": "/ənˈhæpi/"
+    }
+  ],
+  "unplug": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "拔掉电源插头",
+      "requirement": "unknown",
+      "ipa": "/ənˈpləg/"
+    }
+  ],
+  "us": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "我们",
+      "requirement": "write",
+      "ipa": "/ʌs/"
+    }
+  ],
+  "USA": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "美国",
+      "requirement": "recognize",
+      "ipa": "/juː es eɪ/"
+    }
+  ],
+  "useful": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "有用的",
+      "requirement": "unknown",
+      "ipa": "/ˈjusfəl/"
+    }
+  ],
+  "usually": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "通常地；经常地",
+      "requirement": "recognize",
+      "ipa": "/ˈjuʒəwəli/"
+    }
+  ],
+  "vegetable": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "蔬菜",
+      "requirement": "recognize",
+      "ipa": "/vedʒtəbl/"
+    }
+  ],
+  "very": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "很；非常；十分",
+      "requirement": "recognize",
+      "ipa": "/veri/"
+    }
+  ],
+  "video": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "视频",
+      "requirement": "unknown",
+      "ipa": "/ˈvɪdioʊ/"
+    }
+  ],
+  "view": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "景色；看法",
+      "requirement": "unknown",
+      "ipa": "/vju/"
+    }
+  ],
+  "village": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "村庄",
+      "requirement": "unknown",
+      "ipa": "/ˈvɪlɪʤ/"
+    }
+  ],
+  "visit": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "看望；拜访；参观",
+      "requirement": "recognize",
+      "ipa": "/ˈvɪzɪt/"
+    }
+  ],
+  "visitor": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "游客；参观者",
+      "requirement": "recognize",
+      "ipa": "/ˈvɪzɪtər/"
+    }
+  ],
+  "volunteer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "志愿者",
+      "requirement": "recognize",
+      "ipa": "/ˌvɑlənˈtɪr/"
+    }
+  ],
+  "wait": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "等待；等候",
+      "requirement": "recognize",
+      "ipa": "/weɪt/"
+    }
+  ],
+  "wake": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "醒来；唤醒",
+      "requirement": "unknown",
+      "ipa": "/weɪk/"
+    }
+  ],
+  "walk": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "散步；行走",
+      "requirement": "recognize",
+      "ipa": "/wɔk/"
+    }
+  ],
+  "wall": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "墙；壁",
+      "requirement": "recognize",
+      "ipa": "/wɔl/"
+    }
+  ],
+  "want": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "想要",
+      "requirement": "recognize",
+      "ipa": "/wɔnt/"
+    }
+  ],
+  "warm": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "暖和的",
+      "requirement": "unknown",
+      "ipa": "/wɔrm/"
+    }
+  ],
+  "was": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "是（am/is的过去式）",
+      "requirement": "unknown",
+      "ipa": "/wɑz/"
+    }
+  ],
+  "wash": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "洗",
+      "requirement": "recognize",
+      "ipa": "/wɑʃ/"
+    }
+  ],
+  "waste": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "浪费；废物",
+      "requirement": "unknown",
+      "ipa": "/weɪst/"
+    }
+  ],
+  "watch": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "看",
+      "requirement": "recognize",
+      "ipa": "/wɔʧ/"
+    }
+  ],
+  "water": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "给……浇水；水",
+      "requirement": "write",
+      "ipa": "/'wɔ:tə(r)/"
+    }
+  ],
+  "waterfall": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "瀑布",
+      "requirement": "unknown",
+      "ipa": "/ˈwɔtərˌfɔl/"
+    }
+  ],
+  "way": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "方式；道路",
+      "requirement": "unknown",
+      "ipa": "/weɪ/"
+    }
+  ],
+  "Wear": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "穿；戴",
+      "requirement": "unknown",
+      "ipa": "/wɛr/"
+    }
+  ],
+  "weather": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "天气",
+      "requirement": "unknown",
+      "ipa": "/ˈwɛðər/"
+    }
+  ],
+  "Wednesday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "星期三",
+      "requirement": "recognize",
+      "ipa": "/ˈwɛnzˌdeɪ/"
+    }
+  ],
+  "week": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "星期；周",
+      "requirement": "unknown",
+      "ipa": "/wik/"
+    }
+  ],
+  "weekend": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "周末",
+      "requirement": "recognize",
+      "ipa": "/ˈwiˌkɪnd/"
+    }
+  ],
+  "west": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 3",
+      "meaning": "西；西方",
+      "requirement": "recognize",
+      "ipa": "/wɛst/"
+    }
+  ],
+  "wet": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "湿的；未干的",
+      "requirement": "recognize",
+      "ipa": "/wɛt/"
+    }
+  ],
+  "when": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "当⋯⋯时；什么时候",
+      "requirement": "recognize",
+      "ipa": "/wɪn/"
+    }
+  ],
+  "where": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "在哪里；到哪里",
+      "requirement": "recognize",
+      "ipa": "/weə(r)/"
+    }
+  ],
+  "which": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "哪一个；哪一些",
+      "requirement": "unknown",
+      "ipa": "/wɪʧ/"
+    }
+  ],
+  "white": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "白色（的）",
+      "requirement": "write",
+      "ipa": "/waɪt/"
+    }
+  ],
+  "who": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "谁；什么人",
+      "requirement": "recognize",
+      "ipa": "/huː/"
+    }
+  ],
+  "whose": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "谁的",
+      "requirement": "unknown",
+      "ipa": "/huz/"
+    }
+  ],
+  "why": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "Unit 4",
+      "meaning": "为什么",
+      "requirement": "recognize",
+      "ipa": "/waɪ/"
+    }
+  ],
+  "wild": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "野生的；自然生长的",
+      "requirement": "recognize",
+      "ipa": "/waɪld/"
+    }
+  ],
+  "win": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "赢；获胜",
+      "requirement": "unknown",
+      "ipa": "/wɪn/"
+    }
+  ],
+  "wind": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "风",
+      "requirement": "unknown",
+      "ipa": "/wɪnd/"
+    }
+  ],
+  "window": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "窗",
+      "requirement": "recognize",
+      "ipa": "/ˈwɪndoʊ/"
+    }
+  ],
+  "windy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "有风的",
+      "requirement": "unknown",
+      "ipa": "/ˈwɪndi/"
+    }
+  ],
+  "winner": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "获胜者",
+      "requirement": "unknown",
+      "ipa": "/ˈwɪnər/"
+    }
+  ],
+  "winter": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "冬天",
+      "requirement": "unknown",
+      "ipa": "/ˈwɪntər/"
+    }
+  ],
+  "wish": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "未标注",
+      "meaning": "希望；祝愿",
+      "requirement": "unknown",
+      "ipa": "/wɪʃ/"
+    }
+  ],
+  "woman": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "成年女子；妇女",
+      "requirement": "recognize",
+      "ipa": "/wʊmən/"
+    }
+  ],
+  "wonderful": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "精彩的；绝妙的",
+      "requirement": "recognize",
+      "ipa": "/ˈwəndərfəl/"
+    }
+  ],
+  "word": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "言语；单词；字",
+      "requirement": "recognize",
+      "ipa": "/wərd/"
+    }
+  ],
+  "work": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 2",
+      "meaning": "（花费时间和精力）做（某事） ；工作",
+      "requirement": "recognize",
+      "ipa": "/wərk/"
+    }
+  ],
+  "workbook": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "练习册；作业本",
+      "requirement": "recognize",
+      "ipa": "/workbook/"
+    }
+  ],
+  "worker": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "四年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "工人",
+      "requirement": "unknown",
+      "ipa": "/ˈwərkər/"
+    }
+  ],
+  "world": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "世界",
+      "requirement": "unknown",
+      "ipa": "/wərld/"
+    }
+  ],
+  "worried": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "担心的；担忧的",
+      "requirement": "recognize",
+      "ipa": "/ˈwərid/"
+    }
+  ],
+  "worry": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "担心",
+      "requirement": "unknown",
+      "ipa": "/ˈwəri/"
+    }
+  ],
+  "write": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "下册",
+      "unit": "Unit 1",
+      "meaning": "书写；写字",
+      "requirement": "recognize",
+      "ipa": "/raɪt/"
+    }
+  ],
+  "writer": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "作家",
+      "requirement": "unknown",
+      "ipa": "/ˈraɪtər/"
+    }
+  ],
+  "wrong": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "错误的",
+      "requirement": "recognize",
+      "ipa": "/rɔŋ/"
+    }
+  ],
+  "year": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 6",
+      "meaning": "年纪；年",
+      "requirement": "write",
+      "ipa": "/jiə/"
+    }
+  ],
+  "yellow": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 5",
+      "meaning": "黄色（的）",
+      "requirement": "write",
+      "ipa": "/'jeləʊ/"
+    }
+  ],
+  "yesterday": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "六年级",
+      "book": "上册",
+      "unit": "未标注",
+      "meaning": "昨天",
+      "requirement": "unknown",
+      "ipa": "/ˈjɛstərˌdeɪ/"
+    }
+  ],
+  "young": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 1",
+      "meaning": "幼小的；年轻的",
+      "requirement": "recognize",
+      "ipa": "/jəŋ/"
+    }
+  ],
+  "yours": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "五年级",
+      "book": "上册",
+      "unit": "Unit 2",
+      "meaning": "您的（用于书信结尾的签名前）",
+      "requirement": "recognize",
+      "ipa": "/jʊrz/"
+    }
+  ],
+  "yummy": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "下册",
+      "unit": "Unit 4",
+      "meaning": "很好吃的",
+      "requirement": "recognize",
+      "ipa": "/jʌmi/"
+    }
+  ],
+  "zoo": [
+    {
+      "catalogID": "pep-primary-2024",
+      "grade": "三年级",
+      "book": "上册",
+      "unit": "Unit 3",
+      "meaning": "动物园",
+      "requirement": "write",
+      "ipa": "/zu:/"
+    }
+  ]
+}
